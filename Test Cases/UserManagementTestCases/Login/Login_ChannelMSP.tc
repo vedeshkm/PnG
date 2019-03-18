@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case is to test MAL login</description>
+   <name>Login_ChannelMSP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b5b59593-3316-49db-9e24-cc0fa8c3dd00</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('credentialDetails/Credentials_IDPwd').getValue('ChannelMSPID', 1)</defaultValue>
+      <description></description>
+      <id>174d6431-2f43-4c62-a7fe-5bca2d2489cc</id>
+      <masked>false</masked>
+      <name>ChannelMSPID</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('credentialDetails/Credentials_IDPwd').getValue('ChannelMSPPassword', 1)</defaultValue>
+      <description></description>
+      <id>baed02e2-61c0-4f39-bb2b-69e7751c152d</id>
+      <masked>false</masked>
+      <name>ChannelMSPPwd</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+WorkBenchTestSuite,Chrome 67.0.3396.62,,2018-07-18 15:25:44,2018-07-18 15:26:37,52.434s,FAILED
+,,,,,,
+Test Cases/WorkBenchTestCases/Verify_MatchOfPendingTaskForSumaryandWBforChanMSP,Chrome 67.0.3396.62,Verify if Category MS&P is authorised to do Increase allocation \n Increase allocation should only be readable for Category MS&P,2018-07-18 15:25:48,2018-07-18 15:26:29,40.976s,FAILED
+callTestCase,Chrome 67.0.3396.62,,2018-07-18 15:25:49,2018-07-18 15:26:14,24.958s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-18 15:26:14,2018-07-18 15:26:19,5.010s,PASSED
+Statement - ChanMSP_WB_Count = CustomKeywords.applicationLibrary.GetsPendingTaskCount_WBScreen.Get_PendingTask_Count_WBscreen(),Chrome 67.0.3396.62,,2018-07-18 15:26:19,2018-07-18 15:26:19,0.092s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-18 15:26:19,2018-07-18 15:26:19,0.189s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-18 15:26:19,2018-07-18 15:26:24,5.003s,PASSED
+waitForElementPresent,Chrome 67.0.3396.62,,2018-07-18 15:26:24,2018-07-18 15:26:24,0.073s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-18 15:26:24,2018-07-18 15:26:24,0.113s,PASSED
+waitForElementPresent,Chrome 67.0.3396.62,,2018-07-18 15:26:24,2018-07-18 15:26:24,0.034s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-18 15:26:24,2018-07-18 15:26:24,0.119s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-18 15:26:24,2018-07-18 15:26:29,5.003s,PASSED
+Statement - ChanMSP_S_Count = CustomKeywords.applicationLibrary.GetsPendingTaskCount_ChanMSP_SummaryScreen.Get_ChanMSPPendingTask_Count_Summaryscreen(),Chrome 67.0.3396.62,,2018-07-18 15:26:29,2018-07-18 15:26:29,0.102s,PASSED
+verifyEqual,Chrome 67.0.3396.62,,2018-07-18 15:26:29,2018-07-18 15:26:29,0.031s,FAILED

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="UserHistoryTestSuite" time="60" tests="0" failures="1" errors="0">
+   <testsuite name="UserHistoryTestSuite" tests="0" failures="1" errors="0" time="60" timestamp="2018-07-25 13:17:20" hostname="703177791 - 703177791GDL.IND.CORP.AD" id="Test Suites/UserHistoryTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\P&amp;G Updated\\Automation-P&amp;G-Code-Base\\OMVA\\Reports\\UserHistoryTestSuite\\20180725_131718"/>
+         <property name="logFiles" value="D:\\P&amp;G Updated\\Automation-P&amp;G-Code-Base\\OMVA\\Reports\\UserHistoryTestSuite\\20180725_131718\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="703177791 - 703177791GDL.IND.CORP.AD"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.62"/>
+         <property name="hostAddress" value="192.168.34.78"/>
+         <property name="sessionId" value="354e5f094f0514138a7c8376a10fce3f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/UserHIstoryTestCases/Verify_display_of_HistoryPage" classname="Test Cases/UserHIstoryTestCases/Verify_display_of_HistoryPage" status="FAILED">
+         <failure type="FAILED" message="Unable to verify match between actual text '' and expected text 'Rescue Strategy' (Root cause: Actual text '' and expected text 'Rescue Strategy' are not matched)"/>
+         <system-out><![CDATA[2018-07-25 13:17:24 - [TEST_CASE][FAILED] - Test Cases/UserHIstoryTestCases/Verify_display_of_HistoryPage: Test Cases/UserHIstoryTestCases/Verify_display_of_HistoryPage FAILED because (of) Unable to verify match between actual text '' and expected text 'Rescue Strategy' (Root cause: Actual text '' and expected text 'Rescue Strategy' are not matched)
+
+2018-07-25 13:17:24 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/UserManagementTestCases/Login/Login_ChannelMSP' successfully
+
+2018-07-25 13:17:25 - [TEST_CASE][PASSED] - Test Cases/UserManagementTestCases/Login/Login_ChannelMSP: Test Cases/UserManagementTestCases/Login/Login_ChannelMSP
+
+2018-07-25 13:17:26 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-25 13:17:26 - [TEST_CASE][PASSED] - Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL: Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL
+
+2018-07-25 13:17:26 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-25 13:17:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-25 13:17:29 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-25 13:17:35 - [MESSAGE][PASSED] - Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-25 13:17:35 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-25 13:17:36 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-25 13:17:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-25 13:17:36 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is not visible after 10 second(s)
+
+2018-07-25 13:17:47 - [MESSAGE][WARNING] - Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is not visible after 10 second(s)
+
+2018-07-25 13:17:47 - [TEST_STEP][PASSED] - sendKeys: Keys 'nicole' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-25 13:17:47 - [MESSAGE][PASSED] - Keys 'nicole' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-25 13:17:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-25 13:17:47 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-25 13:17:47 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-25 13:17:48 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-25 13:17:48 - [TEST_STEP][PASSED] - sendKeys: Keys 'nicole' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-25 13:17:48 - [MESSAGE][PASSED] - Keys 'nicole' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-25 13:17:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-25 13:17:48 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-25 13:17:48 - [TEST_STEP][PASSED] - waitForAngularLoad: This page doesn't use Angular.
+
+2018-07-25 13:17:48 - [MESSAGE][WARNING] - This page doesn't use Angular.
+
+2018-07-25 13:17:48 - [TEST_STEP][PASSED] - Statement - greetingtext = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_Landing_Page/Greeting_Label)): Text of object 'Object Repository/OMVA_Landing_Page/Greeting_Label' is: 'Good Afternoon, nicole'
+
+2018-07-25 13:17:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/OMVA_Landing_Page/Greeting_Label' is: 'Good Afternoon, nicole'
+
+2018-07-25 13:17:49 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Good Afternoon, nicole' and expected text '\D*nicole' are matched  using regular expression
+
+2018-07-25 13:17:49 - [MESSAGE][PASSED] - Actual text 'Good Afternoon, nicole' and expected text '\D*nicole' are matched  using regular expression
+
+2018-07-25 13:17:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UserManagementTestCases/Login/Login_ChannelMSP' successfully
+
+2018-07-25 13:17:49 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-25 13:17:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-25 13:17:52 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-25 13:17:57 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-25 13:17:57 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/OMVA_Landing_Page/History_Logo' is present
+
+2018-07-25 13:17:57 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Landing_Page/History_Logo' is present
+
+2018-07-25 13:17:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Landing_Page/History_Logo' is clicked on
+
+2018-07-25 13:17:58 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Landing_Page/History_Logo' is clicked on
+
+2018-07-25 13:17:58 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-25 13:18:03 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-25 13:18:03 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/OMVA_Summary_Page/Customer_dropdown' is present
+
+2018-07-25 13:18:03 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Summary_Page/Customer_dropdown' is present
+
+2018-07-25 13:18:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Summary_Page/Customer_dropdown' is clicked on
+
+2018-07-25 13:18:03 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Summary_Page/Customer_dropdown' is clicked on
+
+2018-07-25 13:18:03 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/OMVA_Summary_Page/Select_puregold' is present
+
+2018-07-25 13:18:03 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Summary_Page/Select_puregold' is present
+
+2018-07-25 13:18:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Summary_Page/Select_puregold' is clicked on
+
+2018-07-25 13:18:04 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Summary_Page/Select_puregold' is clicked on
+
+2018-07-25 13:18:04 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-25 13:18:09 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-25 13:18:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_History_Page/1stSKU_History' is clicked on
+
+2018-07-25 13:18:09 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_History_Page/1stSKU_History' is clicked on
+
+2018-07-25 13:18:09 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-07-25 13:18:19 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-07-25 13:18:19 - [TEST_STEP][PASSED] - Statement - rescue = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_History_Page/History_RescueStrategy)): Text of object 'Object Repository/OMVA_History_Page/History_RescueStrategy' is: ''
+
+2018-07-25 13:18:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/OMVA_History_Page/History_RescueStrategy' is: ''
+
+2018-07-25 13:18:19 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/OMVA_History_Page/History_OMVARecomendation' successfully
+
+2018-07-25 13:18:19 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/OMVA_History_Page/History_OMVARecomendation' successfully
+
+2018-07-25 13:18:19 - [TEST_STEP][FAILED] - verifyMatch: Unable to verify match between actual text '' and expected text 'Rescue Strategy' (Root cause: Actual text '' and expected text 'Rescue Strategy' are not matched)
+
+2018-07-25 13:18:19 - [MESSAGE][FAILED] - Unable to verify match between actual text '' and expected text 'Rescue Strategy' (Root cause: Actual text '' and expected text 'Rescue Strategy' are not matched)]]></system-out>
+         <system-err><![CDATA[2018-07-25 13:17:24 - [TEST_CASE][FAILED] - Test Cases/UserHIstoryTestCases/Verify_display_of_HistoryPage: Test Cases/UserHIstoryTestCases/Verify_display_of_HistoryPage FAILED because (of) Unable to verify match between actual text '' and expected text 'Rescue Strategy' (Root cause: Actual text '' and expected text 'Rescue Strategy' are not matched)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-25 13:17:20 - [TEST_SUITE][FAILED] - UserHistoryTestSuite: Test Cases/UserHIstoryTestCases/Verify_display_of_HistoryPage FAILED because (of) Unable to verify match between actual text '' and expected text 'Rescue Strategy' (Root cause: Actual text '' and expected text 'Rescue Strategy' are not matched)]]></system-out>
+      <system-err><![CDATA[2018-07-25 13:17:20 - [TEST_SUITE][FAILED] - UserHistoryTestSuite: Test Cases/UserHIstoryTestCases/Verify_display_of_HistoryPage FAILED because (of) Unable to verify match between actual text '' and expected text 'Rescue Strategy' (Root cause: Actual text '' and expected text 'Rescue Strategy' are not matched)]]></system-err>
+   </testsuite>
+</testsuites>

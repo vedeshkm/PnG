@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Create User and validate</description>
+   <name>Validate_Cancel_Of_CreateUsers</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cb8979f1-847c-466b-9182-32896b3b4cad</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>90b319b5-39b7-43f3-868c-522a75e69f01</id>
+      <masked>false</masked>
+      <name>greetingtext</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c7b31f6a-5354-4693-abc7-70c2758913ea</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>55e0c2cc-5d5d-4984-af2e-bf3e89bf36c2</id>
+      <masked>false</masked>
+      <name>emailidprefix</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2ca7aa47-2fce-4227-b6c9-99715bdc1c0b</id>
+      <masked>false</masked>
+      <name>firstname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>247bc6a7-42ca-42e2-bb97-0469cc007d1a</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5e70060e-eed7-462c-9ab8-eb9ccd6b60d8</id>
+      <masked>false</masked>
+      <name>ticketnum</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1ea052f7-07da-48ab-a538-76d8519c6a89</id>
+      <masked>false</masked>
+      <name>createduser</name>
+   </variable>
+</TestCaseEntity>

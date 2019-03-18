@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if Category MS&amp;P is authorised to do Increase allocation 
+ Increase allocation should only be readable for Category MS&amp;P</description>
+   <name>Verify_MatchOfPendingTaskForSumaryandWBforChanMSP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5edbe821-fed2-4693-b915-d40532642bb5</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>dbb1c59e-49f1-4f13-bbaa-39d944df4b8f</id>
+      <masked>false</masked>
+      <name>ChanMSP_WB_Count</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>b1c22a27-2968-475a-ac89-a50b5ca19e7a</id>
+      <masked>false</masked>
+      <name>ChanMSP_S_Count</name>
+   </variable>
+</TestCaseEntity>

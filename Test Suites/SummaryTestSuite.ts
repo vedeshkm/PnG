@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>SummaryTestSuite</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-08-08T12:33:08</lastRun>
+   <mailRecipient>vijay.n@gnepact.com;vyasaraj.rn@genpact.com;pooja.g@genpact.com;</mailRecipient>
+   <numberOfRerun>2</numberOfRerun>
+   <pageLoadTimeout>15</pageLoadTimeout>
+   <pageLoadTimeoutDefault>false</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>true</rerunFailedTestCasesOnly>
+   <testSuiteGuid>fabafc0f-abce-4b7a-a592-6cfd58b751b8</testSuiteGuid>
+   <testCaseLink>
+      <guid>7265790e-63e3-4b63-a28d-b6bb0bcf1b0a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SummaryTestCases/MAL_Comment</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3a73da6f-65dd-489a-9369-b32c671e080b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SummaryTestCases/MSP_Comment</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f5831b86-a221-4783-b851-a5da27a3f2b5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SummaryTestCases/AlocSpoc_Comment</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>903f943f-003a-40f0-a199-45a16bbf052c</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>618d81d9-606e-44a2-8b88-de86a310ec3a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SummaryTestCases/Status_Completed</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>445d4d9d-0026-471a-9fe0-61ae92385fbb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a6265249-9a70-43ab-8aee-ee3b407693cf</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f65cbf61-1c4d-4fcc-93dd-9ef64282e0b8</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f01df023-094c-4f10-b28f-4f5222094ab2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SummaryTestCases/Status_OkToRefresh</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6915be22-9018-49a3-8e23-77a335ec1b2c</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

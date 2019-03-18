@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Validate_ChannelMSPEditNotAllowed</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2c2b8080-c098-41e4-8598-b20a3d43a45e</testCaseGuid>
+</TestCaseEntity>

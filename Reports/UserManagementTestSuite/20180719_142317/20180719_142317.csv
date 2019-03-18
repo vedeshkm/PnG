@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+UserManagementTestSuite,Chrome 67.0.3396.62,,2018-07-19 14:33:18,2018-07-19 14:35:43,2m - 24.685s,FAILED
+,,,,,,
+Test Cases/UserManagementTestCases/UserActions/LockUser,Chrome 67.0.3396.62,This scenarios locks a user account by trying to log in into a valid account with invalid password for 5 attempts,2018-07-19 14:33:22,2018-07-19 14:35:05,1m - 42.685s,FAILED
+callTestCase,Chrome 67.0.3396.62,,2018-07-19 14:33:23,2018-07-19 14:33:42,19.607s,PASSED
+callTestCase,Chrome 67.0.3396.62,,2018-07-19 14:33:42,2018-07-19 14:34:00,18.000s,PASSED
+callTestCase,Chrome 67.0.3396.62,,2018-07-19 14:34:00,2018-07-19 14:34:14,13.995s,PASSED
+callTestCase,Chrome 67.0.3396.62,,2018-07-19 14:34:14,2018-07-19 14:34:28,13.476s,PASSED
+callTestCase,Chrome 67.0.3396.62,,2018-07-19 14:34:28,2018-07-19 14:35:05,37.436s,FAILED
+,,,,,,
+Test Cases/UserManagementTestCases/UserActions/Unlock_User,Chrome 67.0.3396.62,This Scenario logs into the Super admin and unlocks a particular user which is locked and verifies popup message and also toast message.,2018-07-19 14:35:05,2018-07-19 14:35:37,31.738s,PASSED
+callTestCase,Chrome 67.0.3396.62,,2018-07-19 14:35:05,2018-07-19 14:35:18,12.214s,PASSED
+waitForElementVisible,Chrome 67.0.3396.62,,2018-07-19 14:35:18,2018-07-19 14:35:18,0.077s,PASSED
+sendKeys,Chrome 67.0.3396.62,,2018-07-19 14:35:18,2018-07-19 14:35:18,0.238s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-19 14:35:18,2018-07-19 14:35:18,0.134s,PASSED
+waitForElementVisible,Chrome 67.0.3396.62,,2018-07-19 14:35:18,2018-07-19 14:35:19,0.600s,PASSED
+sendKeys,Chrome 67.0.3396.62,,2018-07-19 14:35:19,2018-07-19 14:35:19,0.216s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-19 14:35:19,2018-07-19 14:35:19,0.122s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-19 14:35:19,2018-07-19 14:35:24,5.010s,PASSED
+waitForElementVisible,Chrome 67.0.3396.62,,2018-07-19 14:35:24,2018-07-19 14:35:24,0.098s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-19 14:35:24,2018-07-19 14:35:24,0.141s,PASSED
+sendKeys,Chrome 67.0.3396.62,,2018-07-19 14:35:24,2018-07-19 14:35:24,0.150s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-19 14:35:24,2018-07-19 14:35:27,3.002s,PASSED
+waitForElementVisible,Chrome 67.0.3396.62,,2018-07-19 14:35:27,2018-07-19 14:35:27,0.091s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-19 14:35:27,2018-07-19 14:35:33,5.239s,PASSED
+waitForElementVisible,Chrome 67.0.3396.62,,2018-07-19 14:35:33,2018-07-19 14:35:34,1.765s,PASSED
+Statement - AHeaderTxt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_Landing_Page/UnlockUserPopup_HeaderTxt)),Chrome 67.0.3396.62,,2018-07-19 14:35:34,2018-07-19 14:35:35,0.066s,PASSED
+verifyMatch,Chrome 67.0.3396.62,,2018-07-19 14:35:35,2018-07-19 14:35:35,0.029s,PASSED
+Statement - AContentTxt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_Landing_Page/UnlockUserPopup_ContentTxt)),Chrome 67.0.3396.62,,2018-07-19 14:35:35,2018-07-19 14:35:35,0.084s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-19 14:35:35,2018-07-19 14:35:35,0.172s,PASSED
+Statement - UnlockToastMsg = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_Landing_Page/Unlock_ToastMsg)),Chrome 67.0.3396.62,,2018-07-19 14:35:35,2018-07-19 14:35:36,1.243s,PASSED
+verifyMatch,Chrome 67.0.3396.62,,2018-07-19 14:35:36,2018-07-19 14:35:36,0.022s,PASSED
+closeBrowser,Chrome 67.0.3396.62,,2018-07-19 14:35:36,2018-07-19 14:35:37,0.709s,PASSED

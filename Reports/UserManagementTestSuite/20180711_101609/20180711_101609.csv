@@ -1,0 +1,51 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+UserManagementTestSuite,Chrome 67.0.3396.99,,2018-07-11 10:16:11,2018-07-11 10:18:34,2m - 22.701s,FAILED
+,,,,,,
+Test Cases/UserManagementTestCases/UserActions/Activate_User,Chrome 67.0.3396.99,This Scenario logs into the superadmin and finds the inactive user which is to be activated and activates it.Also validates the popup and toast messages,2018-07-11 10:16:12,2018-07-11 10:16:51,38.976s,PASSED
+callTestCase,Chrome 67.0.3396.99,,2018-07-11 10:16:14,2018-07-11 10:16:33,18.795s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-11 10:16:33,2018-07-11 10:16:33,0.455s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-11 10:16:33,2018-07-11 10:16:34,0.724s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-11 10:16:34,2018-07-11 10:16:34,0.113s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-11 10:16:34,2018-07-11 10:16:35,0.593s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-11 10:16:35,2018-07-11 10:16:35,0.169s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-11 10:16:35,2018-07-11 10:16:35,0.098s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-11 10:16:35,2018-07-11 10:16:40,5.008s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-11 10:16:40,2018-07-11 10:16:40,0.101s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-11 10:16:40,2018-07-11 10:16:43,2.988s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-11 10:16:43,2018-07-11 10:16:43,0.282s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-11 10:16:43,2018-07-11 10:16:48,5.009s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-11 10:16:48,2018-07-11 10:16:48,0.074s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-11 10:16:48,2018-07-11 10:16:48,0.079s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-11 10:16:48,2018-07-11 10:16:48,0.053s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-11 10:16:48,2018-07-11 10:16:49,0.089s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-11 10:16:49,2018-07-11 10:16:49,0.575s,PASSED
+Statement - AHeaderTxt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_EditUser_Page/DeactivateUser_HeaderTxt)),Chrome 67.0.3396.99,,2018-07-11 10:16:49,2018-07-11 10:16:49,0.101s,PASSED
+verifyMatch,Chrome 67.0.3396.99,,2018-07-11 10:16:49,2018-07-11 10:16:49,0.047s,PASSED
+Statement - AContentTxt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_EditUser_Page/DeactivateUser_ContentText)),Chrome 67.0.3396.99,,2018-07-11 10:16:49,2018-07-11 10:16:49,0.081s,PASSED
+verifyMatch,Chrome 67.0.3396.99,,2018-07-11 10:16:49,2018-07-11 10:16:49,0.017s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-11 10:16:49,2018-07-11 10:16:50,0.207s,PASSED
+Statement - AActivateToastMsg = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_EditUser_Page/Activate_ToastMsg)),Chrome 67.0.3396.99,,2018-07-11 10:16:50,2018-07-11 10:16:50,0.618s,PASSED
+verifyMatch,Chrome 67.0.3396.99,,2018-07-11 10:16:50,2018-07-11 10:16:50,0.066s,PASSED
+closeBrowser,Chrome 67.0.3396.99,,2018-07-11 10:16:50,2018-07-11 10:16:51,0.740s,PASSED
+,,,,,,
+Test Cases/UserManagementTestCases/UserActions/Validate_Search_EmailID,Chrome 67.0.3396.99,Create User and validate,2018-07-11 10:16:51,2018-07-11 10:17:35,43.803s,FAILED
+callTestCase,Chrome 67.0.3396.99,,2018-07-11 10:16:51,2018-07-11 10:17:07,15.390s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-11 10:17:07,2018-07-11 10:17:07,0.097s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-11 10:17:07,2018-07-11 10:17:07,0.225s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-11 10:17:07,2018-07-11 10:17:07,0.105s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-11 10:17:07,2018-07-11 10:17:08,0.585s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-11 10:17:08,2018-07-11 10:17:08,0.219s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-11 10:17:08,2018-07-11 10:17:08,0.110s,PASSED
+waitForPageLoad,Chrome 67.0.3396.99,,2018-07-11 10:17:08,2018-07-11 10:17:08,0.069s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-11 10:17:08,2018-07-11 10:17:13,5.002s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-11 10:17:13,2018-07-11 10:17:13,0.126s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-11 10:17:13,2018-07-11 10:17:18,5.223s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-11 10:17:18,2018-07-11 10:17:19,0.479s,PASSED
+Statement - Email = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_UserManagement_Page/Email_Verify)),Chrome 67.0.3396.99,,2018-07-11 10:17:19,2018-07-11 10:17:35,15.871s,FAILED
+,,,,,,
+Test Cases/UserManagementTestCases/UserActions/Validate_ModifyDataFromEdituser,Chrome 67.0.3396.99,,2018-07-11 10:17:35,2018-07-11 10:18:01,26.471s,FAILED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-11 10:17:35,2018-07-11 10:17:45,10.363s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-11 10:17:45,2018-07-11 10:18:01,15.798s,FAILED
+,,,,,,
+Test Cases/UserManagementTestCases/UserActions/LockUser,Chrome 67.0.3396.99,This scenarios locks a user account by trying to log in into a valid account with invalid password for 5 attempts,2018-07-11 10:18:01,2018-07-11 10:18:33,32.179s,FAILED
+callTestCase,Chrome 67.0.3396.99,,2018-07-11 10:18:01,2018-07-11 10:18:33,31.996s,FAILED

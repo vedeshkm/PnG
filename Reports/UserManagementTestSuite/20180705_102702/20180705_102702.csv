@@ -1,0 +1,253 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+UserManagementTestSuite,Chrome 67.0.3396.99,,2018-07-05 10:27:04,2018-07-05 10:31:45,4m - 41.284s,FAILED
+,,,,,,
+Test Cases/UserManagementTestCases/Login/Invalid_Login,Chrome 67.0.3396.99,,2018-07-05 10:27:04,2018-07-05 10:27:25,21.195s,PASSED
+callTestCase,Chrome 67.0.3396.99,,2018-07-05 10:27:05,2018-07-05 10:27:22,16.976s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-05 10:27:22,2018-07-05 10:27:22,0.137s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-05 10:27:22,2018-07-05 10:27:22,0.085s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-05 10:27:22,2018-07-05 10:27:22,0.150s,PASSED
+Statement - If (true),Chrome 67.0.3396.99,,2018-07-05 10:27:22,2018-07-05 10:27:22,0.002s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-05 10:27:22,2018-07-05 10:27:23,0.597s,PASSED
+Statement - assert true,Chrome 67.0.3396.99,,2018-07-05 10:27:23,2018-07-05 10:27:23,0.002s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-05 10:27:23,2018-07-05 10:27:23,0.107s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-05 10:27:23,2018-07-05 10:27:23,0.107s,PASSED
+Statement - AHeaderTxt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_Login_Page/InvalidLogin_HeaderTxt)),Chrome 67.0.3396.99,,2018-07-05 10:27:23,2018-07-05 10:27:24,0.593s,PASSED
+verifyMatch,Chrome 67.0.3396.99,,2018-07-05 10:27:24,2018-07-05 10:27:24,0.079s,PASSED
+Statement - AContentTxt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_Login_Page/InvalidLogin_ContentTxt)),Chrome 67.0.3396.99,,2018-07-05 10:27:24,2018-07-05 10:27:24,0.065s,PASSED
+verifyMatch,Chrome 67.0.3396.99,,2018-07-05 10:27:24,2018-07-05 10:27:24,0.046s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-05 10:27:24,2018-07-05 10:27:24,0.102s,PASSED
+Statement - assert true,Chrome 67.0.3396.99,,2018-07-05 10:27:24,2018-07-05 10:27:24,0.000s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-05 10:27:24,2018-07-05 10:27:24,0.071s,PASSED
+closeBrowser,Chrome 67.0.3396.99,,2018-07-05 10:27:24,2018-07-05 10:27:25,0.924s,PASSED
+,,,,,,
+Test Cases/UserManagementTestCases/Login/Valid_Login,Chrome 67.0.3396.99,This Scenario logs into a user successfully and verifies the login,2018-07-05 10:27:25,2018-07-05 10:27:41,15.963s,PASSED
+callTestCase,Chrome 67.0.3396.99,,2018-07-05 10:27:25,2018-07-05 10:27:39,13.139s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-05 10:27:39,2018-07-05 10:27:39,0.052s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-05 10:27:39,2018-07-05 10:27:39,0.121s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-05 10:27:39,2018-07-05 10:27:39,0.111s,PASSED
+Statement - If (true),Chrome 67.0.3396.99,,2018-07-05 10:27:39,2018-07-05 10:27:39,0.002s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-05 10:27:39,2018-07-05 10:27:39,0.590s,PASSED
+Statement - assert true,Chrome 67.0.3396.99,,2018-07-05 10:27:39,2018-07-05 10:27:39,0.001s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-05 10:27:39,2018-07-05 10:27:40,0.120s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-05 10:27:40,2018-07-05 10:27:40,0.103s,PASSED
+waitForAngularLoad,Chrome 67.0.3396.99,,2018-07-05 10:27:40,2018-07-05 10:27:40,0.025s,PASSED
+Statement - greetingtext = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_Landing_Page/Greeting_Label)),Chrome 67.0.3396.99,,2018-07-05 10:27:40,2018-07-05 10:27:40,0.707s,PASSED
+verifyMatch,Chrome 67.0.3396.99,,2018-07-05 10:27:40,2018-07-05 10:27:40,0.017s,PASSED
+closeBrowser,Chrome 67.0.3396.99,,2018-07-05 10:27:40,2018-07-05 10:27:41,0.636s,PASSED
+,,,,,,
+Test Cases/UserManagementTestCases/CreateUser/Create_User_Validate,Chrome 67.0.3396.99,Create User and validate,2018-07-05 10:27:41,2018-07-05 10:28:23,41.842s,PASSED
+callTestCase,Chrome 67.0.3396.99,,2018-07-05 10:27:41,2018-07-05 10:27:54,12.370s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-05 10:27:54,2018-07-05 10:27:54,0.070s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-05 10:27:54,2018-07-05 10:27:54,0.165s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-05 10:27:54,2018-07-05 10:27:54,0.116s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-05 10:27:54,2018-07-05 10:27:55,0.580s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-05 10:27:55,2018-07-05 10:27:55,0.152s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-05 10:27:55,2018-07-05 10:27:55,0.098s,PASSED
+waitForPageLoad,Chrome 67.0.3396.99,,2018-07-05 10:27:55,2018-07-05 10:27:55,0.047s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-05 10:27:55,2018-07-05 10:28:00,5.010s,PASSED
+waitForElementPresent,Chrome 67.0.3396.99,,2018-07-05 10:28:00,2018-07-05 10:28:00,0.082s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-05 10:28:00,2018-07-05 10:28:00,0.177s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-05 10:28:00,2018-07-05 10:28:03,3.003s,PASSED
+waitForElementPresent,Chrome 67.0.3396.99,,2018-07-05 10:28:03,2018-07-05 10:28:03,0.065s,PASSED
+Statement - If (true),Chrome 67.0.3396.99,,2018-07-05 10:28:03,2018-07-05 10:28:03,0.000s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-05 10:28:03,2018-07-05 10:28:03,0.100s,PASSED
+Statement - assert true,Chrome 67.0.3396.99,,2018-07-05 10:28:03,2018-07-05 10:28:03,0.000s,PASSED
+scrollToElement,Chrome 67.0.3396.99,,2018-07-05 10:28:03,2018-07-05 10:28:03,0.080s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-05 10:28:03,2018-07-05 10:28:04,0.073s,PASSED
+"Statement - username = CustomKeywords.commonLibrary.commonFunctions.randomStringFunction(""abcdefghijklmnopqrstuvwxyz"", 6)",Chrome 67.0.3396.99,,2018-07-05 10:28:04,2018-07-05 10:28:04,0.024s,PASSED
+Statement - println(username),Chrome 67.0.3396.99,,2018-07-05 10:28:04,2018-07-05 10:28:04,0.003s,PASSED
+Statement - uname = username.toString(),Chrome 67.0.3396.99,,2018-07-05 10:28:04,2018-07-05 10:28:04,0.001s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-05 10:28:04,2018-07-05 10:28:04,0.124s,PASSED
+"Statement - emailidprefix = CustomKeywords.commonLibrary.commonFunctions.randomStringFunction(""abcdefghijklmnopqrstuvwxyz"", 9)",Chrome 67.0.3396.99,,2018-07-05 10:28:04,2018-07-05 10:28:04,0.002s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-05 10:28:04,2018-07-05 10:28:04,0.305s,PASSED
+"Statement - firstname = CustomKeywords.commonLibrary.commonFunctions.randomStringFunction(""abcdefghijklmnopqrstuvwxyz"", 7)",Chrome 67.0.3396.99,,2018-07-05 10:28:04,2018-07-05 10:28:04,0.001s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-05 10:28:04,2018-07-05 10:28:04,0.130s,PASSED
+"Statement - lastname = CustomKeywords.commonLibrary.commonFunctions.randomStringFunction(""abcdefghijklmnopqrstuvwxyz"", 7)",Chrome 67.0.3396.99,,2018-07-05 10:28:04,2018-07-05 10:28:04,0.001s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-05 10:28:04,2018-07-05 10:28:04,0.131s,PASSED
+"Statement - ticketnum = CustomKeywords.commonLibrary.commonFunctions.randomStringFunction(""123456789"", 7)",Chrome 67.0.3396.99,,2018-07-05 10:28:04,2018-07-05 10:28:04,0.000s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-05 10:28:04,2018-07-05 10:28:04,0.136s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-05 10:28:04,2018-07-05 10:28:05,0.104s,PASSED
+applicationLibrary.checkboxMultiselection.multiselectCheckbox,Chrome 67.0.3396.99,,2018-07-05 10:28:05,2018-07-05 10:28:07,2.210s,PASSED
+scrollToElement,Chrome 67.0.3396.99,,2018-07-05 10:28:07,2018-07-05 10:28:07,0.039s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-05 10:28:07,2018-07-05 10:28:07,0.151s,PASSED
+applicationLibrary.checkboxMultiselection.multiselectCheckbox,Chrome 67.0.3396.99,,2018-07-05 10:28:07,2018-07-05 10:28:09,2.202s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-05 10:28:09,2018-07-05 10:28:09,0.150s,PASSED
+waitForElementPresent,Chrome 67.0.3396.99,,2018-07-05 10:28:09,2018-07-05 10:28:10,0.546s,PASSED
+verifyElementText,Chrome 67.0.3396.99,,2018-07-05 10:28:10,2018-07-05 10:28:10,0.110s,PASSED
+verifyElementText,Chrome 67.0.3396.99,,2018-07-05 10:28:10,2018-07-05 10:28:10,0.059s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-05 10:28:10,2018-07-05 10:28:10,0.149s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-05 10:28:10,2018-07-05 10:28:15,5.004s,PASSED
+waitForElementPresent,Chrome 67.0.3396.99,,2018-07-05 10:28:15,2018-07-05 10:28:15,0.095s,PASSED
+Statement - createduser = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_UserManagement_Page/Created_User_Username)),Chrome 67.0.3396.99,,2018-07-05 10:28:15,2018-07-05 10:28:15,0.034s,PASSED
+"Statement - createduser = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyMatch(createduser, firstname + "" "" + lastname, true)",Chrome 67.0.3396.99,,2018-07-05 10:28:15,2018-07-05 10:28:15,0.000s,PASSED
+dataBaseConnection.dataBase.connectDB,Chrome 67.0.3396.99,,2018-07-05 10:28:15,2018-07-05 10:28:20,4.852s,PASSED
+dataBaseConnection.dataBase.executeQuery,Chrome 67.0.3396.99,,2018-07-05 10:28:20,2018-07-05 10:28:20,0.092s,PASSED
+dataBaseConnection.dataBase.closeDatabaseConnection,Chrome 67.0.3396.99,,2018-07-05 10:28:20,2018-07-05 10:28:20,0.031s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-05 10:28:20,2018-07-05 10:28:22,1.973s,PASSED
+closeBrowser,Chrome 67.0.3396.99,,2018-07-05 10:28:22,2018-07-05 10:28:23,0.663s,PASSED
+,,,,,,
+Test Cases/UserManagementTestCases/CreateUser/Verify_InValid_Email,Chrome 67.0.3396.99,Verify if email id domain was not entered,2018-07-05 10:28:23,2018-07-05 10:28:52,29.341s,PASSED
+callTestCase,Chrome 67.0.3396.99,,2018-07-05 10:28:23,2018-07-05 10:28:40,17.177s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-05 10:28:40,2018-07-05 10:28:41,0.088s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-05 10:28:41,2018-07-05 10:28:41,0.165s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-05 10:28:41,2018-07-05 10:28:41,0.116s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-05 10:28:41,2018-07-05 10:28:41,0.568s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-05 10:28:41,2018-07-05 10:28:42,0.135s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-05 10:28:42,2018-07-05 10:28:42,0.098s,PASSED
+waitForAngularLoad,Chrome 67.0.3396.99,,2018-07-05 10:28:42,2018-07-05 10:28:42,0.009s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-05 10:28:42,2018-07-05 10:28:47,5.003s,PASSED
+waitForElementPresent,Chrome 67.0.3396.99,,2018-07-05 10:28:47,2018-07-05 10:28:47,0.036s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-05 10:28:47,2018-07-05 10:28:47,0.176s,PASSED
+waitForElementPresent,Chrome 67.0.3396.99,,2018-07-05 10:28:47,2018-07-05 10:28:47,0.041s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-05 10:28:47,2018-07-05 10:28:51,4.002s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-05 10:28:51,2018-07-05 10:28:51,0.112s,PASSED
+scrollToElement,Chrome 67.0.3396.99,,2018-07-05 10:28:51,2018-07-05 10:28:51,0.033s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-05 10:28:51,2018-07-05 10:28:51,0.077s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-05 10:28:51,2018-07-05 10:28:51,0.157s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-05 10:28:51,2018-07-05 10:28:51,0.111s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-05 10:28:51,2018-07-05 10:28:52,0.160s,PASSED
+Statement - ActualInvalidMsg = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_UserManagement_Page/Email_Invalid_Msg)),Chrome 67.0.3396.99,,2018-07-05 10:28:52,2018-07-05 10:28:52,0.047s,PASSED
+verifyMatch,Chrome 67.0.3396.99,,2018-07-05 10:28:52,2018-07-05 10:28:52,0.028s,PASSED
+closeBrowser,Chrome 67.0.3396.99,,2018-07-05 10:28:52,2018-07-05 10:28:52,0.652s,PASSED
+,,,,,,
+Test Cases/UserManagementTestCases/CreateUser/Verify_SaveExit_Btn,Chrome 67.0.3396.99,Verify save & Exit button after entering the values into the text field,2018-07-05 10:28:52,2018-07-05 10:29:26,33.259s,PASSED
+callTestCase,Chrome 67.0.3396.99,,2018-07-05 10:28:53,2018-07-05 10:29:06,13.236s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-05 10:29:06,2018-07-05 10:29:06,0.084s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-05 10:29:06,2018-07-05 10:29:06,0.147s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-05 10:29:06,2018-07-05 10:29:06,0.096s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-05 10:29:06,2018-07-05 10:29:07,0.567s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-05 10:29:07,2018-07-05 10:29:07,0.131s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-05 10:29:07,2018-07-05 10:29:07,0.100s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-05 10:29:07,2018-07-05 10:29:12,5.002s,PASSED
+waitForElementPresent,Chrome 67.0.3396.99,,2018-07-05 10:29:12,2018-07-05 10:29:12,0.080s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-05 10:29:12,2018-07-05 10:29:12,0.184s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-05 10:29:12,2018-07-05 10:29:17,5.002s,PASSED
+waitForElementPresent,Chrome 67.0.3396.99,,2018-07-05 10:29:17,2018-07-05 10:29:17,0.052s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-05 10:29:17,2018-07-05 10:29:17,0.093s,PASSED
+scrollToElement,Chrome 67.0.3396.99,,2018-07-05 10:29:17,2018-07-05 10:29:17,0.035s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-05 10:29:17,2018-07-05 10:29:17,0.090s,PASSED
+"Statement - username = CustomKeywords.commonLibrary.commonFunctions.randomStringFunction(""abcdefghijklmnopqrstuvwxyz"", 6)",Chrome 67.0.3396.99,,2018-07-05 10:29:17,2018-07-05 10:29:17,0.000s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-05 10:29:17,2018-07-05 10:29:18,0.124s,PASSED
+"Statement - emailidprefix = CustomKeywords.commonLibrary.commonFunctions.randomStringFunction(""abcdefghijklmnopqrstuvwxyz"", 9)",Chrome 67.0.3396.99,,2018-07-05 10:29:18,2018-07-05 10:29:18,0.001s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-05 10:29:18,2018-07-05 10:29:18,0.316s,PASSED
+"Statement - firstname = CustomKeywords.commonLibrary.commonFunctions.randomStringFunction(""abcdefghijklmnopqrstuvwxyz"", 7)",Chrome 67.0.3396.99,,2018-07-05 10:29:18,2018-07-05 10:29:18,0.001s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-05 10:29:18,2018-07-05 10:29:18,0.127s,PASSED
+"Statement - lastname = CustomKeywords.commonLibrary.commonFunctions.randomStringFunction(""abcdefghijklmnopqrstuvwxyz"", 7)",Chrome 67.0.3396.99,,2018-07-05 10:29:18,2018-07-05 10:29:18,0.002s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-05 10:29:18,2018-07-05 10:29:18,0.135s,PASSED
+"Statement - ticketnum = CustomKeywords.commonLibrary.commonFunctions.randomStringFunction(""123456789"", 7)",Chrome 67.0.3396.99,,2018-07-05 10:29:18,2018-07-05 10:29:18,0.002s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-05 10:29:18,2018-07-05 10:29:18,0.134s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-05 10:29:18,2018-07-05 10:29:18,0.100s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-05 10:29:18,2018-07-05 10:29:22,4.004s,PASSED
+waitForElementPresent,Chrome 67.0.3396.99,,2018-07-05 10:29:22,2018-07-05 10:29:22,0.079s,PASSED
+Statement - assert true,Chrome 67.0.3396.99,,2018-07-05 10:29:22,2018-07-05 10:29:22,0.000s,PASSED
+verifyElementText,Chrome 67.0.3396.99,,2018-07-05 10:29:22,2018-07-05 10:29:23,0.047s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-05 10:29:23,2018-07-05 10:29:24,1.972s,PASSED
+verifyElementText,Chrome 67.0.3396.99,,2018-07-05 10:29:24,2018-07-05 10:29:25,0.112s,PASSED
+Statement - assert true,Chrome 67.0.3396.99,,2018-07-05 10:29:25,2018-07-05 10:29:25,0.000s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-05 10:29:25,2018-07-05 10:29:25,0.085s,PASSED
+Statement - greetingtext = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_Landing_Page/Greeting_Label)),Chrome 67.0.3396.99,,2018-07-05 10:29:25,2018-07-05 10:29:25,0.083s,PASSED
+verifyMatch,Chrome 67.0.3396.99,,2018-07-05 10:29:25,2018-07-05 10:29:25,0.006s,PASSED
+closeBrowser,Chrome 67.0.3396.99,,2018-07-05 10:29:25,2018-07-05 10:29:26,0.795s,PASSED
+,,,,,,
+Test Cases/UserManagementTestCases/CreateUser/Verifying_Duplicate_EmailID,Chrome 67.0.3396.99,Verifying if email id already exist.,2018-07-05 10:29:26,2018-07-05 10:29:52,26.761s,PASSED
+callTestCase,Chrome 67.0.3396.99,,2018-07-05 10:29:26,2018-07-05 10:29:41,15.383s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-05 10:29:41,2018-07-05 10:29:41,0.087s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-05 10:29:41,2018-07-05 10:29:42,0.442s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-05 10:29:42,2018-07-05 10:29:42,0.107s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-05 10:29:42,2018-07-05 10:29:43,0.576s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-05 10:29:43,2018-07-05 10:29:43,0.159s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-05 10:29:43,2018-07-05 10:29:43,0.097s,PASSED
+waitForPageLoad,Chrome 67.0.3396.99,,2018-07-05 10:29:43,2018-07-05 10:29:43,0.010s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-05 10:29:43,2018-07-05 10:29:47,4.004s,PASSED
+Statement - If (true),Chrome 67.0.3396.99,,2018-07-05 10:29:47,2018-07-05 10:29:47,0.001s,PASSED
+waitForElementPresent,Chrome 67.0.3396.99,,2018-07-05 10:29:47,2018-07-05 10:29:47,0.049s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-05 10:29:47,2018-07-05 10:29:47,0.175s,PASSED
+Statement - assert true,Chrome 67.0.3396.99,,2018-07-05 10:29:47,2018-07-05 10:29:47,0.001s,PASSED
+waitForElementPresent,Chrome 67.0.3396.99,,2018-07-05 10:29:47,2018-07-05 10:29:47,0.027s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-05 10:29:47,2018-07-05 10:29:50,3.004s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-05 10:29:50,2018-07-05 10:29:50,0.131s,PASSED
+scrollToElement,Chrome 67.0.3396.99,,2018-07-05 10:29:50,2018-07-05 10:29:50,0.042s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-05 10:29:50,2018-07-05 10:29:50,0.083s,PASSED
+"Statement - username = CustomKeywords.commonLibrary.commonFunctions.randomStringFunction(""abcdefghijklmnopqrstuvwxyz"", 6)",Chrome 67.0.3396.99,,2018-07-05 10:29:50,2018-07-05 10:29:50,0.000s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-05 10:29:50,2018-07-05 10:29:51,0.156s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-05 10:29:51,2018-07-05 10:29:51,0.189s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-05 10:29:51,2018-07-05 10:29:51,0.149s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-05 10:29:51,2018-07-05 10:29:51,0.081s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-05 10:29:51,2018-07-05 10:29:51,0.105s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-05 10:29:51,2018-07-05 10:29:51,0.091s,PASSED
+Statement - ActualToastMessage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_UserManagement_Page/EmailID_ToastMsg)),Chrome 67.0.3396.99,,2018-07-05 10:29:51,2018-07-05 10:29:52,0.581s,PASSED
+verifyMatch,Chrome 67.0.3396.99,,2018-07-05 10:29:52,2018-07-05 10:29:52,0.032s,PASSED
+closeBrowser,Chrome 67.0.3396.99,,2018-07-05 10:29:52,2018-07-05 10:29:52,0.618s,PASSED
+,,,,,,
+Test Cases/UserManagementTestCases/UserActions/DeActivate_User,Chrome 67.0.3396.99,This Scenario logs in the Super Admin and deactivates a particular user,2018-07-05 10:29:52,2018-07-05 10:30:24,31.389s,FAILED
+callTestCase,Chrome 67.0.3396.99,,2018-07-05 10:29:53,2018-07-05 10:30:08,15.677s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-05 10:30:08,2018-07-05 10:30:08,0.116s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-05 10:30:08,2018-07-05 10:30:09,0.103s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-05 10:30:09,2018-07-05 10:30:09,0.106s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-05 10:30:09,2018-07-05 10:30:09,0.575s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-05 10:30:09,2018-07-05 10:30:09,0.127s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-05 10:30:09,2018-07-05 10:30:09,0.110s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-05 10:30:09,2018-07-05 10:30:14,5.003s,PASSED
+scrollToElement,Chrome 67.0.3396.99,,2018-07-05 10:30:14,2018-07-05 10:30:14,0.017s,NOT_RUN
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-05 10:30:14,2018-07-05 10:30:15,0.097s,PASSED
+scrollToElement,Chrome 67.0.3396.99,,2018-07-05 10:30:15,2018-07-05 10:30:15,0.000s,NOT_RUN
+click,Chrome 67.0.3396.99,,2018-07-05 10:30:15,2018-07-05 10:30:15,0.164s,PASSED
+Statement - assert true,Chrome 67.0.3396.99,,2018-07-05 10:30:15,2018-07-05 10:30:15,0.001s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-05 10:30:15,2018-07-05 10:30:15,0.079s,PASSED
+"Statement - emailidprefix = CustomKeywords.commonLibrary.commonFunctions.randomStringFunction(""abcdefghijklmnopqrstuvwxyz"", 9)",Chrome 67.0.3396.99,,2018-07-05 10:30:15,2018-07-05 10:30:15,0.001s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-05 10:30:15,2018-07-05 10:30:15,0.277s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-05 10:30:15,2018-07-05 10:30:15,0.042s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-05 10:30:15,2018-07-05 10:30:18,3.001s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-05 10:30:18,2018-07-05 10:30:18,0.135s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-05 10:30:18,2018-07-05 10:30:18,0.059s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-05 10:30:18,2018-07-05 10:30:18,0.079s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-05 10:30:18,2018-07-05 10:30:24,5.232s,PASSED
+Statement - AHeaderTxt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_EditUser_Page/DeactivateUser_HeaderTxt)),Chrome 67.0.3396.99,,2018-07-05 10:30:24,2018-07-05 10:30:24,0.112s,PASSED
+verifyMatch,Chrome 67.0.3396.99,,2018-07-05 10:30:24,2018-07-05 10:30:24,0.021s,FAILED
+,,,,,,
+Test Cases/UserManagementTestCases/UserActions/Activate_User,Chrome 67.0.3396.99,This Scenario logs into the superadmin and finds the inactive user which is to be activated and activates it.Also validates the popup and toast messages,2018-07-05 10:30:24,2018-07-05 10:30:56,31.760s,PASSED
+callTestCase,Chrome 67.0.3396.99,,2018-07-05 10:30:24,2018-07-05 10:30:39,14.616s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-05 10:30:39,2018-07-05 10:30:39,0.054s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-05 10:30:39,2018-07-05 10:30:39,0.117s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-05 10:30:39,2018-07-05 10:30:39,0.113s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-05 10:30:39,2018-07-05 10:30:40,0.573s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-05 10:30:40,2018-07-05 10:30:40,0.126s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-05 10:30:40,2018-07-05 10:30:40,0.089s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-05 10:30:40,2018-07-05 10:30:45,5.003s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-05 10:30:45,2018-07-05 10:30:45,0.097s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-05 10:30:45,2018-07-05 10:30:48,2.987s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-05 10:30:48,2018-07-05 10:30:48,0.225s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-05 10:30:48,2018-07-05 10:30:53,5.002s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-05 10:30:53,2018-07-05 10:30:53,0.098s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-05 10:30:53,2018-07-05 10:30:53,0.080s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-05 10:30:53,2018-07-05 10:30:53,0.047s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-05 10:30:53,2018-07-05 10:30:53,0.094s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-05 10:30:53,2018-07-05 10:30:54,0.582s,PASSED
+Statement - AHeaderTxt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_EditUser_Page/DeactivateUser_HeaderTxt)),Chrome 67.0.3396.99,,2018-07-05 10:30:54,2018-07-05 10:30:54,0.096s,PASSED
+verifyMatch,Chrome 67.0.3396.99,,2018-07-05 10:30:54,2018-07-05 10:30:54,0.001s,PASSED
+Statement - AContentTxt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_EditUser_Page/DeactivateUser_ContentText)),Chrome 67.0.3396.99,,2018-07-05 10:30:54,2018-07-05 10:30:54,0.067s,PASSED
+verifyMatch,Chrome 67.0.3396.99,,2018-07-05 10:30:54,2018-07-05 10:30:54,0.031s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-05 10:30:54,2018-07-05 10:30:54,0.102s,PASSED
+Statement - AActivateToastMsg = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_EditUser_Page/Activate_ToastMsg)),Chrome 67.0.3396.99,,2018-07-05 10:30:54,2018-07-05 10:30:55,0.582s,PASSED
+verifyMatch,Chrome 67.0.3396.99,,2018-07-05 10:30:55,2018-07-05 10:30:55,0.021s,PASSED
+closeBrowser,Chrome 67.0.3396.99,,2018-07-05 10:30:55,2018-07-05 10:30:56,0.676s,PASSED
+,,,,,,
+Test Cases/UserManagementTestCases/Login/LogoutAndCloseBrowser,Chrome 67.0.3396.99,,2018-07-05 10:30:56,2018-07-05 10:31:14,18.373s,PASSED
+callTestCase,Chrome 67.0.3396.99,,2018-07-05 10:30:56,2018-07-05 10:31:11,14.850s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-05 10:31:11,2018-07-05 10:31:11,0.072s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-05 10:31:11,2018-07-05 10:31:11,0.153s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-05 10:31:11,2018-07-05 10:31:11,0.102s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-05 10:31:11,2018-07-05 10:31:11,0.598s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-05 10:31:11,2018-07-05 10:31:12,0.136s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-05 10:31:12,2018-07-05 10:31:12,0.096s,PASSED
+waitForElementPresent,Chrome 67.0.3396.99,,2018-07-05 10:31:12,2018-07-05 10:31:12,0.731s,PASSED
+Statement - assert true,Chrome 67.0.3396.99,,2018-07-05 10:31:12,2018-07-05 10:31:12,0.001s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-05 10:31:12,2018-07-05 10:31:13,0.093s,PASSED
+waitForElementPresent,Chrome 67.0.3396.99,,2018-07-05 10:31:13,2018-07-05 10:31:13,0.022s,PASSED
+Statement - assert true,Chrome 67.0.3396.99,,2018-07-05 10:31:13,2018-07-05 10:31:13,0.000s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-05 10:31:13,2018-07-05 10:31:13,0.109s,PASSED
+waitForElementNotPresent,Chrome 67.0.3396.99,,2018-07-05 10:31:13,2018-07-05 10:31:13,0.601s,PASSED
+closeBrowser,Chrome 67.0.3396.99,,2018-07-05 10:31:13,2018-07-05 10:31:14,0.633s,PASSED
+,,,,,,
+Test Cases/UserManagementTestCases/UserActions/LockUser,Chrome 67.0.3396.99,This scenarios locks a user account by trying to log in into a valid account with invalid password for 5 attempts,2018-07-05 10:31:14,2018-07-05 10:31:44,30.266s,FAILED
+callTestCase,Chrome 67.0.3396.99,,2018-07-05 10:31:14,2018-07-05 10:31:44,30.148s,FAILED

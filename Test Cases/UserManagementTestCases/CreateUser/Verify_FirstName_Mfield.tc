@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifyin if firstname field is blank</description>
+   <name>Verify_FirstName_Mfield</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>878d3204-10dc-44ee-9b51-917a155001d0</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('CreateUser').getValue('UserName', 6)</defaultValue>
+      <description></description>
+      <id>7b3ea936-a195-429b-a9ba-eca9b8156627</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CreateUser').getValue('EmailID', 6)</defaultValue>
+      <description></description>
+      <id>0d431d9e-f7ec-477b-90a9-b36ddaa9d97f</id>
+      <masked>false</masked>
+      <name>emailID</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CreateUser').getValue('FirstName', 6)</defaultValue>
+      <description></description>
+      <id>3907f08f-8171-47d4-8881-be5feb252c5b</id>
+      <masked>false</masked>
+      <name>firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CreateUser').getValue('LastName', 6)</defaultValue>
+      <description></description>
+      <id>a7c5a127-ab3e-4903-932c-b9a04efc4b0d</id>
+      <masked>false</masked>
+      <name>lastName</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>4ec96bae-0b73-45d6-9901-37de33432ef7</id>
+      <masked>false</masked>
+      <name>ActualFirstNameErrorMsg</name>
+   </variable>
+</TestCaseEntity>

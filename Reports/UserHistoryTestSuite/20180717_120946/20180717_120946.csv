@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+UserHistoryTestSuite,Chrome 67.0.3396.62,,2018-07-17 12:29:37,2018-07-17 12:31:22,1m - 44.308s,FAILED
+,,,,,,
+Test Cases/CommonTestcases/ResetTestData,Chrome 67.0.3396.62,,2018-07-17 12:29:38,2018-07-17 12:29:42,4.051s,PASSED
+dataBaseConnection.dataBase.connectDB,Chrome 67.0.3396.62,,2018-07-17 12:29:38,2018-07-17 12:29:39,1.215s,PASSED
+dataBaseConnection.dataBase.ResetTestData,Chrome 67.0.3396.62,,2018-07-17 12:29:39,2018-07-17 12:29:42,2.518s,PASSED
+dataBaseConnection.dataBase.closeDatabaseConnection,Chrome 67.0.3396.62,,2018-07-17 12:29:42,2018-07-17 12:29:42,0.011s,PASSED
+,,,,,,
+Test Cases/UserHIstoryTestCases/Verify_MALSKU_MovesToHistory,Chrome 67.0.3396.62,"To check if SKU's moves from \""Workbench\"" to \""History\"" on successful rescue",2018-07-17 12:29:42,2018-07-17 12:30:30,48.039s,FAILED
+callTestCase,Chrome 67.0.3396.62,,2018-07-17 12:29:42,2018-07-17 12:30:10,27.839s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-17 12:30:10,2018-07-17 12:30:13,3.011s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-17 12:30:13,2018-07-17 12:30:13,0.145s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-17 12:30:13,2018-07-17 12:30:30,16.693s,FAILED
+,,,,,,
+Test Cases/UserHIstoryTestCases/Verify_display_of_HistoryPage,Chrome 67.0.3396.62,,2018-07-17 12:30:30,2018-07-17 12:31:21,51.042s,FAILED
+callTestCase,Chrome 67.0.3396.62,,2018-07-17 12:30:30,2018-07-17 12:30:55,24.854s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-17 12:30:55,2018-07-17 12:31:00,5.005s,PASSED
+waitForElementPresent,Chrome 67.0.3396.62,,2018-07-17 12:31:00,2018-07-17 12:31:00,0.074s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-17 12:31:00,2018-07-17 12:31:00,0.216s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-17 12:31:00,2018-07-17 12:31:05,5.004s,PASSED
+waitForElementPresent,Chrome 67.0.3396.62,,2018-07-17 12:31:05,2018-07-17 12:31:05,0.062s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-17 12:31:05,2018-07-17 12:31:05,0.114s,PASSED
+waitForElementPresent,Chrome 67.0.3396.62,,2018-07-17 12:31:05,2018-07-17 12:31:05,0.041s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-17 12:31:05,2018-07-17 12:31:05,0.120s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-17 12:31:05,2018-07-17 12:31:10,5.002s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-17 12:31:10,2018-07-17 12:31:11,0.166s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-17 12:31:11,2018-07-17 12:31:21,10.002s,PASSED
+Statement - rescue = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_History_Page/History_RescueStrategy)),Chrome 67.0.3396.62,,2018-07-17 12:31:21,2018-07-17 12:31:21,0.086s,PASSED
+scrollToElement,Chrome 67.0.3396.62,,2018-07-17 12:31:21,2018-07-17 12:31:21,0.052s,PASSED
+verifyMatch,Chrome 67.0.3396.62,,2018-07-17 12:31:21,2018-07-17 12:31:21,0.055s,FAILED

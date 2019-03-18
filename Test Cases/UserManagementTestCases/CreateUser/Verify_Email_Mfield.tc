@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if email id field was blank</description>
+   <name>Verify_Email_Mfield</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1bd24231-587e-4fa5-b457-52eaffc27574</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('CreateUser').getValue('UserName', 5)</defaultValue>
+      <description></description>
+      <id>076a12ae-0fe1-4b56-969c-c2a9c55a5cc9</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CreateUser').getValue('EmailID', 5)</defaultValue>
+      <description></description>
+      <id>9db981a9-a716-4d6a-b5fb-4b51ab54000b</id>
+      <masked>false</masked>
+      <name>emailID</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CreateUser').getValue('FirstName', 5)</defaultValue>
+      <description></description>
+      <id>88710afa-7c7e-403f-a4d7-c389d95db091</id>
+      <masked>false</masked>
+      <name>firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>0e7f3e83-0367-43b6-b116-1f6e0b220e83</id>
+      <masked>false</masked>
+      <name>ActualEmailErrorMsg</name>
+   </variable>
+</TestCaseEntity>

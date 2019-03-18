@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This Scenario logs into a user successfully and verifies the login</description>
+   <name>Valid_Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9eaf18ff-dba1-4b7f-82e7-156d4c002308</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>8270e857-7a2d-4223-b38e-d431b8611344</id>
+      <masked>false</masked>
+      <name>greetingtext</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('credentialDetails/Credentials_IDPwd').getValue('SuperAdminID', 1)</defaultValue>
+      <description></description>
+      <id>a56ad12f-3c42-4ab1-8705-c7a00e20169e</id>
+      <masked>false</masked>
+      <name>ValidID</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('credentialDetails/Credentials_IDPwd').getValue('SuperAdminPassword', 1)</defaultValue>
+      <description></description>
+      <id>fd2e67d9-31ca-4485-b57d-20e969bcf34b</id>
+      <masked>false</masked>
+      <name>ValidPwd</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>29c111d1-3f7a-4e37-8770-04865c31318f</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7fc89f38-c784-424b-bf94-99c15dc9c873</id>
+      <masked>false</masked>
+      <name>variable_0</name>
+   </variable>
+</TestCaseEntity>

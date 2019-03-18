@@ -1,0 +1,40 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+UserManagementTestSuite,Chrome 67.0.3396.62,,2018-07-19 15:34:18,2018-07-19 15:36:22,2m - 4.786s,PASSED
+,,,,,,
+Test Cases/UserManagementTestCases/CreateUser/Verifying_Duplicate_EmailID,Chrome 67.0.3396.62,Verifying if email id already exist.,2018-07-19 15:34:25,2018-07-19 15:34:56,30.975s,PASSED
+callTestCase,Chrome 67.0.3396.62,,2018-07-19 15:34:27,2018-07-19 15:34:44,16.918s,PASSED
+waitForElementVisible,Chrome 67.0.3396.62,,2018-07-19 15:34:44,2018-07-19 15:34:44,0.145s,PASSED
+sendKeys,Chrome 67.0.3396.62,,2018-07-19 15:34:44,2018-07-19 15:34:44,0.301s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-19 15:34:44,2018-07-19 15:34:44,0.168s,PASSED
+waitForElementVisible,Chrome 67.0.3396.62,,2018-07-19 15:34:44,2018-07-19 15:34:45,0.609s,PASSED
+sendKeys,Chrome 67.0.3396.62,,2018-07-19 15:34:45,2018-07-19 15:34:45,0.268s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-19 15:34:45,2018-07-19 15:34:45,0.127s,PASSED
+waitForPageLoad,Chrome 67.0.3396.62,,2018-07-19 15:34:45,2018-07-19 15:34:45,0.044s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-19 15:34:45,2018-07-19 15:34:49,4.010s,PASSED
+Statement - If (true),Chrome 67.0.3396.62,,2018-07-19 15:34:49,2018-07-19 15:34:49,0.002s,PASSED
+waitForElementPresent,Chrome 67.0.3396.62,,2018-07-19 15:34:49,2018-07-19 15:34:50,0.057s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-19 15:34:50,2018-07-19 15:34:50,0.333s,PASSED
+Statement - assert true,Chrome 67.0.3396.62,,2018-07-19 15:34:50,2018-07-19 15:34:50,0.001s,PASSED
+waitForElementPresent,Chrome 67.0.3396.62,,2018-07-19 15:34:50,2018-07-19 15:34:50,0.037s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-19 15:34:50,2018-07-19 15:34:53,3.005s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-19 15:34:53,2018-07-19 15:34:53,0.177s,PASSED
+scrollToElement,Chrome 67.0.3396.62,,2018-07-19 15:34:53,2018-07-19 15:34:53,0.062s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-19 15:34:53,2018-07-19 15:34:53,0.103s,PASSED
+"Statement - username = CustomKeywords.commonLibrary.commonFunctions.randomStringFunction(""abcdefghijklmnopqrstuvwxyz"", 6)",Chrome 67.0.3396.62,,2018-07-19 15:34:53,2018-07-19 15:34:53,0.029s,PASSED
+sendKeys,Chrome 67.0.3396.62,,2018-07-19 15:34:53,2018-07-19 15:34:53,0.216s,PASSED
+sendKeys,Chrome 67.0.3396.62,,2018-07-19 15:34:53,2018-07-19 15:34:54,0.338s,PASSED
+sendKeys,Chrome 67.0.3396.62,,2018-07-19 15:34:54,2018-07-19 15:34:54,0.190s,PASSED
+sendKeys,Chrome 67.0.3396.62,,2018-07-19 15:34:54,2018-07-19 15:34:54,0.125s,PASSED
+sendKeys,Chrome 67.0.3396.62,,2018-07-19 15:34:54,2018-07-19 15:34:54,0.145s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-19 15:34:54,2018-07-19 15:34:54,0.133s,PASSED
+Statement - ActualToastMessage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_UserManagement_Page/EmailID_ToastMsg)),Chrome 67.0.3396.62,,2018-07-19 15:34:54,2018-07-19 15:34:56,1.209s,PASSED
+verifyMatch,Chrome 67.0.3396.62,,2018-07-19 15:34:56,2018-07-19 15:34:56,0.051s,PASSED
+closeBrowser,Chrome 67.0.3396.62,,2018-07-19 15:34:56,2018-07-19 15:34:56,0.736s,PASSED
+,,,,,,
+Test Cases/UserManagementTestCases/UserActions/LockUser,Chrome 67.0.3396.62,This scenarios locks a user account by trying to log in into a valid account with invalid password for 5 attempts,2018-07-19 15:34:56,2018-07-19 15:36:22,1m - 25.797s,PASSED
+callTestCase,Chrome 67.0.3396.62,,2018-07-19 15:34:57,2018-07-19 15:35:11,14.157s,PASSED
+callTestCase,Chrome 67.0.3396.62,,2018-07-19 15:35:11,2018-07-19 15:35:23,12.041s,PASSED
+callTestCase,Chrome 67.0.3396.62,,2018-07-19 15:35:23,2018-07-19 15:35:35,12.272s,PASSED
+callTestCase,Chrome 67.0.3396.62,,2018-07-19 15:35:35,2018-07-19 15:35:50,14.551s,PASSED
+callTestCase,Chrome 67.0.3396.62,,2018-07-19 15:35:50,2018-07-19 15:36:05,15.218s,PASSED
+callTestCase,Chrome 67.0.3396.62,,2018-07-19 15:36:05,2018-07-19 15:36:22,17.340s,PASSED

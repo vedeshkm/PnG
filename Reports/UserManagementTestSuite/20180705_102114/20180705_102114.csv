@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+UserManagementTestSuite,Chrome 67.0.3396.99,,2018-07-05 10:21:15,2018-07-05 10:22:18,1m - 2.796s,FAILED
+,,,,,,
+Test Cases/UserManagementTestCases/UserActions/DeActivate_User,Chrome 67.0.3396.99,This Scenario logs in the Super Admin and deactivates a particular user,2018-07-05 10:21:16,2018-07-05 10:21:47,31.556s,FAILED
+callTestCase,Chrome 67.0.3396.99,,2018-07-05 10:21:17,2018-07-05 10:21:32,14.700s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-05 10:21:32,2018-07-05 10:21:32,0.150s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-05 10:21:32,2018-07-05 10:21:32,0.125s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-05 10:21:32,2018-07-05 10:21:32,0.132s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-05 10:21:32,2018-07-05 10:21:33,0.592s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-05 10:21:33,2018-07-05 10:21:33,0.140s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-05 10:21:33,2018-07-05 10:21:33,0.096s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-05 10:21:33,2018-07-05 10:21:38,5.016s,PASSED
+scrollToElement,Chrome 67.0.3396.99,,2018-07-05 10:21:38,2018-07-05 10:21:38,0.015s,NOT_RUN
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-05 10:21:38,2018-07-05 10:21:38,0.067s,PASSED
+scrollToElement,Chrome 67.0.3396.99,,2018-07-05 10:21:38,2018-07-05 10:21:38,0.000s,NOT_RUN
+click,Chrome 67.0.3396.99,,2018-07-05 10:21:38,2018-07-05 10:21:38,0.180s,PASSED
+Statement - assert true,Chrome 67.0.3396.99,,2018-07-05 10:21:38,2018-07-05 10:21:38,0.002s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-05 10:21:38,2018-07-05 10:21:38,0.052s,PASSED
+"Statement - emailidprefix = CustomKeywords.commonLibrary.commonFunctions.randomStringFunction(""abcdefghijklmnopqrstuvwxyz"", 9)",Chrome 67.0.3396.99,,2018-07-05 10:21:38,2018-07-05 10:21:38,0.023s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-05 10:21:38,2018-07-05 10:21:39,0.321s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-05 10:21:39,2018-07-05 10:21:39,0.042s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-05 10:21:39,2018-07-05 10:21:42,3.003s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-05 10:21:42,2018-07-05 10:21:42,0.133s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-05 10:21:42,2018-07-05 10:21:42,0.052s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-05 10:21:42,2018-07-05 10:21:42,0.079s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-05 10:21:42,2018-07-05 10:21:47,5.244s,PASSED
+Statement - AHeaderTxt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_EditUser_Page/DeactivateUser_HeaderTxt)),Chrome 67.0.3396.99,,2018-07-05 10:21:47,2018-07-05 10:21:47,0.081s,PASSED
+verifyMatch,Chrome 67.0.3396.99,,2018-07-05 10:21:47,2018-07-05 10:21:47,0.049s,FAILED
+,,,,,,
+Test Cases/UserManagementTestCases/UserActions/LockUser,Chrome 67.0.3396.99,This scenarios locks a user account by trying to log in into a valid account with invalid password for 5 attempts,2018-07-05 10:21:47,2018-07-05 10:22:18,30.299s,FAILED
+callTestCase,Chrome 67.0.3396.99,,2018-07-05 10:21:47,2018-07-05 10:22:18,30.143s,FAILED

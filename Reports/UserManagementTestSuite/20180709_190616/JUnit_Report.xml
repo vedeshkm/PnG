@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="UserManagementTestSuite" time="203" tests="0" failures="2" errors="1">
+   <testsuite name="UserManagementTestSuite" tests="0" failures="2" errors="1" time="203" timestamp="2018-07-09 19:06:21" hostname="vijay.n - EDT-168.estblr.com" id="Test Suites/UserManagementTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Automation_P&amp;G\\Automation-P&amp;G-Code-Base\\OMVA\\Reports\\UserManagementTestSuite\\20180709_190616"/>
+         <property name="logFiles" value="D:\\Automation_P&amp;G\\Automation-P&amp;G-Code-Base\\OMVA\\Reports\\UserManagementTestSuite\\20180709_190616\\execution0.log"/>
+         <property name="attachments" value="D:\\Automation_P&amp;G\\Automation-P&amp;G-Code-Base\\OMVA\\Reports\\UserManagementTestSuite\\20180709_190616\\1531143510132.png"/>
+         <property name="hostName" value="vijay.n - EDT-168.estblr.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="172.16.17.168"/>
+         <property name="sessionId" value="b61749ff6eca0b7d4fccf2f5d2e74861"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/UserManagementTestCases/UserActions/DeActivate_User" classname="Test Cases/UserManagementTestCases/UserActions/DeActivate_User" status="FAILED">
+         <failure type="FAILED" message="Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 61.82 seconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'EDT-168', ip: '172.16.17.168', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CChromeDriver)"/>
+         <system-out><![CDATA[2018-07-09 19:06:22 - [TEST_CASE][FAILED] - Test Cases/UserManagementTestCases/UserActions/DeActivate_User: Test Cases/UserManagementTestCases/UserActions/DeActivate_User FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 61.82 seconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'EDT-168', ip: '172.16.17.168', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CChromeDriver)
+
+2018-07-09 19:06:22 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' (Root cause: Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' failed)
+
+2018-07-09 19:06:22 - [TEST_CASE][FAILED] - Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL: Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 61.82 seconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'EDT-168', ip: '172.16.17.168', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CChromeDriver)
+
+2018-07-09 19:06:23 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 61.82 seconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'EDT-168', ip: '172.16.17.168', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CChromeDriver)
+
+2018-07-09 19:07:27 - [MESSAGE][FAILED] - Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 61.82 seconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'EDT-168', ip: '172.16.17.168', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CChromeDriver)
+
+2018-07-09 19:07:27 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' (Root cause: Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' failed)]]></system-out>
+         <system-err><![CDATA[2018-07-09 19:06:22 - [TEST_CASE][FAILED] - Test Cases/UserManagementTestCases/UserActions/DeActivate_User: Test Cases/UserManagementTestCases/UserActions/DeActivate_User FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 61.82 seconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'EDT-168', ip: '172.16.17.168', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CChromeDriver)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UserManagementTestCases/UserActions/LockUser" classname="Test Cases/UserManagementTestCases/UserActions/LockUser" status="FAILED">
+         <failure type="FAILED" message="Unable to get text of object 'Object Repository/OMVA_Login_Page/InvalidLogin_HeaderTxt' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Login_Page/InvalidLogin_HeaderTxt' located by 'By.xpath: //h4[text()='Invalid Credentials']' not found)"/>
+         <system-out><![CDATA[2018-07-09 19:07:27 - [TEST_CASE][FAILED] - Test Cases/UserManagementTestCases/UserActions/LockUser: Test Cases/UserManagementTestCases/UserActions/LockUser FAILED because (of) Unable to get text of object 'Object Repository/OMVA_Login_Page/InvalidLogin_HeaderTxt' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Login_Page/InvalidLogin_HeaderTxt' located by 'By.xpath: //h4[text()='Invalid Credentials']' not found)
+
+2018-07-09 19:07:28 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/UserManagementTestCases/Login/Invalid_Login' (Root cause: Call Test Case 'Test Cases/UserManagementTestCases/Login/Invalid_Login' failed)
+
+2018-07-09 19:07:34 - [TEST_CASE][FAILED] - Test Cases/UserManagementTestCases/Login/Invalid_Login: Test Cases/UserManagementTestCases/Login/Invalid_Login FAILED because (of) Unable to get text of object 'Object Repository/OMVA_Login_Page/InvalidLogin_HeaderTxt' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Login_Page/InvalidLogin_HeaderTxt' located by 'By.xpath: //h4[text()='Invalid Credentials']' not found)
+
+2018-07-09 19:07:35 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-09 19:07:35 - [TEST_CASE][PASSED] - Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL: Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL
+
+2018-07-09 19:07:35 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-09 19:07:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-09 19:07:44 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-09 19:08:02 - [MESSAGE][PASSED] - Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-09 19:08:02 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-09 19:08:03 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-09 19:08:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-09 19:08:03 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Username_Textbox' is visible
+
+2018-07-09 19:08:06 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/Username_Textbox' is visible
+
+2018-07-09 19:08:06 - [TEST_STEP][PASSED] - sendKeys: Keys 'Lock' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-09 19:08:08 - [MESSAGE][PASSED] - Keys 'Lock' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-09 19:08:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-09 19:08:10 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-09 19:08:10 - [TEST_STEP][PASSED] - Statement - If (true): null
+
+2018-07-09 19:08:10 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-09 19:08:11 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-09 19:08:11 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2018-07-09 19:08:11 - [TEST_STEP][PASSED] - sendKeys: Keys 'Pwd' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-09 19:08:11 - [MESSAGE][PASSED] - Keys 'Pwd' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-09 19:08:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-09 19:08:14 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-09 19:08:14 - [TEST_STEP][FAILED] - Statement - AHeaderTxt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_Login_Page/InvalidLogin_HeaderTxt)): Unable to get text of object 'Object Repository/OMVA_Login_Page/InvalidLogin_HeaderTxt' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Login_Page/InvalidLogin_HeaderTxt' located by 'By.xpath: //h4[text()='Invalid Credentials']' not found)
+
+2018-07-09 19:08:31 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/OMVA_Login_Page/InvalidLogin_HeaderTxt' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Login_Page/InvalidLogin_HeaderTxt' located by 'By.xpath: //h4[text()='Invalid Credentials']' not found)
+[[ATTACHMENT|D:\\Automation_P&G\\Automation-P&G-Code-Base\\OMVA\\Reports\\UserManagementTestSuite\\20180709_190616\\1531143510132.png]]
+
+2018-07-09 19:08:31 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/UserManagementTestCases/Login/Invalid_Login' (Root cause: Call Test Case 'Test Cases/UserManagementTestCases/Login/Invalid_Login' failed)]]></system-out>
+         <system-err><![CDATA[2018-07-09 19:07:27 - [TEST_CASE][FAILED] - Test Cases/UserManagementTestCases/UserActions/LockUser: Test Cases/UserManagementTestCases/UserActions/LockUser FAILED because (of) Unable to get text of object 'Object Repository/OMVA_Login_Page/InvalidLogin_HeaderTxt' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Login_Page/InvalidLogin_HeaderTxt' located by 'By.xpath: //h4[text()='Invalid Credentials']' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UserManagementTestCases/UserActions/Validate_ModifyDataFromEdituser" classname="Test Cases/UserManagementTestCases/UserActions/Validate_ModifyDataFromEdituser" status="ERROR">
+         <error type="ERROR" message="Test Cases/UserManagementTestCases/UserActions/Validate_ModifyDataFromEdituser FAILED because (of) org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//tr[contains(text(),'krmvky')]/ancestor::td/following-sibling::td/descendant::span[@class='icon-edit custom-cursor']&quot;}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'EDT-168', ip: '172.16.17.168', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: D:\Users\vijay.n\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: b61749ff6eca0b7d4fccf2f5d2e74861
+*** Element info: {Using=xpath, value=//tr[contains(text(),'krmvky')]/ancestor::td/following-sibling::td/descendant::span[@class='icon-edit custom-cursor']}"/>
+         <system-out><![CDATA[2018-07-09 19:08:31 - [TEST_CASE][ERROR] - Test Cases/UserManagementTestCases/UserActions/Validate_ModifyDataFromEdituser: Test Cases/UserManagementTestCases/UserActions/Validate_ModifyDataFromEdituser FAILED because (of) org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//tr[contains(text(),'krmvky')]/ancestor::td/following-sibling::td/descendant::span[@class='icon-edit custom-cursor']"}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'EDT-168', ip: '172.16.17.168', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: D:\Users\vijay.n\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: b61749ff6eca0b7d4fccf2f5d2e74861
+*** Element info: {Using=xpath, value=//tr[contains(text(),'krmvky')]/ancestor::td/following-sibling::td/descendant::span[@class='icon-edit custom-cursor']}
+
+2018-07-09 19:08:31 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-09 19:08:31 - [TEST_CASE][PASSED] - Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL: Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL
+
+2018-07-09 19:08:31 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-09 19:08:31 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-07-09 19:08:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-09 19:08:42 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-09 19:08:55 - [MESSAGE][PASSED] - Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-09 19:08:55 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-09 19:08:55 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-09 19:08:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-09 19:08:55 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Username_Textbox' is visible
+
+2018-07-09 19:08:55 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/Username_Textbox' is visible
+
+2018-07-09 19:08:55 - [TEST_STEP][PASSED] - sendKeys: Keys 'SuperAdmin' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-09 19:08:56 - [MESSAGE][PASSED] - Keys 'SuperAdmin' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-09 19:08:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-09 19:08:56 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-09 19:08:56 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-09 19:08:57 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-09 19:08:57 - [TEST_STEP][PASSED] - sendKeys: Keys 'SuperAdmin' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-09 19:08:57 - [MESSAGE][PASSED] - Keys 'SuperAdmin' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-09 19:08:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-09 19:08:57 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-09 19:08:57 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-09 19:09:03 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-09 19:09:03 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-09 19:09:08 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 19:09:08 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/OMVA_Landing_Page/CreateUser_Button' is present
+
+2018-07-09 19:09:08 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Landing_Page/CreateUser_Button' is present
+
+2018-07-09 19:09:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Landing_Page/CreateUser_Button' is clicked on
+
+2018-07-09 19:09:09 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Landing_Page/CreateUser_Button' is clicked on
+
+2018-07-09 19:09:09 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-09 19:09:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-09 19:09:12 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/OMVA_UserManagement_Page/Role_Dropdown' is present
+
+2018-07-09 19:09:12 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_UserManagement_Page/Role_Dropdown' is present
+
+2018-07-09 19:09:12 - [TEST_STEP][PASSED] - Statement - If (true): null
+
+2018-07-09 19:09:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_UserManagement_Page/Role_Dropdown' is clicked on
+
+2018-07-09 19:09:12 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_UserManagement_Page/Role_Dropdown' is clicked on
+
+2018-07-09 19:09:12 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2018-07-09 19:09:12 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/OMVA_UserManagement_Page/DropdownOption_RoleDropdown_Market Admin' successfully
+
+2018-07-09 19:09:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2018-07-09 19:09:13 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/OMVA_UserManagement_Page/DropdownOption_RoleDropdown_Market Admin' successfully
+
+2018-07-09 19:09:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_UserManagement_Page/DropdownOption_RoleDropdown_Market Admin' is clicked on
+
+2018-07-09 19:09:13 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_UserManagement_Page/DropdownOption_RoleDropdown_Market Admin' is clicked on
+
+2018-07-09 19:09:13 - [TEST_STEP][PASSED] - Statement - username = CustomKeywords.commonLibrary.commonFunctions.randomStringFunction("abcdefghijklmnopqrstuvwxyz", 6): commonLibrary.commonFunctions.randomStringFunction is PASSED
+
+2018-07-09 19:09:14 - [MESSAGE][PASSED] - commonLibrary.commonFunctions.randomStringFunction is PASSED
+
+2018-07-09 19:09:14 - [TEST_STEP][PASSED] - Statement - uname = username.toString(): null
+
+2018-07-09 19:09:14 - [TEST_STEP][PASSED] - sendKeys: Keys 'krmvky' sent to object: 'Object Repository/OMVA_UserManagement_Page/UserName_Textbox'
+
+2018-07-09 19:09:17 - [MESSAGE][PASSED] - Keys 'krmvky' sent to object: 'Object Repository/OMVA_UserManagement_Page/UserName_Textbox'
+
+2018-07-09 19:09:17 - [TEST_STEP][PASSED] - Statement - emailidprefix = CustomKeywords.commonLibrary.commonFunctions.randomStringFunction("abcdefghijklmnopqrstuvwxyz", 9): commonLibrary.commonFunctions.randomStringFunction is PASSED
+
+2018-07-09 19:09:17 - [MESSAGE][PASSED] - commonLibrary.commonFunctions.randomStringFunction is PASSED
+
+2018-07-09 19:09:17 - [TEST_STEP][PASSED] - sendKeys: Keys 'fqblufjxy@autotestpg.com' sent to object: 'Object Repository/OMVA_UserManagement_Page/EmailID_Textbox'
+
+2018-07-09 19:09:18 - [MESSAGE][PASSED] - Keys 'fqblufjxy@autotestpg.com' sent to object: 'Object Repository/OMVA_UserManagement_Page/EmailID_Textbox'
+
+2018-07-09 19:09:18 - [TEST_STEP][PASSED] - Statement - firstname = CustomKeywords.commonLibrary.commonFunctions.randomStringFunction("abcdefghijklmnopqrstuvwxyz", 7): commonLibrary.commonFunctions.randomStringFunction is PASSED
+
+2018-07-09 19:09:18 - [MESSAGE][PASSED] - commonLibrary.commonFunctions.randomStringFunction is PASSED
+
+2018-07-09 19:09:18 - [TEST_STEP][PASSED] - sendKeys: Keys 'vzezxmk' sent to object: 'Object Repository/OMVA_UserManagement_Page/FirstName_Textbox'
+
+2018-07-09 19:09:18 - [MESSAGE][PASSED] - Keys 'vzezxmk' sent to object: 'Object Repository/OMVA_UserManagement_Page/FirstName_Textbox'
+
+2018-07-09 19:09:18 - [TEST_STEP][PASSED] - Statement - lastname = CustomKeywords.commonLibrary.commonFunctions.randomStringFunction("abcdefghijklmnopqrstuvwxyz", 7): commonLibrary.commonFunctions.randomStringFunction is PASSED
+
+2018-07-09 19:09:18 - [MESSAGE][PASSED] - commonLibrary.commonFunctions.randomStringFunction is PASSED
+
+2018-07-09 19:09:18 - [TEST_STEP][PASSED] - sendKeys: Keys 'dcclgox' sent to object: 'Object Repository/OMVA_UserManagement_Page/LastName_Textbox'
+
+2018-07-09 19:09:18 - [MESSAGE][PASSED] - Keys 'dcclgox' sent to object: 'Object Repository/OMVA_UserManagement_Page/LastName_Textbox'
+
+2018-07-09 19:09:18 - [TEST_STEP][PASSED] - Statement - ticketnum = CustomKeywords.commonLibrary.commonFunctions.randomStringFunction("123456789", 7): commonLibrary.commonFunctions.randomStringFunction is PASSED
+
+2018-07-09 19:09:18 - [MESSAGE][PASSED] - commonLibrary.commonFunctions.randomStringFunction is PASSED
+
+2018-07-09 19:09:18 - [TEST_STEP][PASSED] - sendKeys: Keys '2657763' sent to object: 'Object Repository/OMVA_UserManagement_Page/TicketNumber_Textbox'
+
+2018-07-09 19:09:18 - [MESSAGE][PASSED] - Keys '2657763' sent to object: 'Object Repository/OMVA_UserManagement_Page/TicketNumber_Textbox'
+
+2018-07-09 19:09:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_UserManagement_Page/Next_Button' is clicked on
+
+2018-07-09 19:09:19 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_UserManagement_Page/Next_Button' is clicked on
+
+2018-07-09 19:09:19 - [TEST_STEP][PASSED] - applicationLibrary.checkboxMultiselection.multiselectCheckbox: applicationLibrary.checkboxMultiselection.multiselectCheckbox is PASSED
+
+2018-07-09 19:09:24 - [MESSAGE][PASSED] - applicationLibrary.checkboxMultiselection.multiselectCheckbox is PASSED
+
+2018-07-09 19:09:24 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/OMVA_UserManagement_Page/Customer_Next_Btn' successfully
+
+2018-07-09 19:09:25 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/OMVA_UserManagement_Page/Customer_Next_Btn' successfully
+
+2018-07-09 19:09:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_UserManagement_Page/Customer_Next_Btn' is clicked on
+
+2018-07-09 19:09:25 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_UserManagement_Page/Customer_Next_Btn' is clicked on
+
+2018-07-09 19:09:25 - [TEST_STEP][PASSED] - applicationLibrary.checkboxMultiselection.multiselectCheckbox: applicationLibrary.checkboxMultiselection.multiselectCheckbox is PASSED
+
+2018-07-09 19:09:27 - [MESSAGE][PASSED] - applicationLibrary.checkboxMultiselection.multiselectCheckbox is PASSED
+
+2018-07-09 19:09:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_UserManagement_Page/UserCreation_Save_Btn' is clicked on
+
+2018-07-09 19:09:28 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_UserManagement_Page/UserCreation_Save_Btn' is clicked on
+
+2018-07-09 19:09:28 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/OMVA_UserManagement_Page/UserCreation_HeaderTxt' is present
+
+2018-07-09 19:09:28 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_UserManagement_Page/UserCreation_HeaderTxt' is present
+
+2018-07-09 19:09:28 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/OMVA_UserManagement_Page/UserCreation_HeaderTxt' are matched.
+
+2018-07-09 19:09:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/OMVA_UserManagement_Page/UserCreation_HeaderTxt' are matched.
+
+2018-07-09 19:09:30 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/OMVA_UserManagement_Page/UserCreation_ContentTxt' are matched.
+
+2018-07-09 19:09:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/OMVA_UserManagement_Page/UserCreation_ContentTxt' are matched.
+
+2018-07-09 19:09:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_UserManagement_Page/UserCreation_OK_Btn' is clicked on
+
+2018-07-09 19:09:30 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_UserManagement_Page/UserCreation_OK_Btn' is clicked on
+
+2018-07-09 19:09:30 - [TEST_STEP][PASSED] - delay: Delayed 7 second(s)
+
+2018-07-09 19:09:37 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2018-07-09 19:09:37 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/OMVA_UserManagement_Page/Created_User_Username' is present
+
+2018-07-09 19:09:37 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_UserManagement_Page/Created_User_Username' is present
+
+2018-07-09 19:09:37 - [TEST_STEP][PASSED] - Statement - createduser = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_UserManagement_Page/Created_User_Username)): Text of object 'Object Repository/OMVA_UserManagement_Page/Created_User_Username' is: 'vzezxmk dcclgox'
+
+2018-07-09 19:09:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/OMVA_UserManagement_Page/Created_User_Username' is: 'vzezxmk dcclgox'
+
+2018-07-09 19:09:37 - [TEST_STEP][PASSED] - Statement - createduser = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyMatch(createduser, firstname + " " + lastname, true): Actual text 'vzezxmk dcclgox' and expected text 'vzezxmk dcclgox' are matched  using regular expression
+
+2018-07-09 19:09:37 - [MESSAGE][PASSED] - Actual text 'vzezxmk dcclgox' and expected text 'vzezxmk dcclgox' are matched  using regular expression
+
+2018-07-09 19:09:37 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-09 19:09:42 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-09 19:09:42 - [TEST_STEP][ERROR] - applicationLibrary.ClicksCreatedUserDashboard.editUser: no such element: Unable to locate element: {"method":"xpath","selector":"//tr[contains(text(),'krmvky')]/ancestor::td/following-sibling::td/descendant::span[@class='icon-edit custom-cursor']"}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'EDT-168', ip: '172.16.17.168', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: D:\Users\vijay.n\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: b61749ff6eca0b7d4fccf2f5d2e74861
+*** Element info: {Using=xpath, value=//tr[contains(text(),'krmvky')]/ancestor::td/following-sibling::td/descendant::span[@class='icon-edit custom-cursor']}
+
+2018-07-09 19:09:43 - [MESSAGE][ERROR] - no such element: Unable to locate element: {"method":"xpath","selector":"//tr[contains(text(),'krmvky')]/ancestor::td/following-sibling::td/descendant::span[@class='icon-edit custom-cursor']"}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'EDT-168', ip: '172.16.17.168', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: D:\Users\vijay.n\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: b61749ff6eca0b7d4fccf2f5d2e74861
+*** Element info: {Using=xpath, value=//tr[contains(text(),'krmvky')]/ancestor::td/following-sibling::td/descendant::span[@class='icon-edit custom-cursor']}]]></system-out>
+         <system-err><![CDATA[2018-07-09 19:08:31 - [TEST_CASE][ERROR] - Test Cases/UserManagementTestCases/UserActions/Validate_ModifyDataFromEdituser: Test Cases/UserManagementTestCases/UserActions/Validate_ModifyDataFromEdituser FAILED because (of) org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//tr[contains(text(),'krmvky')]/ancestor::td/following-sibling::td/descendant::span[@class='icon-edit custom-cursor']"}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'EDT-168', ip: '172.16.17.168', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: D:\Users\vijay.n\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: b61749ff6eca0b7d4fccf2f5d2e74861
+*** Element info: {Using=xpath, value=//tr[contains(text(),'krmvky')]/ancestor::td/following-sibling::td/descendant::span[@class='icon-edit custom-cursor']}]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-09 19:06:21 - [TEST_SUITE][FAILED] - UserManagementTestSuite: Test Cases/UserManagementTestCases/UserActions/DeActivate_User FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 61.82 seconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'EDT-168', ip: '172.16.17.168', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CChromeDriver)]]></system-out>
+      <system-err><![CDATA[2018-07-09 19:06:21 - [TEST_SUITE][FAILED] - UserManagementTestSuite: Test Cases/UserManagementTestCases/UserActions/DeActivate_User FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 61.82 seconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'EDT-168', ip: '172.16.17.168', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CChromeDriver)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+UserHistoryTestSuite,Chrome 67.0.3396.62,,2018-07-17 12:44:39,2018-07-17 12:46:20,1m - 41.039s,FAILED
+,,,,,,
+Test Cases/UserHIstoryTestCases/Verify_MALSKU_MovesToHistory,Chrome 67.0.3396.62,"To check if SKU's moves from \""Workbench\"" to \""History\"" on successful rescue",2018-07-17 12:44:39,2018-07-17 12:45:29,49.449s,FAILED
+callTestCase,Chrome 67.0.3396.62,,2018-07-17 12:44:40,2018-07-17 12:45:09,28.978s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-17 12:45:09,2018-07-17 12:45:12,3.011s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-17 12:45:12,2018-07-17 12:45:12,0.204s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-17 12:45:12,2018-07-17 12:45:29,16.752s,FAILED
+,,,,,,
+Test Cases/UserHIstoryTestCases/Verify_display_of_HistoryPage,Chrome 67.0.3396.62,,2018-07-17 12:45:29,2018-07-17 12:46:19,50.036s,FAILED
+callTestCase,Chrome 67.0.3396.62,,2018-07-17 12:45:29,2018-07-17 12:45:53,23.826s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-17 12:45:53,2018-07-17 12:45:58,5.003s,PASSED
+waitForElementPresent,Chrome 67.0.3396.62,,2018-07-17 12:45:58,2018-07-17 12:45:58,0.068s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-17 12:45:58,2018-07-17 12:45:58,0.207s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-17 12:45:58,2018-07-17 12:46:03,5.003s,PASSED
+waitForElementPresent,Chrome 67.0.3396.62,,2018-07-17 12:46:03,2018-07-17 12:46:03,0.057s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-17 12:46:03,2018-07-17 12:46:03,0.115s,PASSED
+waitForElementPresent,Chrome 67.0.3396.62,,2018-07-17 12:46:03,2018-07-17 12:46:03,0.034s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-17 12:46:03,2018-07-17 12:46:03,0.116s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-17 12:46:03,2018-07-17 12:46:08,5.003s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-17 12:46:08,2018-07-17 12:46:08,0.170s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-17 12:46:08,2018-07-17 12:46:18,10.003s,PASSED
+Statement - rescue = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_History_Page/History_RescueStrategy)),Chrome 67.0.3396.62,,2018-07-17 12:46:18,2018-07-17 12:46:18,0.096s,PASSED
+scrollToElement,Chrome 67.0.3396.62,,2018-07-17 12:46:18,2018-07-17 12:46:19,0.059s,PASSED
+verifyMatch,Chrome 67.0.3396.62,,2018-07-17 12:46:19,2018-07-17 12:46:19,0.045s,FAILED

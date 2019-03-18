@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifying if email id already exist.</description>
+   <name>Verifying_Duplicate_EmailID</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>29eb395b-b3b7-4ba6-81a3-14861c909eab</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('credentialDetails/CreateUser').getValue('UserName', 2)</defaultValue>
+      <description></description>
+      <id>cb143e8e-1256-40a6-876b-62b40c870725</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('credentialDetails/CreateUser').getValue('EmailID', 2)</defaultValue>
+      <description></description>
+      <id>e95ca2bb-b711-474e-a1a6-3398f28fc62e</id>
+      <masked>false</masked>
+      <name>emailID</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('credentialDetails/CreateUser').getValue('FirstName', 2)</defaultValue>
+      <description></description>
+      <id>c7e2d380-0848-4539-b8fd-bf46f9f7d473</id>
+      <masked>false</masked>
+      <name>firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('credentialDetails/CreateUser').getValue('LastName', 2)</defaultValue>
+      <description></description>
+      <id>84be62cc-a768-4bba-b73b-100b5c50ae82</id>
+      <masked>false</masked>
+      <name>lastName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('credentialDetails/CreateUser').getValue('Tnumber', 2)</defaultValue>
+      <description></description>
+      <id>a89d3026-e50a-4882-98ef-2035d2a0e50c</id>
+      <masked>false</masked>
+      <name>ticketNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>49478fcc-d48b-4918-9d27-0e940df1239b</id>
+      <masked>false</masked>
+      <name>ActualToastMessage</name>
+   </variable>
+</TestCaseEntity>

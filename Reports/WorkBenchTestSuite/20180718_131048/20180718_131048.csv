@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+WorkBenchTestSuite,Chrome 67.0.3396.62,,2018-07-18 13:30:06,2018-07-18 13:31:39,1m - 32.370s,FAILED
+,,,,,,
+Test Cases/WorkBenchTestCases/Validate_CategoryMSPIncreaseAllocationQtyNotEditable,Chrome 67.0.3396.62,,2018-07-18 13:30:07,2018-07-18 13:30:58,51.242s,FAILED
+callTestCase,Chrome 67.0.3396.62,,2018-07-18 13:30:07,2018-07-18 13:30:36,28.808s,PASSED
+waitForElementVisible,Chrome 67.0.3396.62,,2018-07-18 13:30:36,2018-07-18 13:30:41,5.455s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-18 13:30:41,2018-07-18 13:30:58,16.643s,FAILED
+,,,,,,
+Test Cases/WorkBenchTestCases/Verify_MatchOfPendingTaskForSumaryandWBforChanMSP,Chrome 67.0.3396.62,Verify if Category MS&P is authorised to do Increase allocation \n Increase allocation should only be readable for Category MS&P,2018-07-18 13:30:58,2018-07-18 13:31:38,39.955s,FAILED
+callTestCase,Chrome 67.0.3396.62,,2018-07-18 13:30:58,2018-07-18 13:31:22,23.911s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-18 13:31:22,2018-07-18 13:31:27,5.010s,PASSED
+Statement - ChanMSP_WB_Count = CustomKeywords.applicationLibrary.GetsPendingTaskCount_WBScreen.Get_PendingTask_Count_WBscreen(),Chrome 67.0.3396.62,,2018-07-18 13:31:27,2018-07-18 13:31:27,0.098s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-18 13:31:27,2018-07-18 13:31:28,0.172s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-18 13:31:28,2018-07-18 13:31:33,5.002s,PASSED
+waitForElementPresent,Chrome 67.0.3396.62,,2018-07-18 13:31:33,2018-07-18 13:31:33,0.073s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-18 13:31:33,2018-07-18 13:31:33,0.109s,PASSED
+waitForElementPresent,Chrome 67.0.3396.62,,2018-07-18 13:31:33,2018-07-18 13:31:33,0.035s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-18 13:31:33,2018-07-18 13:31:33,0.115s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-18 13:31:33,2018-07-18 13:31:38,5.002s,PASSED
+Statement - ChanMSP_S_Count = CustomKeywords.applicationLibrary.GetsPendingTaskCount_ChanMSP_SummaryScreen.Get_ChanMSPPendingTask_Count_Summaryscreen(),Chrome 67.0.3396.62,,2018-07-18 13:31:38,2018-07-18 13:31:38,0.075s,PASSED
+verifyEqual,Chrome 67.0.3396.62,,2018-07-18 13:31:38,2018-07-18 13:31:38,0.018s,FAILED

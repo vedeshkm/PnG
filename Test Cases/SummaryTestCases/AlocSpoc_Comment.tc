@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AlocSpoc_Comment</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>deb626ea-7f21-4b52-a43b-cadfb1aea684</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>903f943f-003a-40f0-a199-45a16bbf052c</id>
+      <masked>false</masked>
+      <name>AddCommentToast</name>
+   </variable>
+</TestCaseEntity>

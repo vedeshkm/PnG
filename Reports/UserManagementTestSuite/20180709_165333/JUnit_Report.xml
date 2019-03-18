@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="UserManagementTestSuite" time="32" tests="0" failures="1" errors="0">
+   <testsuite name="UserManagementTestSuite" tests="0" failures="1" errors="0" time="32" timestamp="2018-07-09 16:53:35" hostname="vijay.n - EDT-168.estblr.com" id="Test Suites/UserManagementTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Automation_P&amp;G\\Automation-P&amp;G-Code-Base\\OMVA\\Reports\\UserManagementTestSuite\\20180709_165333"/>
+         <property name="logFiles" value="D:\\Automation_P&amp;G\\Automation-P&amp;G-Code-Base\\OMVA\\Reports\\UserManagementTestSuite\\20180709_165333\\execution0.log"/>
+         <property name="attachments" value="D:\\Automation_P&amp;G\\Automation-P&amp;G-Code-Base\\OMVA\\Reports\\UserManagementTestSuite\\20180709_165333\\1531135446804.png"/>
+         <property name="hostName" value="vijay.n - EDT-168.estblr.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="172.16.17.168"/>
+         <property name="sessionId" value="167529d85603d097aac73ed753cc5ba3"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/UserManagementTestCases/UserActions/LockUser" classname="Test Cases/UserManagementTestCases/UserActions/LockUser" status="FAILED">
+         <failure type="FAILED" message="Unable to get text of object 'Object Repository/OMVA_Login_Page/InvalidLogin_HeaderTxt' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Login_Page/InvalidLogin_HeaderTxt' located by 'By.xpath: //h4[text()='Invalid Credentials']' not found)"/>
+         <system-out><![CDATA[2018-07-09 16:53:36 - [TEST_CASE][FAILED] - Test Cases/UserManagementTestCases/UserActions/LockUser: Test Cases/UserManagementTestCases/UserActions/LockUser FAILED because (of) Unable to get text of object 'Object Repository/OMVA_Login_Page/InvalidLogin_HeaderTxt' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Login_Page/InvalidLogin_HeaderTxt' located by 'By.xpath: //h4[text()='Invalid Credentials']' not found)
+
+2018-07-09 16:53:36 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/UserManagementTestCases/Login/Invalid_Login' (Root cause: Call Test Case 'Test Cases/UserManagementTestCases/Login/Invalid_Login' failed)
+
+2018-07-09 16:53:37 - [TEST_CASE][FAILED] - Test Cases/UserManagementTestCases/Login/Invalid_Login: Test Cases/UserManagementTestCases/Login/Invalid_Login FAILED because (of) Unable to get text of object 'Object Repository/OMVA_Login_Page/InvalidLogin_HeaderTxt' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Login_Page/InvalidLogin_HeaderTxt' located by 'By.xpath: //h4[text()='Invalid Credentials']' not found)
+
+2018-07-09 16:53:37 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-09 16:53:37 - [TEST_CASE][PASSED] - Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL: Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL
+
+2018-07-09 16:53:38 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-09 16:53:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-09 16:53:40 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-09 16:53:49 - [MESSAGE][PASSED] - Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-09 16:53:49 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-09 16:53:50 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-09 16:53:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-09 16:53:50 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Username_Textbox' is visible
+
+2018-07-09 16:53:50 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/Username_Textbox' is visible
+
+2018-07-09 16:53:50 - [TEST_STEP][PASSED] - sendKeys: Keys 'Lock' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-09 16:53:50 - [MESSAGE][PASSED] - Keys 'Lock' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-09 16:53:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-09 16:53:50 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-09 16:53:50 - [TEST_STEP][PASSED] - Statement - If (true): null
+
+2018-07-09 16:53:50 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-09 16:53:50 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-09 16:53:50 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2018-07-09 16:53:50 - [TEST_STEP][PASSED] - sendKeys: Keys 'Pwd' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-09 16:53:51 - [MESSAGE][PASSED] - Keys 'Pwd' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-09 16:53:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-09 16:53:51 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-09 16:53:51 - [TEST_STEP][FAILED] - Statement - AHeaderTxt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_Login_Page/InvalidLogin_HeaderTxt)): Unable to get text of object 'Object Repository/OMVA_Login_Page/InvalidLogin_HeaderTxt' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Login_Page/InvalidLogin_HeaderTxt' located by 'By.xpath: //h4[text()='Invalid Credentials']' not found)
+
+2018-07-09 16:54:07 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/OMVA_Login_Page/InvalidLogin_HeaderTxt' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Login_Page/InvalidLogin_HeaderTxt' located by 'By.xpath: //h4[text()='Invalid Credentials']' not found)
+[[ATTACHMENT|D:\\Automation_P&G\\Automation-P&G-Code-Base\\OMVA\\Reports\\UserManagementTestSuite\\20180709_165333\\1531135446804.png]]
+
+2018-07-09 16:54:07 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/UserManagementTestCases/Login/Invalid_Login' (Root cause: Call Test Case 'Test Cases/UserManagementTestCases/Login/Invalid_Login' failed)]]></system-out>
+         <system-err><![CDATA[2018-07-09 16:53:36 - [TEST_CASE][FAILED] - Test Cases/UserManagementTestCases/UserActions/LockUser: Test Cases/UserManagementTestCases/UserActions/LockUser FAILED because (of) Unable to get text of object 'Object Repository/OMVA_Login_Page/InvalidLogin_HeaderTxt' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Login_Page/InvalidLogin_HeaderTxt' located by 'By.xpath: //h4[text()='Invalid Credentials']' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-09 16:53:35 - [TEST_SUITE][FAILED] - UserManagementTestSuite: Test Cases/UserManagementTestCases/UserActions/LockUser FAILED because (of) Unable to get text of object 'Object Repository/OMVA_Login_Page/InvalidLogin_HeaderTxt' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Login_Page/InvalidLogin_HeaderTxt' located by 'By.xpath: //h4[text()='Invalid Credentials']' not found)]]></system-out>
+      <system-err><![CDATA[2018-07-09 16:53:35 - [TEST_SUITE][FAILED] - UserManagementTestSuite: Test Cases/UserManagementTestCases/UserActions/LockUser FAILED because (of) Unable to get text of object 'Object Repository/OMVA_Login_Page/InvalidLogin_HeaderTxt' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Login_Page/InvalidLogin_HeaderTxt' located by 'By.xpath: //h4[text()='Invalid Credentials']' not found)]]></system-err>
+   </testsuite>
+</testsuites>

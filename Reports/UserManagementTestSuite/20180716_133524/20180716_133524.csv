@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+UserManagementTestSuite,Chrome 67.0.3396.62,,2018-07-16 13:39:30,2018-07-16 13:40:57,1m - 27.634s,PASSED
+,,,,,,
+Test Cases/UserManagementTestCases/UserActions/LockUser,Chrome 67.0.3396.62,This scenarios locks a user account by trying to log in into a valid account with invalid password for 5 attempts,2018-07-16 13:39:30,2018-07-16 13:40:57,1m - 26.588s,PASSED
+callTestCase,Chrome 67.0.3396.62,,2018-07-16 13:39:31,2018-07-16 13:39:49,17.411s,PASSED
+callTestCase,Chrome 67.0.3396.62,,2018-07-16 13:39:49,2018-07-16 13:40:02,13.496s,PASSED
+callTestCase,Chrome 67.0.3396.62,,2018-07-16 13:40:02,2018-07-16 13:40:15,13.021s,PASSED
+callTestCase,Chrome 67.0.3396.62,,2018-07-16 13:40:15,2018-07-16 13:40:28,12.819s,PASSED
+callTestCase,Chrome 67.0.3396.62,,2018-07-16 13:40:28,2018-07-16 13:40:41,12.634s,PASSED
+callTestCase,Chrome 67.0.3396.62,,2018-07-16 13:40:41,2018-07-16 13:40:57,16.408s,PASSED

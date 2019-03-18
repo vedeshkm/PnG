@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+UserManagementTestSuite,Chrome 67.0.3396.99,,2018-07-05 10:38:01,2018-07-05 10:38:34,33.859s,FAILED
+,,,,,,
+Test Cases/UserManagementTestCases/UserActions/DeActivate_User,Chrome 67.0.3396.99,This Scenario logs in the Super Admin and deactivates a particular user,2018-07-05 10:38:01,2018-07-05 10:38:34,32.944s,FAILED
+callTestCase,Chrome 67.0.3396.99,,2018-07-05 10:38:02,2018-07-05 10:38:18,15.947s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-05 10:38:18,2018-07-05 10:38:18,0.097s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-05 10:38:18,2018-07-05 10:38:18,0.133s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-05 10:38:18,2018-07-05 10:38:18,0.112s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-05 10:38:18,2018-07-05 10:38:19,0.599s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-05 10:38:19,2018-07-05 10:38:19,0.208s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-05 10:38:19,2018-07-05 10:38:19,0.105s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-05 10:38:19,2018-07-05 10:38:24,5.011s,PASSED
+scrollToElement,Chrome 67.0.3396.99,,2018-07-05 10:38:24,2018-07-05 10:38:24,0.031s,NOT_RUN
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-05 10:38:24,2018-07-05 10:38:25,0.082s,PASSED
+scrollToElement,Chrome 67.0.3396.99,,2018-07-05 10:38:25,2018-07-05 10:38:25,0.000s,NOT_RUN
+click,Chrome 67.0.3396.99,,2018-07-05 10:38:25,2018-07-05 10:38:25,0.171s,PASSED
+Statement - assert true,Chrome 67.0.3396.99,,2018-07-05 10:38:25,2018-07-05 10:38:25,0.002s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-05 10:38:25,2018-07-05 10:38:25,0.096s,PASSED
+"Statement - emailidprefix = CustomKeywords.commonLibrary.commonFunctions.randomStringFunction(""abcdefghijklmnopqrstuvwxyz"", 9)",Chrome 67.0.3396.99,,2018-07-05 10:38:25,2018-07-05 10:38:25,0.035s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-05 10:38:25,2018-07-05 10:38:25,0.327s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-05 10:38:25,2018-07-05 10:38:25,0.044s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-05 10:38:25,2018-07-05 10:38:28,3.002s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-05 10:38:28,2018-07-05 10:38:28,0.117s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-05 10:38:28,2018-07-05 10:38:28,0.053s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-05 10:38:28,2018-07-05 10:38:28,0.081s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-05 10:38:28,2018-07-05 10:38:34,5.242s,PASSED
+Statement - AHeaderTxt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_EditUser_Page/DeactivateUser_HeaderTxt)),Chrome 67.0.3396.99,,2018-07-05 10:38:34,2018-07-05 10:38:34,0.098s,PASSED
+verifyMatch,Chrome 67.0.3396.99,,2018-07-05 10:38:34,2018-07-05 10:38:34,0.049s,FAILED

@@ -1,0 +1,54 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+WorkBenchTestSuite,Chrome 67.0.3396.62,,2018-07-17 12:51:24,2018-07-17 12:56:55,5m - 31.648s,FAILED
+,,,,,,
+Test Cases/WorkBenchTestCases/Validate_CategoryMSPIncreaseAllocationQtyNotEditable,Chrome 67.0.3396.62,,2018-07-17 12:51:24,2018-07-17 12:52:16,51.666s,FAILED
+callTestCase,Chrome 67.0.3396.62,,2018-07-17 12:51:24,2018-07-17 12:51:54,29.205s,PASSED
+waitForElementVisible,Chrome 67.0.3396.62,,2018-07-17 12:51:54,2018-07-17 12:51:59,5.420s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-17 12:51:59,2018-07-17 12:52:16,16.731s,FAILED
+,,,,,,
+Test Cases/WorkBenchTestCases/Validate_ChannelMSPOutsideChannelQtyUpdateNotAllowed,Chrome 67.0.3396.62,,2018-07-17 12:52:16,2018-07-17 12:53:07,51.528s,FAILED
+callTestCase,Chrome 67.0.3396.62,,2018-07-17 12:52:16,2018-07-17 12:52:41,24.748s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-17 12:52:41,2018-07-17 12:52:45,4.006s,PASSED
+waitForElementPresent,Chrome 67.0.3396.62,,2018-07-17 12:52:45,2018-07-17 12:52:45,0.079s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-17 12:52:45,2018-07-17 12:52:45,0.107s,PASSED
+waitForElementVisible,Chrome 67.0.3396.62,,2018-07-17 12:52:45,2018-07-17 12:52:45,0.067s,PASSED
+sendKeys,Chrome 67.0.3396.62,,2018-07-17 12:52:45,2018-07-17 12:52:45,0.248s,PASSED
+waitForElementVisible,Chrome 67.0.3396.62,,2018-07-17 12:52:45,2018-07-17 12:52:51,5.437s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-17 12:52:51,2018-07-17 12:53:07,16.654s,FAILED
+,,,,,,
+Test Cases/WorkBenchTestCases/Verify_MatchOfPendingTaskForSumaryandWBforChanMSP,Chrome 67.0.3396.62,Verify if Category MS&P is authorised to do Increase allocation \n Increase allocation should only be readable for Category MS&P,2018-07-17 12:53:07,2018-07-17 12:54:12,1m - 4.119s,FAILED
+callTestCase,Chrome 67.0.3396.62,,2018-07-17 12:53:08,2018-07-17 12:53:34,25.863s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-17 12:53:34,2018-07-17 12:53:39,5.002s,PASSED
+Statement - ChanMSP_WB_Count = CustomKeywords.applicationLibrary.GetsPendingTaskCount_WBScreen.Get_PendingTask_Count_WBscreen(),Chrome 67.0.3396.62,,2018-07-17 12:53:39,2018-07-17 12:53:39,0.093s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-17 12:53:39,2018-07-17 12:53:39,0.151s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-17 12:53:39,2018-07-17 12:53:44,5.003s,PASSED
+waitForElementPresent,Chrome 67.0.3396.62,,2018-07-17 12:53:44,2018-07-17 12:53:44,0.081s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-17 12:53:44,2018-07-17 12:53:44,0.154s,PASSED
+waitForElementPresent,Chrome 67.0.3396.62,,2018-07-17 12:53:44,2018-07-17 12:53:55,10.895s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-17 12:53:55,2018-07-17 12:54:12,16.588s,FAILED
+,,,,,,
+Test Cases/WorkBenchTestCases/Verify_MatchOfPendingTaskForSumaryandWBforMAL,Chrome 67.0.3396.62,To verify the count listed under workbench should match with the count in summary,2018-07-17 12:54:12,2018-07-17 12:55:19,1m - 7.367s,FAILED
+callTestCase,Chrome 67.0.3396.62,,2018-07-17 12:54:12,2018-07-17 12:54:41,29.458s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-17 12:54:41,2018-07-17 12:54:46,5.002s,PASSED
+Statement - MAL_WB_Count = CustomKeywords.applicationLibrary.GetsPendingTaskCount_WBScreen.Get_PendingTask_Count_WBscreen(),Chrome 67.0.3396.62,,2018-07-17 12:54:46,2018-07-17 12:54:46,0.054s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-17 12:54:46,2018-07-17 12:54:46,0.165s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-17 12:54:46,2018-07-17 12:54:51,5.003s,PASSED
+waitForElementPresent,Chrome 67.0.3396.62,,2018-07-17 12:54:51,2018-07-17 12:54:51,0.071s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-17 12:54:51,2018-07-17 12:54:52,0.096s,PASSED
+waitForElementPresent,Chrome 67.0.3396.62,,2018-07-17 12:54:52,2018-07-17 12:55:02,10.799s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-17 12:55:02,2018-07-17 12:55:19,16.553s,FAILED
+,,,,,,
+Test Cases/WorkBenchTestCases/Verify_MALSKU_MovesToHistory,Chrome 67.0.3396.62,"To check if SKU's moves from \""Workbench\"" to \""History\"" on successful rescue",2018-07-17 12:55:19,2018-07-17 12:56:07,48.441s,FAILED
+callTestCase,Chrome 67.0.3396.62,,2018-07-17 12:55:19,2018-07-17 12:55:48,28.457s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-17 12:55:48,2018-07-17 12:55:51,3.003s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-17 12:55:51,2018-07-17 12:55:51,0.125s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-17 12:55:51,2018-07-17 12:56:07,16.667s,FAILED
+,,,,,,
+Test Cases/WorkBenchTestCases/Validate_ChannelMSPAuthorisedIncreaseAllocation,Chrome 67.0.3396.62,,2018-07-17 12:56:07,2018-07-17 12:56:55,47.381s,FAILED
+callTestCase,Chrome 67.0.3396.62,,2018-07-17 12:56:07,2018-07-17 12:56:32,24.844s,PASSED
+waitForElementPresent,Chrome 67.0.3396.62,,2018-07-17 12:56:32,2018-07-17 12:56:32,0.040s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-17 12:56:32,2018-07-17 12:56:32,0.107s,PASSED
+waitForElementVisible,Chrome 67.0.3396.62,,2018-07-17 12:56:32,2018-07-17 12:56:32,0.060s,PASSED
+sendKeys,Chrome 67.0.3396.62,,2018-07-17 12:56:32,2018-07-17 12:56:33,0.227s,PASSED
+waitForElementVisible,Chrome 67.0.3396.62,,2018-07-17 12:56:33,2018-07-17 12:56:38,5.397s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-17 12:56:38,2018-07-17 12:56:55,16.600s,FAILED

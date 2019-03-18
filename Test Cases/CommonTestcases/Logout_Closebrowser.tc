@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This is test case to logout of app</description>
+   <name>Logout_Closebrowser</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f4283707-eec1-4f2d-883d-f07455fda54d</testCaseGuid>
+</TestCaseEntity>

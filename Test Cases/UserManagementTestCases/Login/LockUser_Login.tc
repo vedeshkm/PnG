@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This scenario validates if user is getting popup saying user is locked if he is trying to login with a user credentials  which is locked and also validates the popup message</description>
+   <name>LockUser_Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f4a50bfa-8a08-4ea8-9ab1-632bb145d79f</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('credentialDetails/Credentials_IDPwd').getValue('LockID', 1)</defaultValue>
+      <description></description>
+      <id>26dfe125-4dfb-402a-96b5-3ab3e3b09d2d</id>
+      <masked>false</masked>
+      <name>ValidID</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('credentialDetails/Credentials_IDPwd').getValue('LockPwd', 1)</defaultValue>
+      <description></description>
+      <id>3e4d9f71-d299-45a9-9612-53e456ce33b4</id>
+      <masked>false</masked>
+      <name>InvalidPassword</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>926b2874-3ac1-4e5b-a047-bde3153a3fbe</id>
+      <masked>false</masked>
+      <name>AHeaderTxt</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>9dbb51ba-393a-44bb-8bba-899e3b8f3229</id>
+      <masked>false</masked>
+      <name>AContentTxt</name>
+   </variable>
+</TestCaseEntity>

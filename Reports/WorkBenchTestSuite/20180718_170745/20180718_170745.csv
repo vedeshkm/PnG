@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+WorkBenchTestSuite,Chrome 67.0.3396.62,,2018-07-18 17:28:36,2018-07-18 17:29:37,1m - 1.564s,FAILED
+,,,,,,
+Test Cases/WorkBenchTestCases/Validate_CategoryMSPIncreaseAllocationQtyNotEditable,Chrome 67.0.3396.62,,2018-07-18 17:28:41,2018-07-18 17:29:34,52.846s,FAILED
+callTestCase,Chrome 67.0.3396.62,,2018-07-18 17:28:41,2018-07-18 17:29:11,30.283s,PASSED
+waitForElementVisible,Chrome 67.0.3396.62,,2018-07-18 17:29:11,2018-07-18 17:29:17,5.499s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-18 17:29:17,2018-07-18 17:29:34,16.907s,FAILED

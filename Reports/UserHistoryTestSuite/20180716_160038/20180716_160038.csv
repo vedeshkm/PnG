@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+UserHistoryTestSuite,Chrome 67.0.3396.62,,2018-07-16 16:00:39,2018-07-16 16:01:53,1m - 13.788s,PASSED
+,,,,,,
+Test Cases/UserHIstoryTestCases/Verify_display_of_HistoryPage,Chrome 67.0.3396.62,,2018-07-16 16:00:40,2018-07-16 16:01:53,1m - 13.306s,PASSED
+callTestCase,Chrome 67.0.3396.62,,2018-07-16 16:00:40,2018-07-16 16:01:15,35.099s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-16 16:01:15,2018-07-16 16:01:18,3.012s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-16 16:01:18,2018-07-16 16:01:23,5.007s,PASSED
+waitForElementPresent,Chrome 67.0.3396.62,,2018-07-16 16:01:23,2018-07-16 16:01:23,0.189s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-16 16:01:23,2018-07-16 16:01:24,0.570s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-16 16:01:24,2018-07-16 16:01:29,5.002s,PASSED
+waitForElementPresent,Chrome 67.0.3396.62,,2018-07-16 16:01:29,2018-07-16 16:01:29,0.153s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-16 16:01:29,2018-07-16 16:01:29,0.292s,PASSED
+waitForElementPresent,Chrome 67.0.3396.62,,2018-07-16 16:01:29,2018-07-16 16:01:30,0.072s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-16 16:01:30,2018-07-16 16:01:30,0.327s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-16 16:01:30,2018-07-16 16:01:35,5.004s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-16 16:01:35,2018-07-16 16:01:35,0.474s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-16 16:01:35,2018-07-16 16:01:45,10.003s,PASSED
+Statement - rescue = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_History_Page/History_RescueStrategy)),Chrome 67.0.3396.62,,2018-07-16 16:01:45,2018-07-16 16:01:46,0.280s,PASSED
+scrollToElement,Chrome 67.0.3396.62,,2018-07-16 16:01:46,2018-07-16 16:01:46,0.231s,PASSED
+verifyMatch,Chrome 67.0.3396.62,,2018-07-16 16:01:46,2018-07-16 16:01:46,0.049s,PASSED
+verifyElementPresent,Chrome 67.0.3396.62,,2018-07-16 16:01:46,2018-07-16 16:01:46,0.106s,PASSED
+Statement - RemcomendationHistory = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_History_Page/History_OMVARecomendation)),Chrome 67.0.3396.62,,2018-07-16 16:01:46,2018-07-16 16:01:46,0.204s,PASSED
+verifyMatch,Chrome 67.0.3396.62,,2018-07-16 16:01:46,2018-07-16 16:01:46,0.061s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-16 16:01:46,2018-07-16 16:01:51,5.004s,PASSED
+"Statement - notEditable = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_History_Page/History_RescueStrategy), ""text"", OPTIONAL)",Chrome 67.0.3396.62,,2018-07-16 16:01:51,2018-07-16 16:01:52,0.944s,PASSED
+Statement - If (notEditable),Chrome 67.0.3396.62,,2018-07-16 16:01:52,2018-07-16 16:01:52,0.001s,PASSED
+Statement - Else,Chrome 67.0.3396.62,,2018-07-16 16:01:52,2018-07-16 16:01:52,0.012s,PASSED
+closeBrowser,Chrome 67.0.3396.62,,2018-07-16 16:01:52,2018-07-16 16:01:53,0.805s,PASSED

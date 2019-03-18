@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify the Exist userName in database</description>
+   <name>Verify_Duplicate_UserName</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0344fd40-a239-442a-be50-639a077686fc</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('CreateUser').getValue('UserName', 1)</defaultValue>
+      <description></description>
+      <id>f3179b8a-1d74-4183-9426-e5a54c34930a</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CreateUser').getValue('EmailID', 1)</defaultValue>
+      <description></description>
+      <id>5c8d5ef3-9805-4bb4-8bd2-44ef131dcde2</id>
+      <masked>false</masked>
+      <name>emailID</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CreateUser').getValue('FirstName', 1)</defaultValue>
+      <description></description>
+      <id>23b9052d-fcf9-4ca0-9a09-a8e5314a9dc2</id>
+      <masked>false</masked>
+      <name>firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CreateUser').getValue('LastName', 1)</defaultValue>
+      <description></description>
+      <id>12bb86df-61c9-4d1c-a779-86d87af762ec</id>
+      <masked>false</masked>
+      <name>lastName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CreateUser').getValue('Tnumber', 1)</defaultValue>
+      <description></description>
+      <id>89d1da52-e392-493f-bbc5-68bbe958c5a6</id>
+      <masked>false</masked>
+      <name>ticketNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>9fa14033-7dd7-4e2f-a71e-f4fae679e570</id>
+      <masked>false</masked>
+      <name>ActualToastMessage</name>
+   </variable>
+</TestCaseEntity>

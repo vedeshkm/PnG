@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To check if SKU's moves from &quot;Workbench&quot; to &quot;History&quot; on successful rescue</description>
+   <name>Verify_MALSKU_MovesToHistory</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4af5a1c8-fd31-4bdc-ad0e-7952c5bab8a0</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>d2d1b424-58d6-454c-85d6-42010b476a33</id>
+      <masked>false</masked>
+      <name>SKUID</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>f49b44ae-6fab-4c50-8ca6-fdf8f8a01b61</id>
+      <masked>false</masked>
+      <name>SelectedBatch</name>
+   </variable>
+</TestCaseEntity>

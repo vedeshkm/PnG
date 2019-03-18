@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="WorkBenchTestSuite" time="239" tests="3" failures="2" errors="0">
+   <testsuite name="WorkBenchTestSuite" tests="3" failures="2" errors="0" time="239" timestamp="2018-07-16 13:35:27" hostname="703177791 - 703177791GDL.IND.CORP.AD" id="Test Suites/WorkBenchTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\P&amp;G New\\Automation-P&amp;G-Code-Base\\OMVA\\Reports\\WorkBenchTestSuite\\20180716_132617"/>
+         <property name="logFiles" value="D:\\P&amp;G New\\Automation-P&amp;G-Code-Base\\OMVA\\Reports\\WorkBenchTestSuite\\20180716_132617\\execution0.log"/>
+         <property name="attachments" value="D:\\P&amp;G New\\Automation-P&amp;G-Code-Base\\OMVA\\Reports\\WorkBenchTestSuite\\20180716_132617\\1531728411320.png, D:\\P&amp;G New\\Automation-P&amp;G-Code-Base\\OMVA\\Reports\\WorkBenchTestSuite\\20180716_132617\\1531728565958.png"/>
+         <property name="hostName" value="703177791 - 703177791GDL.IND.CORP.AD"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.62"/>
+         <property name="hostAddress" value="192.168.34.59"/>
+         <property name="sessionId" value="6695fefc2995a2727562f1f366f8ac28"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/WorkBenchTestCases/Validate_CategoryMSPIncreaseAllocationQtyNotEditable" classname="Test Cases/WorkBenchTestCases/Validate_CategoryMSPIncreaseAllocationQtyNotEditable" status="PASSED">
+         <system-out><![CDATA[2018-07-16 13:35:28 - [TEST_CASE][PASSED] - Test Cases/WorkBenchTestCases/Validate_CategoryMSPIncreaseAllocationQtyNotEditable: Test Cases/WorkBenchTestCases/Validate_CategoryMSPIncreaseAllocationQtyNotEditable
+
+2018-07-16 13:35:28 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/UserManagementTestCases/Login/Login_ChannelMSP' successfully
+
+2018-07-16 13:35:31 - [TEST_CASE][PASSED] - Test Cases/UserManagementTestCases/Login/Login_ChannelMSP: Test Cases/UserManagementTestCases/Login/Login_ChannelMSP
+
+2018-07-16 13:35:32 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-16 13:35:32 - [TEST_CASE][PASSED] - Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL: Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL
+
+2018-07-16 13:35:32 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-16 13:35:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-16 13:35:36 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-16 13:35:43 - [MESSAGE][PASSED] - Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-16 13:35:43 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-16 13:35:44 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-16 13:35:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-16 13:35:44 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is not visible after 10 second(s)
+
+2018-07-16 13:35:55 - [MESSAGE][WARNING] - Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is not visible after 10 second(s)
+
+2018-07-16 13:35:55 - [TEST_STEP][PASSED] - sendKeys: Keys 'alvin' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-16 13:35:55 - [MESSAGE][PASSED] - Keys 'alvin' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-16 13:35:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-16 13:35:56 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-16 13:35:56 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-16 13:35:56 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-16 13:35:56 - [TEST_STEP][PASSED] - sendKeys: Keys 'alvin' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-16 13:35:56 - [MESSAGE][PASSED] - Keys 'alvin' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-16 13:35:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-16 13:35:56 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-16 13:35:56 - [TEST_STEP][PASSED] - waitForAngularLoad: This page doesn't use Angular.
+
+2018-07-16 13:35:56 - [MESSAGE][WARNING] - This page doesn't use Angular.
+
+2018-07-16 13:35:56 - [TEST_STEP][PASSED] - Statement - greetingtext = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_Landing_Page/Greeting_Label)): Text of object 'Object Repository/OMVA_Landing_Page/Greeting_Label' is: 'Good Afternoon, alvin'
+
+2018-07-16 13:35:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/OMVA_Landing_Page/Greeting_Label' is: 'Good Afternoon, alvin'
+
+2018-07-16 13:35:58 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Good Afternoon, alvin' and expected text '\D*alvin' are matched  using regular expression
+
+2018-07-16 13:35:58 - [MESSAGE][PASSED] - Actual text 'Good Afternoon, alvin' and expected text '\D*alvin' are matched  using regular expression
+
+2018-07-16 13:35:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UserManagementTestCases/Login/Login_ChannelMSP' successfully
+
+2018-07-16 13:35:58 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Workbench_Page/1st_SKUMaterial' is visible
+
+2018-07-16 13:35:58 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Workbench_Page/1st_SKUMaterial' is visible
+
+2018-07-16 13:35:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Workbench_Page/1st_SKUMaterial' is clicked on
+
+2018-07-16 13:35:59 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Workbench_Page/1st_SKUMaterial' is clicked on
+
+2018-07-16 13:35:59 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Summary_Page/SummaryText' is visible
+
+2018-07-16 13:35:59 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Summary_Page/SummaryText' is visible
+
+2018-07-16 13:35:59 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-07-16 13:36:03 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-16 13:36:03 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/OMVA_Landing_Page/OMVA_Recommendation' successfully
+
+2018-07-16 13:36:03 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/OMVA_Landing_Page/OMVA_Recommendation' successfully
+
+2018-07-16 13:36:03 - [TEST_STEP][PASSED] - waitForElementNotPresent: Web element with id: 'Object Repository/OMVA_Landing_Page/IncreaseAllocation_Summary' located by 'By.xpath: //LABEL[@_ngcontent-c8=''][text()='Increase Allocation']' is not present after '5' second(s)
+
+2018-07-16 13:36:03 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/OMVA_Landing_Page/IncreaseAllocation_Summary' located by 'By.xpath: //LABEL[@_ngcontent-c8=''][text()='Increase Allocation']' is not present after '5' second(s)
+
+2018-07-16 13:36:03 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/CommonTestcases/Logout_Closebrowser' successfully
+
+2018-07-16 13:36:03 - [TEST_CASE][PASSED] - Test Cases/CommonTestcases/Logout_Closebrowser: Test Cases/CommonTestcases/Logout_Closebrowser
+
+2018-07-16 13:36:04 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/OMVA_Landing_Page/User_icon' is present
+
+2018-07-16 13:36:04 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Landing_Page/User_icon' is present
+
+2018-07-16 13:36:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Landing_Page/User_icon' is clicked on
+
+2018-07-16 13:36:04 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Landing_Page/User_icon' is clicked on
+
+2018-07-16 13:36:04 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/OMVA_Landing_Page/Logout_link' is present
+
+2018-07-16 13:36:04 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Landing_Page/Logout_link' is present
+
+2018-07-16 13:36:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Landing_Page/Logout_link' is clicked on
+
+2018-07-16 13:36:04 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Landing_Page/Logout_link' is clicked on
+
+2018-07-16 13:36:04 - [TEST_STEP][PASSED] - waitForElementNotPresent: Web element with id: 'Object Repository/OMVA_Landing_Page/User_icon' located by 'By.xpath: //img[@id='dropdown']' is not present after '15' second(s)
+
+2018-07-16 13:36:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2018-07-16 13:36:05 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/OMVA_Landing_Page/User_icon' located by 'By.xpath: //img[@id='dropdown']' is not present after '15' second(s)
+
+2018-07-16 13:36:05 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-16 13:36:05 - [MESSAGE][PASSED] - Browser is closed
+
+2018-07-16 13:36:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonTestcases/Logout_Closebrowser' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WorkBenchTestCases/Validate_ChannelMSPAuthorisedIncreaseAllocation" classname="Test Cases/WorkBenchTestCases/Validate_ChannelMSPAuthorisedIncreaseAllocation" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/OMVA_Workbench_Page/1st_SKUMaterial' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Workbench_Page/1st_SKUMaterial' located by 'By.xpath: (//div[@id='parent']//descendant::h2[@data-parent='#parent'])[1]' not found)"/>
+         <system-out><![CDATA[2018-07-16 13:36:05 - [TEST_CASE][FAILED] - Test Cases/WorkBenchTestCases/Validate_ChannelMSPAuthorisedIncreaseAllocation: Test Cases/WorkBenchTestCases/Validate_ChannelMSPAuthorisedIncreaseAllocation FAILED because (of) Unable to click on object 'Object Repository/OMVA_Workbench_Page/1st_SKUMaterial' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Workbench_Page/1st_SKUMaterial' located by 'By.xpath: (//div[@id='parent']//descendant::h2[@data-parent='#parent'])[1]' not found)
+
+2018-07-16 13:36:06 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/UserManagementTestCases/Login/Login_ChannelMSP' successfully
+
+2018-07-16 13:36:06 - [TEST_CASE][PASSED] - Test Cases/UserManagementTestCases/Login/Login_ChannelMSP: Test Cases/UserManagementTestCases/Login/Login_ChannelMSP
+
+2018-07-16 13:36:06 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-16 13:36:06 - [TEST_CASE][PASSED] - Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL: Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL
+
+2018-07-16 13:36:06 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-16 13:36:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-16 13:36:09 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-16 13:36:15 - [MESSAGE][PASSED] - Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-16 13:36:15 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-16 13:36:17 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-16 13:36:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-16 13:36:17 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is not visible after 10 second(s)
+
+2018-07-16 13:36:27 - [MESSAGE][WARNING] - Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is not visible after 10 second(s)
+
+2018-07-16 13:36:27 - [TEST_STEP][PASSED] - sendKeys: Keys 'nicole' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-16 13:36:27 - [MESSAGE][PASSED] - Keys 'nicole' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-16 13:36:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-16 13:36:27 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-16 13:36:27 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-16 13:36:27 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-16 13:36:27 - [TEST_STEP][PASSED] - sendKeys: Keys 'nicole' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-16 13:36:28 - [MESSAGE][PASSED] - Keys 'nicole' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-16 13:36:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-16 13:36:28 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-16 13:36:28 - [TEST_STEP][PASSED] - waitForAngularLoad: This page doesn't use Angular.
+
+2018-07-16 13:36:28 - [MESSAGE][WARNING] - This page doesn't use Angular.
+
+2018-07-16 13:36:28 - [TEST_STEP][PASSED] - Statement - greetingtext = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_Landing_Page/Greeting_Label)): Text of object 'Object Repository/OMVA_Landing_Page/Greeting_Label' is: 'Good Afternoon, nicole'
+
+2018-07-16 13:36:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/OMVA_Landing_Page/Greeting_Label' is: 'Good Afternoon, nicole'
+
+2018-07-16 13:36:28 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Good Afternoon, nicole' and expected text '\D*nicole' are matched  using regular expression
+
+2018-07-16 13:36:28 - [MESSAGE][PASSED] - Actual text 'Good Afternoon, nicole' and expected text '\D*nicole' are matched  using regular expression
+
+2018-07-16 13:36:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UserManagementTestCases/Login/Login_ChannelMSP' successfully
+
+2018-07-16 13:36:28 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/OMVA_UserManagement_Page/Search_button' is present
+
+2018-07-16 13:36:28 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_UserManagement_Page/Search_button' is present
+
+2018-07-16 13:36:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_UserManagement_Page/Search_button' is clicked on
+
+2018-07-16 13:36:29 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_UserManagement_Page/Search_button' is clicked on
+
+2018-07-16 13:36:29 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_UserManagement_Page/Enter_Text_Search' is visible
+
+2018-07-16 13:36:29 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_UserManagement_Page/Enter_Text_Search' is visible
+
+2018-07-16 13:36:29 - [TEST_STEP][PASSED] - sendKeys: Keys '82273947' sent to object: 'Object Repository/OMVA_UserManagement_Page/Enter_Text_Search'
+
+2018-07-16 13:36:30 - [MESSAGE][PASSED] - Keys '82273947' sent to object: 'Object Repository/OMVA_UserManagement_Page/Enter_Text_Search'
+
+2018-07-16 13:36:30 - [TEST_STEP][PASSED] - waitForElementVisible: Web element with id: 'Object Repository/OMVA_Workbench_Page/1st_SKUMaterial' located by 'By.xpath: (//div[@id='parent']//descendant::h2[@data-parent='#parent'])[1]' not found
+
+2018-07-16 13:36:35 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/OMVA_Workbench_Page/1st_SKUMaterial' located by 'By.xpath: (//div[@id='parent']//descendant::h2[@data-parent='#parent'])[1]' not found
+
+2018-07-16 13:36:35 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/OMVA_Workbench_Page/1st_SKUMaterial' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Workbench_Page/1st_SKUMaterial' located by 'By.xpath: (//div[@id='parent']//descendant::h2[@data-parent='#parent'])[1]' not found)
+
+2018-07-16 13:36:51 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/OMVA_Workbench_Page/1st_SKUMaterial' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Workbench_Page/1st_SKUMaterial' located by 'By.xpath: (//div[@id='parent']//descendant::h2[@data-parent='#parent'])[1]' not found)
+[[ATTACHMENT|D:\\P&G New\\Automation-P&G-Code-Base\\OMVA\\Reports\\WorkBenchTestSuite\\20180716_132617\\1531728411320.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-16 13:36:05 - [TEST_CASE][FAILED] - Test Cases/WorkBenchTestCases/Validate_ChannelMSPAuthorisedIncreaseAllocation: Test Cases/WorkBenchTestCases/Validate_ChannelMSPAuthorisedIncreaseAllocation FAILED because (of) Unable to click on object 'Object Repository/OMVA_Workbench_Page/1st_SKUMaterial' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Workbench_Page/1st_SKUMaterial' located by 'By.xpath: (//div[@id='parent']//descendant::h2[@data-parent='#parent'])[1]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WorkBenchTestCases/Verify_MatchOfPendingTaskForSumaryandWBforChanMSP" classname="Test Cases/WorkBenchTestCases/Verify_MatchOfPendingTaskForSumaryandWBforChanMSP" status="PASSED">
+         <system-out><![CDATA[2018-07-16 13:36:51 - [TEST_CASE][PASSED] - Test Cases/WorkBenchTestCases/Verify_MatchOfPendingTaskForSumaryandWBforChanMSP: Test Cases/WorkBenchTestCases/Verify_MatchOfPendingTaskForSumaryandWBforChanMSP
+
+2018-07-16 13:36:51 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/UserManagementTestCases/Login/Login_ChannelMSP' successfully
+
+2018-07-16 13:36:52 - [TEST_CASE][PASSED] - Test Cases/UserManagementTestCases/Login/Login_ChannelMSP: Test Cases/UserManagementTestCases/Login/Login_ChannelMSP
+
+2018-07-16 13:36:52 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-16 13:36:52 - [TEST_CASE][PASSED] - Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL: Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL
+
+2018-07-16 13:36:52 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-16 13:36:52 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-07-16 13:36:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-16 13:36:55 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-16 13:37:02 - [MESSAGE][PASSED] - Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-16 13:37:02 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-16 13:37:04 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-16 13:37:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-16 13:37:04 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is not visible after 10 second(s)
+
+2018-07-16 13:37:14 - [MESSAGE][WARNING] - Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is not visible after 10 second(s)
+
+2018-07-16 13:37:14 - [TEST_STEP][PASSED] - sendKeys: Keys 'nicole' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-16 13:37:14 - [MESSAGE][PASSED] - Keys 'nicole' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-16 13:37:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-16 13:37:14 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-16 13:37:14 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-16 13:37:15 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-16 13:37:15 - [TEST_STEP][PASSED] - sendKeys: Keys 'nicole' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-16 13:37:15 - [MESSAGE][PASSED] - Keys 'nicole' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-16 13:37:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-16 13:37:15 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-16 13:37:15 - [TEST_STEP][PASSED] - waitForAngularLoad: This page doesn't use Angular.
+
+2018-07-16 13:37:15 - [MESSAGE][WARNING] - This page doesn't use Angular.
+
+2018-07-16 13:37:15 - [TEST_STEP][PASSED] - Statement - greetingtext = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_Landing_Page/Greeting_Label)): Text of object 'Object Repository/OMVA_Landing_Page/Greeting_Label' is: 'Good Afternoon, nicole'
+
+2018-07-16 13:37:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/OMVA_Landing_Page/Greeting_Label' is: 'Good Afternoon, nicole'
+
+2018-07-16 13:37:16 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Good Afternoon, nicole' and expected text '\D*nicole' are matched  using regular expression
+
+2018-07-16 13:37:16 - [MESSAGE][PASSED] - Actual text 'Good Afternoon, nicole' and expected text '\D*nicole' are matched  using regular expression
+
+2018-07-16 13:37:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UserManagementTestCases/Login/Login_ChannelMSP' successfully
+
+2018-07-16 13:37:16 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-16 13:37:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-16 13:37:21 - [TEST_STEP][PASSED] - Statement - ChanMSP_WB_Count = CustomKeywords.applicationLibrary.GetsPendingTaskCount_WBScreen.Get_PendingTask_Count_WBscreen(): applicationLibrary.GetsPendingTaskCount_WBScreen.Get_PendingTask_Count_WBscreen is PASSED
+
+2018-07-16 13:37:22 - [MESSAGE][PASSED] - applicationLibrary.GetsPendingTaskCount_WBScreen.Get_PendingTask_Count_WBscreen is PASSED
+
+2018-07-16 13:37:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Landing_Page/Summary_Logo' is clicked on
+
+2018-07-16 13:37:22 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Landing_Page/Summary_Logo' is clicked on
+
+2018-07-16 13:37:22 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-16 13:37:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-16 13:37:27 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/OMVA_Summary_Page/Customer_dropdown' is present
+
+2018-07-16 13:37:27 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Summary_Page/Customer_dropdown' is present
+
+2018-07-16 13:37:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Summary_Page/Customer_dropdown' is clicked on
+
+2018-07-16 13:37:27 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Summary_Page/Customer_dropdown' is clicked on
+
+2018-07-16 13:37:27 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/OMVA_Summary_Page/Select_puregold' is present
+
+2018-07-16 13:37:27 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Summary_Page/Select_puregold' is present
+
+2018-07-16 13:37:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Summary_Page/Select_puregold' is clicked on
+
+2018-07-16 13:37:27 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Summary_Page/Select_puregold' is clicked on
+
+2018-07-16 13:37:27 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-16 13:37:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-16 13:37:32 - [TEST_STEP][PASSED] - Statement - ChanMSP_S_Count = CustomKeywords.applicationLibrary.GetsPendingTaskCount_ChanMSP_SummaryScreen.Get_ChanMSPPendingTask_Count_Summaryscreen(): applicationLibrary.GetsPendingTaskCount_ChanMSP_SummaryScreen.Get_ChanMSPPendingTask_Count_Summaryscreen is PASSED
+
+2018-07-16 13:37:32 - [MESSAGE][PASSED] - applicationLibrary.GetsPendingTaskCount_ChanMSP_SummaryScreen.Get_ChanMSPPendingTask_Count_Summaryscreen is PASSED
+
+2018-07-16 13:37:32 - [TEST_STEP][PASSED] - verifyEqual: Actual object '3' and expected object '3' are equal
+
+2018-07-16 13:37:32 - [MESSAGE][PASSED] - Actual object '3' and expected object '3' are equal
+
+2018-07-16 13:37:32 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/CommonTestcases/Logout_Closebrowser' successfully
+
+2018-07-16 13:37:32 - [TEST_CASE][PASSED] - Test Cases/CommonTestcases/Logout_Closebrowser: Test Cases/CommonTestcases/Logout_Closebrowser
+
+2018-07-16 13:37:32 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/OMVA_Landing_Page/User_icon' is present
+
+2018-07-16 13:37:32 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Landing_Page/User_icon' is present
+
+2018-07-16 13:37:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Landing_Page/User_icon' is clicked on
+
+2018-07-16 13:37:32 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Landing_Page/User_icon' is clicked on
+
+2018-07-16 13:37:32 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/OMVA_Landing_Page/Logout_link' is present
+
+2018-07-16 13:37:32 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Landing_Page/Logout_link' is present
+
+2018-07-16 13:37:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Landing_Page/Logout_link' is clicked on
+
+2018-07-16 13:37:33 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Landing_Page/Logout_link' is clicked on
+
+2018-07-16 13:37:33 - [TEST_STEP][PASSED] - waitForElementNotPresent: Web element with id: 'Object Repository/OMVA_Landing_Page/User_icon' located by 'By.xpath: //img[@id='dropdown']' is not present after '15' second(s)
+
+2018-07-16 13:37:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2018-07-16 13:37:33 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/OMVA_Landing_Page/User_icon' located by 'By.xpath: //img[@id='dropdown']' is not present after '15' second(s)
+
+2018-07-16 13:37:33 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-16 13:37:34 - [MESSAGE][PASSED] - Browser is closed
+
+2018-07-16 13:37:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonTestcases/Logout_Closebrowser' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WorkBenchTestCases/Verify_MALSKU_MovesToHistory" classname="Test Cases/WorkBenchTestCases/Verify_MALSKU_MovesToHistory" status="PASSED">
+         <system-out><![CDATA[2018-07-16 13:37:34 - [TEST_CASE][PASSED] - Test Cases/WorkBenchTestCases/Verify_MALSKU_MovesToHistory: Test Cases/WorkBenchTestCases/Verify_MALSKU_MovesToHistory
+
+2018-07-16 13:37:34 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/UserManagementTestCases/Login/Login_ChannelMSP' successfully
+
+2018-07-16 13:37:34 - [TEST_CASE][PASSED] - Test Cases/UserManagementTestCases/Login/Login_ChannelMSP: Test Cases/UserManagementTestCases/Login/Login_ChannelMSP
+
+2018-07-16 13:37:34 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-16 13:37:34 - [TEST_CASE][PASSED] - Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL: Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL
+
+2018-07-16 13:37:35 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-16 13:37:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-16 13:37:37 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-16 13:37:42 - [MESSAGE][PASSED] - Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-16 13:37:42 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-16 13:37:43 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-16 13:37:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-16 13:37:43 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is not visible after 10 second(s)
+
+2018-07-16 13:37:54 - [MESSAGE][WARNING] - Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is not visible after 10 second(s)
+
+2018-07-16 13:37:54 - [TEST_STEP][PASSED] - sendKeys: Keys 'nicole' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-16 13:37:54 - [MESSAGE][PASSED] - Keys 'nicole' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-16 13:37:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-16 13:37:54 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-16 13:37:54 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-16 13:37:54 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-16 13:37:54 - [TEST_STEP][PASSED] - sendKeys: Keys 'nicole' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-16 13:37:55 - [MESSAGE][PASSED] - Keys 'nicole' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-16 13:37:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-16 13:37:55 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-16 13:37:55 - [TEST_STEP][PASSED] - waitForAngularLoad: This page doesn't use Angular.
+
+2018-07-16 13:37:55 - [MESSAGE][WARNING] - This page doesn't use Angular.
+
+2018-07-16 13:37:55 - [TEST_STEP][PASSED] - Statement - greetingtext = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_Landing_Page/Greeting_Label)): Text of object 'Object Repository/OMVA_Landing_Page/Greeting_Label' is: 'Good Afternoon, nicole'
+
+2018-07-16 13:37:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/OMVA_Landing_Page/Greeting_Label' is: 'Good Afternoon, nicole'
+
+2018-07-16 13:37:55 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Good Afternoon, nicole' and expected text '\D*nicole' are matched  using regular expression
+
+2018-07-16 13:37:55 - [MESSAGE][PASSED] - Actual text 'Good Afternoon, nicole' and expected text '\D*nicole' are matched  using regular expression
+
+2018-07-16 13:37:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UserManagementTestCases/Login/Login_ChannelMSP' successfully
+
+2018-07-16 13:37:55 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-16 13:37:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-16 13:37:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Summary_Page/Customer_dropdown' is clicked on
+
+2018-07-16 13:37:58 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Summary_Page/Customer_dropdown' is clicked on
+
+2018-07-16 13:37:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Summary_Page/Select_puregold' is clicked on
+
+2018-07-16 13:37:59 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Summary_Page/Select_puregold' is clicked on
+
+2018-07-16 13:37:59 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-16 13:38:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-16 13:38:04 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/OMVA_Workbench_Page/1st_SKUMaterial' is present
+
+2018-07-16 13:38:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2018-07-16 13:38:04 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Workbench_Page/1st_SKUMaterial' is present
+
+2018-07-16 13:38:04 - [TEST_STEP][PASSED] - Statement - SKUID = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_Workbench_Page/1st_SKUMaterial)): Text of object 'Object Repository/OMVA_Workbench_Page/1st_SKUMaterial' is: '82233332'
+
+2018-07-16 13:38:04 - [MESSAGE][PASSED] - Text of object 'Object Repository/OMVA_Workbench_Page/1st_SKUMaterial' is: '82233332'
+
+2018-07-16 13:38:04 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/OMVA_Workbench_Page/DONE_Btn' is present
+
+2018-07-16 13:38:04 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Workbench_Page/DONE_Btn' is present
+
+2018-07-16 13:38:04 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/OMVA_Workbench_Page/DONE_Btn' successfully
+
+2018-07-16 13:38:04 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/OMVA_Workbench_Page/DONE_Btn' successfully
+
+2018-07-16 13:38:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Workbench_Page/DONE_Btn' is clicked on
+
+2018-07-16 13:38:04 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Workbench_Page/DONE_Btn' is clicked on
+
+2018-07-16 13:38:04 - [TEST_STEP][PASSED] - applicationLibrary.ClicksOn1stBatchof_SKUID_andgetsBatchNo.ClickOnSKUInprogressBatch: applicationLibrary.ClicksOn1stBatchof_SKUID_andgetsBatchNo.ClickOnSKUInprogressBatch is PASSED
+
+2018-07-16 13:38:09 - [MESSAGE][PASSED] - applicationLibrary.ClicksOn1stBatchof_SKUID_andgetsBatchNo.ClickOnSKUInprogressBatch is PASSED
+
+2018-07-16 13:38:09 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-16 13:38:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-16 13:38:12 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/OMVA_Workbench_Page/Notify_Btn' is present
+
+2018-07-16 13:38:13 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Workbench_Page/Notify_Btn' is present
+
+2018-07-16 13:38:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Workbench_Page/Notify_Btn' is clicked on
+
+2018-07-16 13:38:13 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Workbench_Page/Notify_Btn' is clicked on
+
+2018-07-16 13:38:13 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-16 13:38:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-16 13:38:18 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/OMVA_Workbench_Page/ActionTaken_HeaderTxt' is present
+
+2018-07-16 13:38:18 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Workbench_Page/ActionTaken_HeaderTxt' is present
+
+2018-07-16 13:38:18 - [TEST_STEP][PASSED] - Statement - ActionTakenHTxt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_Workbench_Page/ActionTaken_HeaderTxt)): Text of object 'Object Repository/OMVA_Workbench_Page/ActionTaken_HeaderTxt' is: 'Action Taken'
+
+2018-07-16 13:38:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/OMVA_Workbench_Page/ActionTaken_HeaderTxt' is: 'Action Taken'
+
+2018-07-16 13:38:18 - [TEST_STEP][PASSED] - Statement - ActionTakenCTxt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_Workbench_Page/ActionTaken_ContenetTxt)): Text of object 'Object Repository/OMVA_Workbench_Page/ActionTaken_ContenetTxt' is: 'Email has been triggered to SMO stakeholders to update allocations in SAP.'
+
+2018-07-16 13:38:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/OMVA_Workbench_Page/ActionTaken_ContenetTxt' is: 'Email has been triggered to SMO stakeholders to update allocations in SAP.'
+
+2018-07-16 13:38:18 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Action Taken' and expected text 'Action Taken' are matched  using regular expression
+
+2018-07-16 13:38:18 - [MESSAGE][PASSED] - Actual text 'Action Taken' and expected text 'Action Taken' are matched  using regular expression
+
+2018-07-16 13:38:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Workbench_Page/ActionTaken_CrossBtn' is clicked on
+
+2018-07-16 13:38:18 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Workbench_Page/ActionTaken_CrossBtn' is clicked on
+
+2018-07-16 13:38:18 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Email has been triggered to SMO stakeholders to update allocations in SAP.' and expected text 'Email has been triggered to SMO stakeholders to update allocations in SAP.' are matched  using regular expression
+
+2018-07-16 13:38:18 - [MESSAGE][PASSED] - Actual text 'Email has been triggered to SMO stakeholders to update allocations in SAP.' and expected text 'Email has been triggered to SMO stakeholders to update allocations in SAP.' are matched  using regular expression
+
+2018-07-16 13:38:18 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-16 13:38:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-16 13:38:23 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/OMVA_Landing_Page/History_Logo' is present
+
+2018-07-16 13:38:24 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Landing_Page/History_Logo' is present
+
+2018-07-16 13:38:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Landing_Page/History_Logo' is clicked on
+
+2018-07-16 13:38:24 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Landing_Page/History_Logo' is clicked on
+
+2018-07-16 13:38:24 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-16 13:38:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-16 13:38:29 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/OMVA_Summary_Page/Customer_dropdown' is present
+
+2018-07-16 13:38:29 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Summary_Page/Customer_dropdown' is present
+
+2018-07-16 13:38:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Summary_Page/Customer_dropdown' is clicked on
+
+2018-07-16 13:38:29 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Summary_Page/Customer_dropdown' is clicked on
+
+2018-07-16 13:38:29 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/OMVA_Summary_Page/Select_puregold' is present
+
+2018-07-16 13:38:29 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Summary_Page/Select_puregold' is present
+
+2018-07-16 13:38:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Summary_Page/Select_puregold' is clicked on
+
+2018-07-16 13:38:29 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Summary_Page/Select_puregold' is clicked on
+
+2018-07-16 13:38:29 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-16 13:38:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-16 13:38:32 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/OMVA_Landing_Page/Search_icon' is present
+
+2018-07-16 13:38:32 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Landing_Page/Search_icon' is present
+
+2018-07-16 13:38:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Landing_Page/Search_icon' is clicked on
+
+2018-07-16 13:38:32 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Landing_Page/Search_icon' is clicked on
+
+2018-07-16 13:38:32 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/OMVA_Landing_Page/Type_Here' is present
+
+2018-07-16 13:38:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2018-07-16 13:38:32 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Landing_Page/Type_Here' is present
+
+2018-07-16 13:38:32 - [TEST_STEP][PASSED] - sendKeys: Keys '82233332' sent to object: 'Object Repository/OMVA_Landing_Page/Type_Here'
+
+2018-07-16 13:38:33 - [MESSAGE][PASSED] - Keys '82233332' sent to object: 'Object Repository/OMVA_Landing_Page/Type_Here'
+
+2018-07-16 13:38:33 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-16 13:38:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-16 13:38:36 - [TEST_STEP][PASSED] - Statement - searchedsku = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_Workbench_Page/1st_SKUMaterial)): Text of object 'Object Repository/OMVA_Workbench_Page/1st_SKUMaterial' is: '82233332'
+
+2018-07-16 13:38:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/OMVA_Workbench_Page/1st_SKUMaterial' is: '82233332'
+
+2018-07-16 13:38:36 - [TEST_STEP][NOT_RUN] - applicationLibrary.Checks_SelectedBatchIsDisplayedInHistory.ChecksBatchIsDisplayedInHistory: NOT_RUN: applicationLibrary.Checks_SelectedBatchIsDisplayedInHistory.ChecksBatchIsDisplayedInHistory
+
+2018-07-16 13:38:36 - [MESSAGE][NOT_RUN] - NOT_RUN: applicationLibrary.Checks_SelectedBatchIsDisplayedInHistory.ChecksBatchIsDisplayedInHistory
+
+2018-07-16 13:38:36 - [TEST_STEP][PASSED] - verifyMatch: Actual text '82233332' and expected text '82233332' are matched 
+
+2018-07-16 13:38:36 - [MESSAGE][PASSED] - Actual text '82233332' and expected text '82233332' are matched 
+
+2018-07-16 13:38:36 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-16 13:38:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WorkBenchTestCases/Validate_ChannelMSPOutsideChannelQtyUpdateNotAllowed" classname="Test Cases/WorkBenchTestCases/Validate_ChannelMSPOutsideChannelQtyUpdateNotAllowed" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/OMVA_Workbench_Page/1st_SKUMaterial' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Workbench_Page/1st_SKUMaterial' located by 'By.xpath: (//div[@id='parent']//descendant::h2[@data-parent='#parent'])[1]' not found)"/>
+         <system-out><![CDATA[2018-07-16 13:38:37 - [TEST_CASE][FAILED] - Test Cases/WorkBenchTestCases/Validate_ChannelMSPOutsideChannelQtyUpdateNotAllowed: Test Cases/WorkBenchTestCases/Validate_ChannelMSPOutsideChannelQtyUpdateNotAllowed FAILED because (of) Unable to click on object 'Object Repository/OMVA_Workbench_Page/1st_SKUMaterial' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Workbench_Page/1st_SKUMaterial' located by 'By.xpath: (//div[@id='parent']//descendant::h2[@data-parent='#parent'])[1]' not found)
+
+2018-07-16 13:38:37 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/UserManagementTestCases/Login/Login_ChannelMSP' successfully
+
+2018-07-16 13:38:37 - [TEST_CASE][PASSED] - Test Cases/UserManagementTestCases/Login/Login_ChannelMSP: Test Cases/UserManagementTestCases/Login/Login_ChannelMSP
+
+2018-07-16 13:38:37 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-16 13:38:37 - [TEST_CASE][PASSED] - Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL: Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL
+
+2018-07-16 13:38:37 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-16 13:38:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-16 13:38:39 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-16 13:38:46 - [MESSAGE][PASSED] - Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-16 13:38:46 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-16 13:38:47 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-16 13:38:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-16 13:38:47 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is not visible after 10 second(s)
+
+2018-07-16 13:38:58 - [MESSAGE][WARNING] - Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is not visible after 10 second(s)
+
+2018-07-16 13:38:58 - [TEST_STEP][PASSED] - sendKeys: Keys 'nicole' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-16 13:38:58 - [MESSAGE][PASSED] - Keys 'nicole' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-16 13:38:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-16 13:38:58 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-16 13:38:58 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-16 13:38:59 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-16 13:38:59 - [TEST_STEP][PASSED] - sendKeys: Keys 'nicole' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-16 13:38:59 - [MESSAGE][PASSED] - Keys 'nicole' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-16 13:38:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-16 13:38:59 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-16 13:38:59 - [TEST_STEP][PASSED] - waitForAngularLoad: This page doesn't use Angular.
+
+2018-07-16 13:38:59 - [MESSAGE][WARNING] - This page doesn't use Angular.
+
+2018-07-16 13:38:59 - [TEST_STEP][PASSED] - Statement - greetingtext = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_Landing_Page/Greeting_Label)): Text of object 'Object Repository/OMVA_Landing_Page/Greeting_Label' is: 'Good Afternoon, nicole'
+
+2018-07-16 13:39:00 - [MESSAGE][PASSED] - Text of object 'Object Repository/OMVA_Landing_Page/Greeting_Label' is: 'Good Afternoon, nicole'
+
+2018-07-16 13:39:00 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Good Afternoon, nicole' and expected text '\D*nicole' are matched  using regular expression
+
+2018-07-16 13:39:00 - [MESSAGE][PASSED] - Actual text 'Good Afternoon, nicole' and expected text '\D*nicole' are matched  using regular expression
+
+2018-07-16 13:39:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UserManagementTestCases/Login/Login_ChannelMSP' successfully
+
+2018-07-16 13:39:00 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-07-16 13:39:04 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-16 13:39:04 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/OMVA_UserManagement_Page/Search_button' is present
+
+2018-07-16 13:39:04 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_UserManagement_Page/Search_button' is present
+
+2018-07-16 13:39:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_UserManagement_Page/Search_button' is clicked on
+
+2018-07-16 13:39:04 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_UserManagement_Page/Search_button' is clicked on
+
+2018-07-16 13:39:04 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_UserManagement_Page/Enter_Text_Search' is visible
+
+2018-07-16 13:39:04 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_UserManagement_Page/Enter_Text_Search' is visible
+
+2018-07-16 13:39:04 - [TEST_STEP][PASSED] - sendKeys: Keys '82273947' sent to object: 'Object Repository/OMVA_UserManagement_Page/Enter_Text_Search'
+
+2018-07-16 13:39:05 - [MESSAGE][PASSED] - Keys '82273947' sent to object: 'Object Repository/OMVA_UserManagement_Page/Enter_Text_Search'
+
+2018-07-16 13:39:05 - [TEST_STEP][PASSED] - waitForElementVisible: Web element with id: 'Object Repository/OMVA_Workbench_Page/1st_SKUMaterial' located by 'By.xpath: (//div[@id='parent']//descendant::h2[@data-parent='#parent'])[1]' not found
+
+2018-07-16 13:39:10 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/OMVA_Workbench_Page/1st_SKUMaterial' located by 'By.xpath: (//div[@id='parent']//descendant::h2[@data-parent='#parent'])[1]' not found
+
+2018-07-16 13:39:10 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/OMVA_Workbench_Page/1st_SKUMaterial' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Workbench_Page/1st_SKUMaterial' located by 'By.xpath: (//div[@id='parent']//descendant::h2[@data-parent='#parent'])[1]' not found)
+
+2018-07-16 13:39:26 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/OMVA_Workbench_Page/1st_SKUMaterial' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Workbench_Page/1st_SKUMaterial' located by 'By.xpath: (//div[@id='parent']//descendant::h2[@data-parent='#parent'])[1]' not found)
+[[ATTACHMENT|D:\\P&G New\\Automation-P&G-Code-Base\\OMVA\\Reports\\WorkBenchTestSuite\\20180716_132617\\1531728565958.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-16 13:38:37 - [TEST_CASE][FAILED] - Test Cases/WorkBenchTestCases/Validate_ChannelMSPOutsideChannelQtyUpdateNotAllowed: Test Cases/WorkBenchTestCases/Validate_ChannelMSPOutsideChannelQtyUpdateNotAllowed FAILED because (of) Unable to click on object 'Object Repository/OMVA_Workbench_Page/1st_SKUMaterial' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Workbench_Page/1st_SKUMaterial' located by 'By.xpath: (//div[@id='parent']//descendant::h2[@data-parent='#parent'])[1]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-16 13:35:27 - [TEST_SUITE][FAILED] - WorkBenchTestSuite: Test Cases/WorkBenchTestCases/Validate_ChannelMSPAuthorisedIncreaseAllocation FAILED because (of) Unable to click on object 'Object Repository/OMVA_Workbench_Page/1st_SKUMaterial' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Workbench_Page/1st_SKUMaterial' located by 'By.xpath: (//div[@id='parent']//descendant::h2[@data-parent='#parent'])[1]' not found)]]></system-out>
+      <system-err><![CDATA[2018-07-16 13:35:27 - [TEST_SUITE][FAILED] - WorkBenchTestSuite: Test Cases/WorkBenchTestCases/Validate_ChannelMSPAuthorisedIncreaseAllocation FAILED because (of) Unable to click on object 'Object Repository/OMVA_Workbench_Page/1st_SKUMaterial' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Workbench_Page/1st_SKUMaterial' located by 'By.xpath: (//div[@id='parent']//descendant::h2[@data-parent='#parent'])[1]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

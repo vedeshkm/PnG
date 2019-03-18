@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Validate_CategoryMSPIncreaseAllocationQtyNotEditable</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>57b2e6f0-5b6c-4368-b891-864c8e89f31a</testCaseGuid>
+</TestCaseEntity>

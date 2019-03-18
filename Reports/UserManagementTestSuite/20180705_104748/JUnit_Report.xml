@@ -1,0 +1,1581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="UserManagementTestSuite" time="342" tests="10" failures="0" errors="0">
+   <testsuite name="UserManagementTestSuite" tests="10" failures="0" errors="0" time="342" timestamp="2018-07-05 10:47:54" hostname="vijay.n - EDT-168.estblr.com" id="Test Suites/UserManagementTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Automation_P&amp;G\\Automation-P&amp;G-Code-Base\\OMVA\\Reports\\UserManagementTestSuite\\20180705_104748"/>
+         <property name="logFiles" value="D:\\Automation_P&amp;G\\Automation-P&amp;G-Code-Base\\OMVA\\Reports\\UserManagementTestSuite\\20180705_104748\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="vijay.n - EDT-168.estblr.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="172.16.17.168"/>
+         <property name="sessionId" value="4fdfdfda9c126a1aa55ec5f8c443ab6f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/UserManagementTestCases/Login/Invalid_Login" classname="Test Cases/UserManagementTestCases/Login/Invalid_Login" status="PASSED">
+         <system-out><![CDATA[2018-07-05 10:47:54 - [TEST_CASE][PASSED] - Test Cases/UserManagementTestCases/Login/Invalid_Login: Test Cases/UserManagementTestCases/Login/Invalid_Login
+
+2018-07-05 10:47:56 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-05 10:47:56 - [TEST_CASE][PASSED] - Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL: Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL
+
+2018-07-05 10:47:56 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-05 10:48:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-05 10:48:01 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-05 10:48:14 - [MESSAGE][PASSED] - Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-05 10:48:14 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-05 10:48:14 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-05 10:48:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-05 10:48:14 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Username_Textbox' is visible
+
+2018-07-05 10:48:14 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/Username_Textbox' is visible
+
+2018-07-05 10:48:14 - [TEST_STEP][PASSED] - sendKeys: Keys 'asdf' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-05 10:48:14 - [MESSAGE][PASSED] - Keys 'asdf' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-05 10:48:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-05 10:48:14 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-05 10:48:14 - [TEST_STEP][PASSED] - Statement - If (true): null
+
+2018-07-05 10:48:14 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-05 10:48:15 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-05 10:48:15 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2018-07-05 10:48:15 - [TEST_STEP][PASSED] - sendKeys: Keys 'qwerty' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-05 10:48:15 - [MESSAGE][PASSED] - Keys 'qwerty' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-05 10:48:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-05 10:48:15 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-05 10:48:15 - [TEST_STEP][PASSED] - Statement - AHeaderTxt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_Login_Page/InvalidLogin_HeaderTxt)): Text of object 'Object Repository/OMVA_Login_Page/InvalidLogin_HeaderTxt' is: 'Invalid Credentials'
+
+2018-07-05 10:48:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/OMVA_Login_Page/InvalidLogin_HeaderTxt' is: 'Invalid Credentials'
+
+2018-07-05 10:48:16 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Invalid Credentials' and expected text 'Invalid Credentials' are matched  using regular expression
+
+2018-07-05 10:48:16 - [MESSAGE][PASSED] - Actual text 'Invalid Credentials' and expected text 'Invalid Credentials' are matched  using regular expression
+
+2018-07-05 10:48:16 - [TEST_STEP][PASSED] - Statement - AContentTxt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_Login_Page/InvalidLogin_ContentTxt)): Text of object 'Object Repository/OMVA_Login_Page/InvalidLogin_ContentTxt' is: 'The specified username / password is invalid. Please try again.'
+
+2018-07-05 10:48:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/OMVA_Login_Page/InvalidLogin_ContentTxt' is: 'The specified username / password is invalid. Please try again.'
+
+2018-07-05 10:48:16 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'The specified username / password is invalid. Please try again.' and expected text 'The specified username / password is invalid. Please try again.' are matched  using regular expression
+
+2018-07-05 10:48:16 - [MESSAGE][PASSED] - Actual text 'The specified username / password is invalid. Please try again.' and expected text 'The specified username / password is invalid. Please try again.' are matched  using regular expression
+
+2018-07-05 10:48:16 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/InvalidLogin_OKbtn' is visible
+
+2018-07-05 10:48:16 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/InvalidLogin_OKbtn' is visible
+
+2018-07-05 10:48:16 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2018-07-05 10:48:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/InvalidLogin_OKbtn' is clicked on
+
+2018-07-05 10:48:16 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/InvalidLogin_OKbtn' is clicked on
+
+2018-07-05 10:48:16 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-05 10:48:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UserManagementTestCases/Login/Valid_Login" classname="Test Cases/UserManagementTestCases/Login/Valid_Login" status="PASSED">
+         <system-out><![CDATA[2018-07-05 10:48:17 - [TEST_CASE][PASSED] - Test Cases/UserManagementTestCases/Login/Valid_Login: Test Cases/UserManagementTestCases/Login/Valid_Login
+
+2018-07-05 10:48:17 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-05 10:48:17 - [TEST_CASE][PASSED] - Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL: Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL
+
+2018-07-05 10:48:17 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-05 10:48:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-05 10:48:20 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-05 10:48:35 - [MESSAGE][PASSED] - Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-05 10:48:35 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-05 10:48:35 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-05 10:48:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-05 10:48:35 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Username_Textbox' is visible
+
+2018-07-05 10:48:35 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/Username_Textbox' is visible
+
+2018-07-05 10:48:35 - [TEST_STEP][PASSED] - sendKeys: Keys 'SuperAdmin' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-05 10:48:35 - [MESSAGE][PASSED] - Keys 'SuperAdmin' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-05 10:48:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-05 10:48:35 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-05 10:48:35 - [TEST_STEP][PASSED] - Statement - If (true): null
+
+2018-07-05 10:48:35 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-05 10:48:36 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-05 10:48:36 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2018-07-05 10:48:36 - [TEST_STEP][PASSED] - sendKeys: Keys 'SuperAdmin' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-05 10:48:36 - [MESSAGE][PASSED] - Keys 'SuperAdmin' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-05 10:48:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-05 10:48:36 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-05 10:48:36 - [TEST_STEP][PASSED] - waitForAngularLoad: This page doesn't use Angular.
+
+2018-07-05 10:48:36 - [MESSAGE][WARNING] - This page doesn't use Angular.
+
+2018-07-05 10:48:36 - [TEST_STEP][PASSED] - Statement - greetingtext = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_Landing_Page/Greeting_Label)): Text of object 'Object Repository/OMVA_Landing_Page/Greeting_Label' is: 'Good Morning, SuperAdmin'
+
+2018-07-05 10:48:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/OMVA_Landing_Page/Greeting_Label' is: 'Good Morning, SuperAdmin'
+
+2018-07-05 10:48:37 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Good Morning, SuperAdmin' and expected text '\D*SuperAdmin' are matched  using regular expression
+
+2018-07-05 10:48:37 - [MESSAGE][PASSED] - Actual text 'Good Morning, SuperAdmin' and expected text '\D*SuperAdmin' are matched  using regular expression
+
+2018-07-05 10:48:37 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-05 10:48:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UserManagementTestCases/CreateUser/Create_User_Validate" classname="Test Cases/UserManagementTestCases/CreateUser/Create_User_Validate" status="PASSED">
+         <system-out><![CDATA[2018-07-05 10:48:38 - [TEST_CASE][PASSED] - Test Cases/UserManagementTestCases/CreateUser/Create_User_Validate: Test Cases/UserManagementTestCases/CreateUser/Create_User_Validate
+
+2018-07-05 10:48:38 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-05 10:48:38 - [TEST_CASE][PASSED] - Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL: Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL
+
+2018-07-05 10:48:38 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-05 10:48:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-05 10:48:40 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-05 10:48:52 - [MESSAGE][PASSED] - Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-05 10:48:52 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-05 10:48:52 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-05 10:48:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-05 10:48:52 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Username_Textbox' is visible
+
+2018-07-05 10:48:52 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/Username_Textbox' is visible
+
+2018-07-05 10:48:52 - [TEST_STEP][PASSED] - sendKeys: Keys 'SuperAdmin' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-05 10:48:52 - [MESSAGE][PASSED] - Keys 'SuperAdmin' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-05 10:48:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-05 10:48:52 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-05 10:48:52 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-05 10:48:53 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-05 10:48:53 - [TEST_STEP][PASSED] - sendKeys: Keys 'SuperAdmin' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-05 10:48:53 - [MESSAGE][PASSED] - Keys 'SuperAdmin' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-05 10:48:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-05 10:48:53 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-05 10:48:53 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-05 10:48:53 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-05 10:48:53 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-05 10:48:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-05 10:48:58 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/OMVA_Landing_Page/CreateUser_Button' is present
+
+2018-07-05 10:48:58 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Landing_Page/CreateUser_Button' is present
+
+2018-07-05 10:48:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Landing_Page/CreateUser_Button' is clicked on
+
+2018-07-05 10:48:58 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Landing_Page/CreateUser_Button' is clicked on
+
+2018-07-05 10:48:58 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-05 10:49:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-05 10:49:01 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/OMVA_UserManagement_Page/Role_Dropdown' is present
+
+2018-07-05 10:49:02 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_UserManagement_Page/Role_Dropdown' is present
+
+2018-07-05 10:49:02 - [TEST_STEP][PASSED] - Statement - If (true): null
+
+2018-07-05 10:49:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_UserManagement_Page/Role_Dropdown' is clicked on
+
+2018-07-05 10:49:02 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_UserManagement_Page/Role_Dropdown' is clicked on
+
+2018-07-05 10:49:02 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2018-07-05 10:49:02 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/OMVA_UserManagement_Page/DropdownOption_RoleDropdown_Market Admin' successfully
+
+2018-07-05 10:49:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2018-07-05 10:49:02 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/OMVA_UserManagement_Page/DropdownOption_RoleDropdown_Market Admin' successfully
+
+2018-07-05 10:49:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_UserManagement_Page/DropdownOption_RoleDropdown_Market Admin' is clicked on
+
+2018-07-05 10:49:02 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_UserManagement_Page/DropdownOption_RoleDropdown_Market Admin' is clicked on
+
+2018-07-05 10:49:02 - [TEST_STEP][PASSED] - Statement - username = CustomKeywords.commonLibrary.commonFunctions.randomStringFunction("abcdefghijklmnopqrstuvwxyz", 6): commonLibrary.commonFunctions.randomStringFunction is PASSED
+
+2018-07-05 10:49:02 - [MESSAGE][PASSED] - commonLibrary.commonFunctions.randomStringFunction is PASSED
+
+2018-07-05 10:49:02 - [TEST_STEP][PASSED] - Statement - println(username): null
+
+2018-07-05 10:49:02 - [TEST_STEP][PASSED] - Statement - uname = username.toString(): null
+
+2018-07-05 10:49:02 - [TEST_STEP][PASSED] - sendKeys: Keys 'dksxsi' sent to object: 'Object Repository/OMVA_UserManagement_Page/UserName_Textbox'
+
+2018-07-05 10:49:02 - [MESSAGE][PASSED] - Keys 'dksxsi' sent to object: 'Object Repository/OMVA_UserManagement_Page/UserName_Textbox'
+
+2018-07-05 10:49:02 - [TEST_STEP][PASSED] - Statement - emailidprefix = CustomKeywords.commonLibrary.commonFunctions.randomStringFunction("abcdefghijklmnopqrstuvwxyz", 9): commonLibrary.commonFunctions.randomStringFunction is PASSED
+
+2018-07-05 10:49:02 - [MESSAGE][PASSED] - commonLibrary.commonFunctions.randomStringFunction is PASSED
+
+2018-07-05 10:49:02 - [TEST_STEP][PASSED] - sendKeys: Keys 'jjluedglv@autotestpg.com' sent to object: 'Object Repository/OMVA_UserManagement_Page/EmailID_Textbox'
+
+2018-07-05 10:49:03 - [MESSAGE][PASSED] - Keys 'jjluedglv@autotestpg.com' sent to object: 'Object Repository/OMVA_UserManagement_Page/EmailID_Textbox'
+
+2018-07-05 10:49:03 - [TEST_STEP][PASSED] - Statement - firstname = CustomKeywords.commonLibrary.commonFunctions.randomStringFunction("abcdefghijklmnopqrstuvwxyz", 7): commonLibrary.commonFunctions.randomStringFunction is PASSED
+
+2018-07-05 10:49:03 - [MESSAGE][PASSED] - commonLibrary.commonFunctions.randomStringFunction is PASSED
+
+2018-07-05 10:49:03 - [TEST_STEP][PASSED] - sendKeys: Keys 'pkeeptt' sent to object: 'Object Repository/OMVA_UserManagement_Page/FirstName_Textbox'
+
+2018-07-05 10:49:03 - [MESSAGE][PASSED] - Keys 'pkeeptt' sent to object: 'Object Repository/OMVA_UserManagement_Page/FirstName_Textbox'
+
+2018-07-05 10:49:03 - [TEST_STEP][PASSED] - Statement - lastname = CustomKeywords.commonLibrary.commonFunctions.randomStringFunction("abcdefghijklmnopqrstuvwxyz", 7): commonLibrary.commonFunctions.randomStringFunction is PASSED
+
+2018-07-05 10:49:03 - [MESSAGE][PASSED] - commonLibrary.commonFunctions.randomStringFunction is PASSED
+
+2018-07-05 10:49:03 - [TEST_STEP][PASSED] - sendKeys: Keys 'smpteix' sent to object: 'Object Repository/OMVA_UserManagement_Page/LastName_Textbox'
+
+2018-07-05 10:49:03 - [MESSAGE][PASSED] - Keys 'smpteix' sent to object: 'Object Repository/OMVA_UserManagement_Page/LastName_Textbox'
+
+2018-07-05 10:49:03 - [TEST_STEP][PASSED] - Statement - ticketnum = CustomKeywords.commonLibrary.commonFunctions.randomStringFunction("123456789", 7): commonLibrary.commonFunctions.randomStringFunction is PASSED
+
+2018-07-05 10:49:03 - [MESSAGE][PASSED] - commonLibrary.commonFunctions.randomStringFunction is PASSED
+
+2018-07-05 10:49:03 - [TEST_STEP][PASSED] - sendKeys: Keys '1742566' sent to object: 'Object Repository/OMVA_UserManagement_Page/TicketNumber_Textbox'
+
+2018-07-05 10:49:03 - [MESSAGE][PASSED] - Keys '1742566' sent to object: 'Object Repository/OMVA_UserManagement_Page/TicketNumber_Textbox'
+
+2018-07-05 10:49:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_UserManagement_Page/Next_Button' is clicked on
+
+2018-07-05 10:49:03 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_UserManagement_Page/Next_Button' is clicked on
+
+2018-07-05 10:49:03 - [TEST_STEP][PASSED] - applicationLibrary.checkboxMultiselection.multiselectCheckbox: applicationLibrary.checkboxMultiselection.multiselectCheckbox is PASSED
+
+2018-07-05 10:49:05 - [MESSAGE][PASSED] - applicationLibrary.checkboxMultiselection.multiselectCheckbox is PASSED
+
+2018-07-05 10:49:05 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/OMVA_UserManagement_Page/Customer_Next_Btn' successfully
+
+2018-07-05 10:49:06 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/OMVA_UserManagement_Page/Customer_Next_Btn' successfully
+
+2018-07-05 10:49:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_UserManagement_Page/Customer_Next_Btn' is clicked on
+
+2018-07-05 10:49:06 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_UserManagement_Page/Customer_Next_Btn' is clicked on
+
+2018-07-05 10:49:06 - [TEST_STEP][PASSED] - applicationLibrary.checkboxMultiselection.multiselectCheckbox: applicationLibrary.checkboxMultiselection.multiselectCheckbox is PASSED
+
+2018-07-05 10:49:08 - [MESSAGE][PASSED] - applicationLibrary.checkboxMultiselection.multiselectCheckbox is PASSED
+
+2018-07-05 10:49:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_UserManagement_Page/UserCreation_Save_Btn' is clicked on
+
+2018-07-05 10:49:08 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_UserManagement_Page/UserCreation_Save_Btn' is clicked on
+
+2018-07-05 10:49:08 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/OMVA_UserManagement_Page/UserCreation_HeaderTxt' is present
+
+2018-07-05 10:49:09 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_UserManagement_Page/UserCreation_HeaderTxt' is present
+
+2018-07-05 10:49:09 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/OMVA_UserManagement_Page/UserCreation_HeaderTxt' are matched.
+
+2018-07-05 10:49:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/OMVA_UserManagement_Page/UserCreation_HeaderTxt' are matched.
+
+2018-07-05 10:49:09 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/OMVA_UserManagement_Page/UserCreation_ContentTxt' are matched.
+
+2018-07-05 10:49:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/OMVA_UserManagement_Page/UserCreation_ContentTxt' are matched.
+
+2018-07-05 10:49:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_UserManagement_Page/UserCreation_OK_Btn' is clicked on
+
+2018-07-05 10:49:09 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_UserManagement_Page/UserCreation_OK_Btn' is clicked on
+
+2018-07-05 10:49:09 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-05 10:49:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-05 10:49:14 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/OMVA_UserManagement_Page/Created_User_Username' is present
+
+2018-07-05 10:49:14 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_UserManagement_Page/Created_User_Username' is present
+
+2018-07-05 10:49:14 - [TEST_STEP][PASSED] - Statement - createduser = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_UserManagement_Page/Created_User_Username)): Text of object 'Object Repository/OMVA_UserManagement_Page/Created_User_Username' is: 'pkeeptt smpteix'
+
+2018-07-05 10:49:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/OMVA_UserManagement_Page/Created_User_Username' is: 'pkeeptt smpteix'
+
+2018-07-05 10:49:14 - [TEST_STEP][PASSED] - Statement - createduser = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyMatch(createduser, firstname + " " + lastname, true): Actual text 'pkeeptt smpteix' and expected text 'pkeeptt smpteix' are matched  using regular expression
+
+2018-07-05 10:49:14 - [MESSAGE][PASSED] - Actual text 'pkeeptt smpteix' and expected text 'pkeeptt smpteix' are matched  using regular expression
+
+2018-07-05 10:49:14 - [TEST_STEP][PASSED] - dataBaseConnection.dataBase.connectDB: dataBaseConnection.dataBase.connectDB is PASSED
+
+2018-07-05 10:49:19 - [MESSAGE][PASSED] - dataBaseConnection.dataBase.connectDB is PASSED
+
+2018-07-05 10:49:19 - [TEST_STEP][PASSED] - dataBaseConnection.dataBase.executeQuery: dataBaseConnection.dataBase.executeQuery is PASSED
+
+2018-07-05 10:49:19 - [MESSAGE][PASSED] - dataBaseConnection.dataBase.executeQuery is PASSED
+
+2018-07-05 10:49:19 - [TEST_STEP][PASSED] - dataBaseConnection.dataBase.closeDatabaseConnection: dataBaseConnection.dataBase.closeDatabaseConnection is PASSED
+
+2018-07-05 10:49:19 - [MESSAGE][PASSED] - dataBaseConnection.dataBase.closeDatabaseConnection is PASSED
+
+2018-07-05 10:49:19 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-05 10:49:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-05 10:49:21 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-05 10:49:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UserManagementTestCases/CreateUser/Verify_InValid_Email" classname="Test Cases/UserManagementTestCases/CreateUser/Verify_InValid_Email" status="PASSED">
+         <system-out><![CDATA[2018-07-05 10:49:22 - [TEST_CASE][PASSED] - Test Cases/UserManagementTestCases/CreateUser/Verify_InValid_Email: Test Cases/UserManagementTestCases/CreateUser/Verify_InValid_Email
+
+2018-07-05 10:49:22 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-05 10:49:22 - [TEST_CASE][PASSED] - Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL: Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL
+
+2018-07-05 10:49:22 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-05 10:49:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-05 10:49:26 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-05 10:49:38 - [MESSAGE][PASSED] - Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-05 10:49:38 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-05 10:49:38 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-05 10:49:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-05 10:49:38 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Username_Textbox' is visible
+
+2018-07-05 10:49:38 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/Username_Textbox' is visible
+
+2018-07-05 10:49:38 - [TEST_STEP][PASSED] - sendKeys: Keys 'SuperAdmin' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-05 10:49:38 - [MESSAGE][PASSED] - Keys 'SuperAdmin' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-05 10:49:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-05 10:49:38 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-05 10:49:38 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-05 10:49:39 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-05 10:49:39 - [TEST_STEP][PASSED] - sendKeys: Keys 'SuperAdmin' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-05 10:49:39 - [MESSAGE][PASSED] - Keys 'SuperAdmin' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-05 10:49:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-05 10:49:39 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-05 10:49:39 - [TEST_STEP][PASSED] - waitForAngularLoad: This page doesn't use Angular.
+
+2018-07-05 10:49:39 - [MESSAGE][WARNING] - This page doesn't use Angular.
+
+2018-07-05 10:49:39 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-05 10:49:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-05 10:49:44 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/OMVA_Landing_Page/CreateUser_Button' is present
+
+2018-07-05 10:49:44 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Landing_Page/CreateUser_Button' is present
+
+2018-07-05 10:49:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Landing_Page/CreateUser_Button' is clicked on
+
+2018-07-05 10:49:44 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Landing_Page/CreateUser_Button' is clicked on
+
+2018-07-05 10:49:44 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/OMVA_UserManagement_Page/Role_Dropdown' is present
+
+2018-07-05 10:49:44 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_UserManagement_Page/Role_Dropdown' is present
+
+2018-07-05 10:49:44 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-07-05 10:49:48 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-05 10:49:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_UserManagement_Page/Role_Dropdown' is clicked on
+
+2018-07-05 10:49:49 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_UserManagement_Page/Role_Dropdown' is clicked on
+
+2018-07-05 10:49:49 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/OMVA_UserManagement_Page/DropdownOption_RoleDropdown_Market Admin' successfully
+
+2018-07-05 10:49:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2018-07-05 10:49:49 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/OMVA_UserManagement_Page/DropdownOption_RoleDropdown_Market Admin' successfully
+
+2018-07-05 10:49:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_UserManagement_Page/DropdownOption_RoleDropdown_Market Admin' is clicked on
+
+2018-07-05 10:49:49 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_UserManagement_Page/DropdownOption_RoleDropdown_Market Admin' is clicked on
+
+2018-07-05 10:49:49 - [TEST_STEP][PASSED] - sendKeys: Keys 'kartik' sent to object: 'Object Repository/OMVA_UserManagement_Page/UserName_Textbox'
+
+2018-07-05 10:49:49 - [MESSAGE][PASSED] - Keys 'kartik' sent to object: 'Object Repository/OMVA_UserManagement_Page/UserName_Textbox'
+
+2018-07-05 10:49:49 - [TEST_STEP][PASSED] - sendKeys: Keys 'wwww' sent to object: 'Object Repository/OMVA_UserManagement_Page/EmailID_Textbox'
+
+2018-07-05 10:49:49 - [MESSAGE][PASSED] - Keys 'wwww' sent to object: 'Object Repository/OMVA_UserManagement_Page/EmailID_Textbox'
+
+2018-07-05 10:49:49 - [TEST_STEP][PASSED] - sendKeys: Keys 'firstName' sent to object: 'Object Repository/OMVA_UserManagement_Page/FirstName_Textbox'
+
+2018-07-05 10:49:49 - [MESSAGE][PASSED] - Keys 'firstName' sent to object: 'Object Repository/OMVA_UserManagement_Page/FirstName_Textbox'
+
+2018-07-05 10:49:49 - [TEST_STEP][PASSED] - Statement - ActualInvalidMsg = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_UserManagement_Page/Email_Invalid_Msg)): Text of object 'Object Repository/OMVA_UserManagement_Page/Email_Invalid_Msg' is: 'Incorrect email ID.'
+
+2018-07-05 10:49:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/OMVA_UserManagement_Page/Email_Invalid_Msg' is: 'Incorrect email ID.'
+
+2018-07-05 10:49:49 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Incorrect email ID.' and expected text 'Incorrect email ID.' are matched  using regular expression
+
+2018-07-05 10:49:49 - [MESSAGE][PASSED] - Actual text 'Incorrect email ID.' and expected text 'Incorrect email ID.' are matched  using regular expression
+
+2018-07-05 10:49:49 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-05 10:49:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UserManagementTestCases/CreateUser/Verify_SaveExit_Btn" classname="Test Cases/UserManagementTestCases/CreateUser/Verify_SaveExit_Btn" status="PASSED">
+         <system-out><![CDATA[2018-07-05 10:49:50 - [TEST_CASE][PASSED] - Test Cases/UserManagementTestCases/CreateUser/Verify_SaveExit_Btn: Test Cases/UserManagementTestCases/CreateUser/Verify_SaveExit_Btn
+
+2018-07-05 10:49:50 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-05 10:49:50 - [TEST_CASE][PASSED] - Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL: Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL
+
+2018-07-05 10:49:50 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-05 10:49:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-05 10:49:53 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-05 10:50:00 - [MESSAGE][PASSED] - Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-05 10:50:00 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-05 10:50:00 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-05 10:50:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-05 10:50:00 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Username_Textbox' is visible
+
+2018-07-05 10:50:00 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/Username_Textbox' is visible
+
+2018-07-05 10:50:00 - [TEST_STEP][PASSED] - sendKeys: Keys 'SuperAdmin' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-05 10:50:00 - [MESSAGE][PASSED] - Keys 'SuperAdmin' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-05 10:50:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-05 10:50:01 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-05 10:50:01 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-05 10:50:01 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-05 10:50:01 - [TEST_STEP][PASSED] - sendKeys: Keys 'SuperAdmin' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-05 10:50:01 - [MESSAGE][PASSED] - Keys 'SuperAdmin' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-05 10:50:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-05 10:50:01 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-05 10:50:01 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-05 10:50:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-05 10:50:06 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/OMVA_Landing_Page/CreateUser_Button' is present
+
+2018-07-05 10:50:06 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Landing_Page/CreateUser_Button' is present
+
+2018-07-05 10:50:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Landing_Page/CreateUser_Button' is clicked on
+
+2018-07-05 10:50:07 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Landing_Page/CreateUser_Button' is clicked on
+
+2018-07-05 10:50:07 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-05 10:50:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-05 10:50:12 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/OMVA_UserManagement_Page/Role_Dropdown' is present
+
+2018-07-05 10:50:12 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_UserManagement_Page/Role_Dropdown' is present
+
+2018-07-05 10:50:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_UserManagement_Page/Role_Dropdown' is clicked on
+
+2018-07-05 10:50:12 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_UserManagement_Page/Role_Dropdown' is clicked on
+
+2018-07-05 10:50:12 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/OMVA_UserManagement_Page/DropdownOption_RoleDropdown_Market Admin' successfully
+
+2018-07-05 10:50:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2018-07-05 10:50:12 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/OMVA_UserManagement_Page/DropdownOption_RoleDropdown_Market Admin' successfully
+
+2018-07-05 10:50:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_UserManagement_Page/DropdownOption_RoleDropdown_Market Admin' is clicked on
+
+2018-07-05 10:50:12 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_UserManagement_Page/DropdownOption_RoleDropdown_Market Admin' is clicked on
+
+2018-07-05 10:50:12 - [TEST_STEP][PASSED] - Statement - username = CustomKeywords.commonLibrary.commonFunctions.randomStringFunction("abcdefghijklmnopqrstuvwxyz", 6): commonLibrary.commonFunctions.randomStringFunction is PASSED
+
+2018-07-05 10:50:12 - [MESSAGE][PASSED] - commonLibrary.commonFunctions.randomStringFunction is PASSED
+
+2018-07-05 10:50:12 - [TEST_STEP][PASSED] - sendKeys: Keys 'aomqwy' sent to object: 'Object Repository/OMVA_UserManagement_Page/UserName_Textbox'
+
+2018-07-05 10:50:12 - [MESSAGE][PASSED] - Keys 'aomqwy' sent to object: 'Object Repository/OMVA_UserManagement_Page/UserName_Textbox'
+
+2018-07-05 10:50:12 - [TEST_STEP][PASSED] - Statement - emailidprefix = CustomKeywords.commonLibrary.commonFunctions.randomStringFunction("abcdefghijklmnopqrstuvwxyz", 9): commonLibrary.commonFunctions.randomStringFunction is PASSED
+
+2018-07-05 10:50:12 - [MESSAGE][PASSED] - commonLibrary.commonFunctions.randomStringFunction is PASSED
+
+2018-07-05 10:50:12 - [TEST_STEP][PASSED] - sendKeys: Keys 'bayxcjfkn@autotestpg.com' sent to object: 'Object Repository/OMVA_UserManagement_Page/EmailID_Textbox'
+
+2018-07-05 10:50:12 - [MESSAGE][PASSED] - Keys 'bayxcjfkn@autotestpg.com' sent to object: 'Object Repository/OMVA_UserManagement_Page/EmailID_Textbox'
+
+2018-07-05 10:50:12 - [TEST_STEP][PASSED] - Statement - firstname = CustomKeywords.commonLibrary.commonFunctions.randomStringFunction("abcdefghijklmnopqrstuvwxyz", 7): commonLibrary.commonFunctions.randomStringFunction is PASSED
+
+2018-07-05 10:50:12 - [MESSAGE][PASSED] - commonLibrary.commonFunctions.randomStringFunction is PASSED
+
+2018-07-05 10:50:12 - [TEST_STEP][PASSED] - sendKeys: Keys 'dlflkrl' sent to object: 'Object Repository/OMVA_UserManagement_Page/FirstName_Textbox'
+
+2018-07-05 10:50:13 - [MESSAGE][PASSED] - Keys 'dlflkrl' sent to object: 'Object Repository/OMVA_UserManagement_Page/FirstName_Textbox'
+
+2018-07-05 10:50:13 - [TEST_STEP][PASSED] - Statement - lastname = CustomKeywords.commonLibrary.commonFunctions.randomStringFunction("abcdefghijklmnopqrstuvwxyz", 7): commonLibrary.commonFunctions.randomStringFunction is PASSED
+
+2018-07-05 10:50:13 - [MESSAGE][PASSED] - commonLibrary.commonFunctions.randomStringFunction is PASSED
+
+2018-07-05 10:50:13 - [TEST_STEP][PASSED] - sendKeys: Keys 'vclfwwv' sent to object: 'Object Repository/OMVA_UserManagement_Page/LastName_Textbox'
+
+2018-07-05 10:50:13 - [MESSAGE][PASSED] - Keys 'vclfwwv' sent to object: 'Object Repository/OMVA_UserManagement_Page/LastName_Textbox'
+
+2018-07-05 10:50:13 - [TEST_STEP][PASSED] - Statement - ticketnum = CustomKeywords.commonLibrary.commonFunctions.randomStringFunction("123456789", 7): commonLibrary.commonFunctions.randomStringFunction is PASSED
+
+2018-07-05 10:50:13 - [MESSAGE][PASSED] - commonLibrary.commonFunctions.randomStringFunction is PASSED
+
+2018-07-05 10:50:13 - [TEST_STEP][PASSED] - sendKeys: Keys '6778211' sent to object: 'Object Repository/OMVA_UserManagement_Page/TicketNumber_Textbox'
+
+2018-07-05 10:50:13 - [MESSAGE][PASSED] - Keys '6778211' sent to object: 'Object Repository/OMVA_UserManagement_Page/TicketNumber_Textbox'
+
+2018-07-05 10:50:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_UserManagement_Page/SaveandExit_Button' is clicked on
+
+2018-07-05 10:50:13 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_UserManagement_Page/SaveandExit_Button' is clicked on
+
+2018-07-05 10:50:13 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-07-05 10:50:17 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-05 10:50:17 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/OMVA_UserManagement_Page/SaveExit_button_Htext' is present
+
+2018-07-05 10:50:17 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_UserManagement_Page/SaveExit_button_Htext' is present
+
+2018-07-05 10:50:17 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2018-07-05 10:50:17 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/OMVA_UserManagement_Page/SaveExit_button_Htext' are matched.
+
+2018-07-05 10:50:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/OMVA_UserManagement_Page/SaveExit_button_Htext' are matched.
+
+2018-07-05 10:50:17 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-05 10:50:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-05 10:50:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/OMVA_UserManagement_Page/SaveExit_button_Popup_Ctext' are matched.
+
+2018-07-05 10:50:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/OMVA_UserManagement_Page/SaveExit_button_Popup_Ctext' are matched.
+
+2018-07-05 10:50:19 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2018-07-05 10:50:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_UserManagement_Page/SaveExit_button_Popup_OK' is clicked on
+
+2018-07-05 10:50:19 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_UserManagement_Page/SaveExit_button_Popup_OK' is clicked on
+
+2018-07-05 10:50:19 - [TEST_STEP][PASSED] - Statement - greetingtext = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_Landing_Page/Greeting_Label)): Text of object 'Object Repository/OMVA_Landing_Page/Greeting_Label' is: 'Good Morning, SuperAdmin'
+
+2018-07-05 10:50:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/OMVA_Landing_Page/Greeting_Label' is: 'Good Morning, SuperAdmin'
+
+2018-07-05 10:50:19 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Good Morning, SuperAdmin' and expected text '\D*SuperAdmin' are matched  using regular expression
+
+2018-07-05 10:50:19 - [MESSAGE][PASSED] - Actual text 'Good Morning, SuperAdmin' and expected text '\D*SuperAdmin' are matched  using regular expression
+
+2018-07-05 10:50:19 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-05 10:50:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UserManagementTestCases/CreateUser/Verifying_Duplicate_EmailID" classname="Test Cases/UserManagementTestCases/CreateUser/Verifying_Duplicate_EmailID" status="PASSED">
+         <system-out><![CDATA[2018-07-05 10:50:20 - [TEST_CASE][PASSED] - Test Cases/UserManagementTestCases/CreateUser/Verifying_Duplicate_EmailID: Test Cases/UserManagementTestCases/CreateUser/Verifying_Duplicate_EmailID
+
+2018-07-05 10:50:20 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-05 10:50:20 - [TEST_CASE][PASSED] - Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL: Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL
+
+2018-07-05 10:50:20 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-05 10:50:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-05 10:50:25 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-05 10:50:36 - [MESSAGE][PASSED] - Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-05 10:50:36 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-05 10:50:36 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-05 10:50:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-05 10:50:36 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Username_Textbox' is visible
+
+2018-07-05 10:50:37 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/Username_Textbox' is visible
+
+2018-07-05 10:50:37 - [TEST_STEP][PASSED] - sendKeys: Keys 'SuperAdmin' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-05 10:50:37 - [MESSAGE][PASSED] - Keys 'SuperAdmin' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-05 10:50:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-05 10:50:37 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-05 10:50:37 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-05 10:50:37 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-05 10:50:37 - [TEST_STEP][PASSED] - sendKeys: Keys 'SuperAdmin' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-05 10:50:38 - [MESSAGE][PASSED] - Keys 'SuperAdmin' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-05 10:50:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-05 10:50:38 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-05 10:50:38 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-05 10:50:38 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-05 10:50:38 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-07-05 10:50:42 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-05 10:50:42 - [TEST_STEP][PASSED] - Statement - If (true): null
+
+2018-07-05 10:50:42 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/OMVA_Landing_Page/CreateUser_Button' is present
+
+2018-07-05 10:50:42 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Landing_Page/CreateUser_Button' is present
+
+2018-07-05 10:50:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Landing_Page/CreateUser_Button' is clicked on
+
+2018-07-05 10:50:42 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Landing_Page/CreateUser_Button' is clicked on
+
+2018-07-05 10:50:42 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2018-07-05 10:50:42 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/OMVA_UserManagement_Page/Role_Dropdown' is present
+
+2018-07-05 10:50:42 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_UserManagement_Page/Role_Dropdown' is present
+
+2018-07-05 10:50:42 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-05 10:50:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-05 10:50:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_UserManagement_Page/Role_Dropdown' is clicked on
+
+2018-07-05 10:50:45 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_UserManagement_Page/Role_Dropdown' is clicked on
+
+2018-07-05 10:50:45 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/OMVA_UserManagement_Page/DropdownOption_RoleDropdown_Market Admin' successfully
+
+2018-07-05 10:50:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2018-07-05 10:50:45 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/OMVA_UserManagement_Page/DropdownOption_RoleDropdown_Market Admin' successfully
+
+2018-07-05 10:50:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_UserManagement_Page/DropdownOption_RoleDropdown_Market Admin' is clicked on
+
+2018-07-05 10:50:45 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_UserManagement_Page/DropdownOption_RoleDropdown_Market Admin' is clicked on
+
+2018-07-05 10:50:45 - [TEST_STEP][PASSED] - Statement - username = CustomKeywords.commonLibrary.commonFunctions.randomStringFunction("abcdefghijklmnopqrstuvwxyz", 6): commonLibrary.commonFunctions.randomStringFunction is PASSED
+
+2018-07-05 10:50:45 - [MESSAGE][PASSED] - commonLibrary.commonFunctions.randomStringFunction is PASSED
+
+2018-07-05 10:50:45 - [TEST_STEP][PASSED] - sendKeys: Keys 'vlcugm' sent to object: 'Object Repository/OMVA_UserManagement_Page/UserName_Textbox'
+
+2018-07-05 10:50:45 - [MESSAGE][PASSED] - Keys 'vlcugm' sent to object: 'Object Repository/OMVA_UserManagement_Page/UserName_Textbox'
+
+2018-07-05 10:50:45 - [TEST_STEP][PASSED] - sendKeys: Keys 'santosh@k.com' sent to object: 'Object Repository/OMVA_UserManagement_Page/EmailID_Textbox'
+
+2018-07-05 10:50:46 - [MESSAGE][PASSED] - Keys 'santosh@k.com' sent to object: 'Object Repository/OMVA_UserManagement_Page/EmailID_Textbox'
+
+2018-07-05 10:50:46 - [TEST_STEP][PASSED] - sendKeys: Keys 'santosh' sent to object: 'Object Repository/OMVA_UserManagement_Page/FirstName_Textbox'
+
+2018-07-05 10:50:46 - [MESSAGE][PASSED] - Keys 'santosh' sent to object: 'Object Repository/OMVA_UserManagement_Page/FirstName_Textbox'
+
+2018-07-05 10:50:46 - [TEST_STEP][PASSED] - sendKeys: Keys 'k' sent to object: 'Object Repository/OMVA_UserManagement_Page/LastName_Textbox'
+
+2018-07-05 10:50:46 - [MESSAGE][PASSED] - Keys 'k' sent to object: 'Object Repository/OMVA_UserManagement_Page/LastName_Textbox'
+
+2018-07-05 10:50:46 - [TEST_STEP][PASSED] - sendKeys: Keys '1212' sent to object: 'Object Repository/OMVA_UserManagement_Page/TicketNumber_Textbox'
+
+2018-07-05 10:50:46 - [MESSAGE][PASSED] - Keys '1212' sent to object: 'Object Repository/OMVA_UserManagement_Page/TicketNumber_Textbox'
+
+2018-07-05 10:50:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_UserManagement_Page/Next_Button' is clicked on
+
+2018-07-05 10:50:46 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_UserManagement_Page/Next_Button' is clicked on
+
+2018-07-05 10:50:46 - [TEST_STEP][PASSED] - Statement - ActualToastMessage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_UserManagement_Page/EmailID_ToastMsg)): Text of object 'Object Repository/OMVA_UserManagement_Page/EmailID_ToastMsg' is: 'Email ID already exists.'
+
+2018-07-05 10:50:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/OMVA_UserManagement_Page/EmailID_ToastMsg' is: 'Email ID already exists.'
+
+2018-07-05 10:50:47 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Email ID already exists.' and expected text 'Email ID already exists.' are matched  using regular expression
+
+2018-07-05 10:50:47 - [MESSAGE][PASSED] - Actual text 'Email ID already exists.' and expected text 'Email ID already exists.' are matched  using regular expression
+
+2018-07-05 10:50:47 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-05 10:50:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UserManagementTestCases/UserActions/DeActivate_User" classname="Test Cases/UserManagementTestCases/UserActions/DeActivate_User" status="PASSED">
+         <system-out><![CDATA[2018-07-05 10:50:47 - [TEST_CASE][PASSED] - Test Cases/UserManagementTestCases/UserActions/DeActivate_User: Test Cases/UserManagementTestCases/UserActions/DeActivate_User
+
+2018-07-05 10:50:48 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-05 10:50:48 - [TEST_CASE][PASSED] - Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL: Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL
+
+2018-07-05 10:50:48 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-05 10:50:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-05 10:50:51 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-05 10:51:03 - [MESSAGE][PASSED] - Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-05 10:51:03 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-05 10:51:04 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-05 10:51:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-05 10:51:04 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Username_Textbox' is visible
+
+2018-07-05 10:51:04 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/Username_Textbox' is visible
+
+2018-07-05 10:51:04 - [TEST_STEP][PASSED] - sendKeys: Keys 'SuperAdmin' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-05 10:51:04 - [MESSAGE][PASSED] - Keys 'SuperAdmin' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-05 10:51:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-05 10:51:04 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-05 10:51:04 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-05 10:51:05 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-05 10:51:05 - [TEST_STEP][PASSED] - sendKeys: Keys 'SuperAdmin' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-05 10:51:05 - [MESSAGE][PASSED] - Keys 'SuperAdmin' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-05 10:51:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-05 10:51:05 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-05 10:51:05 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-05 10:51:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-05 10:51:10 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Landing_Page/ActiveUserEdit_Icon' is visible
+
+2018-07-05 10:51:10 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Landing_Page/ActiveUserEdit_Icon' is visible
+
+2018-07-05 10:51:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Landing_Page/ActiveUserEdit_Icon' is clicked on
+
+2018-07-05 10:51:10 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Landing_Page/ActiveUserEdit_Icon' is clicked on
+
+2018-07-05 10:51:10 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2018-07-05 10:51:10 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Landing_Page/Act_DeAct_Radio_Btn' is visible
+
+2018-07-05 10:51:10 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Landing_Page/Act_DeAct_Radio_Btn' is visible
+
+2018-07-05 10:51:10 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-05 10:51:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-05 10:51:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Landing_Page/Act_DeAct_Radio_Btn' is clicked on
+
+2018-07-05 10:51:13 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Landing_Page/Act_DeAct_Radio_Btn' is clicked on
+
+2018-07-05 10:51:13 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_EditUser_Page/SaveExit_Btn' is visible
+
+2018-07-05 10:51:13 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_EditUser_Page/SaveExit_Btn' is visible
+
+2018-07-05 10:51:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_EditUser_Page/SaveExit_Btn' is clicked on
+
+2018-07-05 10:51:13 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_EditUser_Page/SaveExit_Btn' is clicked on
+
+2018-07-05 10:51:13 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_EditUser_Page/DeactivateUser_HeaderTxt' is visible
+
+2018-07-05 10:51:14 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_EditUser_Page/DeactivateUser_HeaderTxt' is visible
+
+2018-07-05 10:51:14 - [TEST_STEP][PASSED] - Statement - AHeaderTxt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_EditUser_Page/DeactivateUser_HeaderTxt)): Text of object 'Object Repository/OMVA_EditUser_Page/DeactivateUser_HeaderTxt' is: 'Confirm Deactivation'
+
+2018-07-05 10:51:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/OMVA_EditUser_Page/DeactivateUser_HeaderTxt' is: 'Confirm Deactivation'
+
+2018-07-05 10:51:14 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Confirm Deactivation' and expected text 'Confirm Deactivation' are matched  using regular expression
+
+2018-07-05 10:51:14 - [MESSAGE][PASSED] - Actual text 'Confirm Deactivation' and expected text 'Confirm Deactivation' are matched  using regular expression
+
+2018-07-05 10:51:14 - [TEST_STEP][PASSED] - Statement - AContentTxt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_EditUser_Page/DeactivateUser_ContentText)): Text of object 'Object Repository/OMVA_EditUser_Page/DeactivateUser_ContentText' is: 'Are you sure you want to deactivate alvin john's account?'
+
+2018-07-05 10:51:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/OMVA_EditUser_Page/DeactivateUser_ContentText' is: 'Are you sure you want to deactivate alvin john's account?'
+
+2018-07-05 10:51:14 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Are you sure you want to deactivate alvin john's account?' and expected text 'Are you sure you want to deactivate\D*' are matched  using regular expression
+
+2018-07-05 10:51:14 - [MESSAGE][PASSED] - Actual text 'Are you sure you want to deactivate alvin john's account?' and expected text 'Are you sure you want to deactivate\D*' are matched  using regular expression
+
+2018-07-05 10:51:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_EditUser_Page/DeactivateUser_OKBtn' is clicked on
+
+2018-07-05 10:51:14 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_EditUser_Page/DeactivateUser_OKBtn' is clicked on
+
+2018-07-05 10:51:14 - [TEST_STEP][PASSED] - Statement - ADeactivatedToastMsg = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_EditUser_Page/Deactivate_ToastMsg)): Text of object 'Object Repository/OMVA_EditUser_Page/Deactivate_ToastMsg' is: 'Account Successfully Deactivated!'
+
+2018-07-05 10:51:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/OMVA_EditUser_Page/Deactivate_ToastMsg' is: 'Account Successfully Deactivated!'
+
+2018-07-05 10:51:15 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Account Successfully Deactivated!' and expected text 'Account Successfully Deactivated!' are matched  using regular expression
+
+2018-07-05 10:51:15 - [MESSAGE][PASSED] - Actual text 'Account Successfully Deactivated!' and expected text 'Account Successfully Deactivated!' are matched  using regular expression
+
+2018-07-05 10:51:15 - [TEST_STEP][PASSED] - Statement - org.testng.Assert.assertEquals(ADeactivatedToastMsg, com.kms.katalon.core.testdata.TestDataFactory.findTestData(credentialDetails/PopupStrings).getValue("DeactivateUserToastMsg", 1)): Reading excel file with source file 'D:\Automation_P&G\Automation-P&G-Code-Base\OMVA\Data Files\Credentials.xlsx' and sheet name 'PopupStrings'
+
+2018-07-05 10:51:15 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-05 10:51:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UserManagementTestCases/UserActions/Activate_User" classname="Test Cases/UserManagementTestCases/UserActions/Activate_User" status="PASSED">
+         <system-out><![CDATA[2018-07-05 10:51:16 - [TEST_CASE][PASSED] - Test Cases/UserManagementTestCases/UserActions/Activate_User: Test Cases/UserManagementTestCases/UserActions/Activate_User
+
+2018-07-05 10:51:16 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-05 10:51:16 - [TEST_CASE][PASSED] - Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL: Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL
+
+2018-07-05 10:51:16 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-05 10:51:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-05 10:51:19 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-05 10:51:30 - [MESSAGE][PASSED] - Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-05 10:51:30 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-05 10:51:30 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-05 10:51:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-05 10:51:30 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Username_Textbox' is visible
+
+2018-07-05 10:51:30 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/Username_Textbox' is visible
+
+2018-07-05 10:51:30 - [TEST_STEP][PASSED] - sendKeys: Keys 'SuperAdmin' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-05 10:51:30 - [MESSAGE][PASSED] - Keys 'SuperAdmin' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-05 10:51:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-05 10:51:30 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-05 10:51:30 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-05 10:51:31 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-05 10:51:31 - [TEST_STEP][PASSED] - sendKeys: Keys 'SuperAdmin' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-05 10:51:31 - [MESSAGE][PASSED] - Keys 'SuperAdmin' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-05 10:51:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-05 10:51:31 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-05 10:51:31 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-05 10:51:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-05 10:51:36 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Landing_Page/DeactiveUserEdit_Icon' is visible
+
+2018-07-05 10:51:36 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Landing_Page/DeactiveUserEdit_Icon' is visible
+
+2018-07-05 10:51:36 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-05 10:51:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-05 10:51:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Landing_Page/DeactiveUserEdit_Icon' is clicked on
+
+2018-07-05 10:51:39 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Landing_Page/DeactiveUserEdit_Icon' is clicked on
+
+2018-07-05 10:51:39 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-05 10:51:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-05 10:51:44 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Landing_Page/Act_DeAct_Radio_Btn' is visible
+
+2018-07-05 10:51:44 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Landing_Page/Act_DeAct_Radio_Btn' is visible
+
+2018-07-05 10:51:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Landing_Page/Act_DeAct_Radio_Btn' is clicked on
+
+2018-07-05 10:51:44 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Landing_Page/Act_DeAct_Radio_Btn' is clicked on
+
+2018-07-05 10:51:44 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_EditUser_Page/EditUserNext_Btn' is visible
+
+2018-07-05 10:51:44 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_EditUser_Page/EditUserNext_Btn' is visible
+
+2018-07-05 10:51:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_EditUser_Page/EditUserNext_Btn' is clicked on
+
+2018-07-05 10:51:44 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_EditUser_Page/EditUserNext_Btn' is clicked on
+
+2018-07-05 10:51:44 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_EditUser_Page/DeactivateUser_HeaderTxt' is visible
+
+2018-07-05 10:51:45 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_EditUser_Page/DeactivateUser_HeaderTxt' is visible
+
+2018-07-05 10:51:45 - [TEST_STEP][PASSED] - Statement - AHeaderTxt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_EditUser_Page/DeactivateUser_HeaderTxt)): Text of object 'Object Repository/OMVA_EditUser_Page/DeactivateUser_HeaderTxt' is: 'Confirm Activation'
+
+2018-07-05 10:51:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/OMVA_EditUser_Page/DeactivateUser_HeaderTxt' is: 'Confirm Activation'
+
+2018-07-05 10:51:45 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Confirm Activation' and expected text 'Confirm Activation' are matched  using regular expression
+
+2018-07-05 10:51:45 - [MESSAGE][PASSED] - Actual text 'Confirm Activation' and expected text 'Confirm Activation' are matched  using regular expression
+
+2018-07-05 10:51:45 - [TEST_STEP][PASSED] - Statement - AContentTxt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_EditUser_Page/DeactivateUser_ContentText)): Text of object 'Object Repository/OMVA_EditUser_Page/DeactivateUser_ContentText' is: 'Are you sure you want to activate angelica a's account?'
+
+2018-07-05 10:51:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/OMVA_EditUser_Page/DeactivateUser_ContentText' is: 'Are you sure you want to activate angelica a's account?'
+
+2018-07-05 10:51:45 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Are you sure you want to activate angelica a's account?' and expected text 'Are you sure you want to activate\D*' are matched  using regular expression
+
+2018-07-05 10:51:45 - [MESSAGE][PASSED] - Actual text 'Are you sure you want to activate angelica a's account?' and expected text 'Are you sure you want to activate\D*' are matched  using regular expression
+
+2018-07-05 10:51:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_EditUser_Page/DeactivateUser_OKBtn' is clicked on
+
+2018-07-05 10:51:45 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_EditUser_Page/DeactivateUser_OKBtn' is clicked on
+
+2018-07-05 10:51:45 - [TEST_STEP][PASSED] - Statement - AActivateToastMsg = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_EditUser_Page/Activate_ToastMsg)): Text of object 'Object Repository/OMVA_EditUser_Page/Activate_ToastMsg' is: 'Account Successfully Activated!'
+
+2018-07-05 10:51:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/OMVA_EditUser_Page/Activate_ToastMsg' is: 'Account Successfully Activated!'
+
+2018-07-05 10:51:46 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Account Successfully Activated!' and expected text 'Account Successfully Activated!' are matched  using regular expression
+
+2018-07-05 10:51:46 - [MESSAGE][PASSED] - Actual text 'Account Successfully Activated!' and expected text 'Account Successfully Activated!' are matched  using regular expression
+
+2018-07-05 10:51:46 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-05 10:51:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UserManagementTestCases/Login/LogoutAndCloseBrowser" classname="Test Cases/UserManagementTestCases/Login/LogoutAndCloseBrowser" status="PASSED">
+         <system-out><![CDATA[2018-07-05 10:51:47 - [TEST_CASE][PASSED] - Test Cases/UserManagementTestCases/Login/LogoutAndCloseBrowser: Test Cases/UserManagementTestCases/Login/LogoutAndCloseBrowser
+
+2018-07-05 10:51:47 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-05 10:51:47 - [TEST_CASE][PASSED] - Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL: Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL
+
+2018-07-05 10:51:47 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-05 10:51:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-05 10:51:50 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-05 10:52:00 - [MESSAGE][PASSED] - Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-05 10:52:00 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-05 10:52:00 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-05 10:52:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-05 10:52:00 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Username_Textbox' is visible
+
+2018-07-05 10:52:00 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/Username_Textbox' is visible
+
+2018-07-05 10:52:00 - [TEST_STEP][PASSED] - sendKeys: Keys 'SuperAdmin' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-05 10:52:00 - [MESSAGE][PASSED] - Keys 'SuperAdmin' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-05 10:52:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-05 10:52:00 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-05 10:52:00 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-05 10:52:01 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-05 10:52:01 - [TEST_STEP][PASSED] - sendKeys: Keys 'SuperAdmin' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-05 10:52:01 - [MESSAGE][PASSED] - Keys 'SuperAdmin' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-05 10:52:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-05 10:52:01 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-05 10:52:01 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/OMVA_Landing_Page/User_icon' is present
+
+2018-07-05 10:52:02 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Landing_Page/User_icon' is present
+
+2018-07-05 10:52:02 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2018-07-05 10:52:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Landing_Page/User_icon' is clicked on
+
+2018-07-05 10:52:02 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Landing_Page/User_icon' is clicked on
+
+2018-07-05 10:52:02 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/OMVA_Landing_Page/Logout_link' is present
+
+2018-07-05 10:52:02 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Landing_Page/Logout_link' is present
+
+2018-07-05 10:52:02 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2018-07-05 10:52:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Landing_Page/Logout_link' is clicked on
+
+2018-07-05 10:52:02 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Landing_Page/Logout_link' is clicked on
+
+2018-07-05 10:52:02 - [TEST_STEP][PASSED] - waitForElementNotPresent: Web element with id: 'Object Repository/OMVA_Landing_Page/User_icon' located by 'By.xpath: //img[@id='dropdown']' is not present after '4' second(s)
+
+2018-07-05 10:52:03 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/OMVA_Landing_Page/User_icon' located by 'By.xpath: //img[@id='dropdown']' is not present after '4' second(s)
+
+2018-07-05 10:52:03 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-05 10:52:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UserManagementTestCases/UserActions/LockUser" classname="Test Cases/UserManagementTestCases/UserActions/LockUser" status="PASSED">
+         <system-out><![CDATA[2018-07-05 10:52:04 - [TEST_CASE][PASSED] - Test Cases/UserManagementTestCases/UserActions/LockUser: Test Cases/UserManagementTestCases/UserActions/LockUser
+
+2018-07-05 10:52:04 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/UserManagementTestCases/Login/Invalid_Login' successfully
+
+2018-07-05 10:52:04 - [TEST_CASE][PASSED] - Test Cases/UserManagementTestCases/Login/Invalid_Login: Test Cases/UserManagementTestCases/Login/Invalid_Login
+
+2018-07-05 10:52:04 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-05 10:52:04 - [TEST_CASE][PASSED] - Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL: Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL
+
+2018-07-05 10:52:04 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-05 10:52:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-05 10:52:06 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-05 10:52:16 - [MESSAGE][PASSED] - Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-05 10:52:16 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-05 10:52:16 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-05 10:52:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-05 10:52:16 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Username_Textbox' is visible
+
+2018-07-05 10:52:16 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/Username_Textbox' is visible
+
+2018-07-05 10:52:16 - [TEST_STEP][PASSED] - sendKeys: Keys 'Lock' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-05 10:52:16 - [MESSAGE][PASSED] - Keys 'Lock' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-05 10:52:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-05 10:52:16 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-05 10:52:16 - [TEST_STEP][PASSED] - Statement - If (true): null
+
+2018-07-05 10:52:16 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-05 10:52:17 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-05 10:52:17 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2018-07-05 10:52:17 - [TEST_STEP][PASSED] - sendKeys: Keys 'Pwd' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-05 10:52:17 - [MESSAGE][PASSED] - Keys 'Pwd' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-05 10:52:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-05 10:52:17 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-05 10:52:17 - [TEST_STEP][PASSED] - Statement - AHeaderTxt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_Login_Page/InvalidLogin_HeaderTxt)): Text of object 'Object Repository/OMVA_Login_Page/InvalidLogin_HeaderTxt' is: 'Invalid Credentials'
+
+2018-07-05 10:52:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/OMVA_Login_Page/InvalidLogin_HeaderTxt' is: 'Invalid Credentials'
+
+2018-07-05 10:52:18 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Invalid Credentials' and expected text 'Invalid Credentials' are matched  using regular expression
+
+2018-07-05 10:52:18 - [MESSAGE][PASSED] - Actual text 'Invalid Credentials' and expected text 'Invalid Credentials' are matched  using regular expression
+
+2018-07-05 10:52:18 - [TEST_STEP][PASSED] - Statement - AContentTxt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_Login_Page/InvalidLogin_ContentTxt)): Text of object 'Object Repository/OMVA_Login_Page/InvalidLogin_ContentTxt' is: 'The specified username / password is invalid. Please try again.'
+
+2018-07-05 10:52:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/OMVA_Login_Page/InvalidLogin_ContentTxt' is: 'The specified username / password is invalid. Please try again.'
+
+2018-07-05 10:52:18 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'The specified username / password is invalid. Please try again.' and expected text 'The specified username / password is invalid. Please try again.' are matched  using regular expression
+
+2018-07-05 10:52:18 - [MESSAGE][PASSED] - Actual text 'The specified username / password is invalid. Please try again.' and expected text 'The specified username / password is invalid. Please try again.' are matched  using regular expression
+
+2018-07-05 10:52:18 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/InvalidLogin_OKbtn' is visible
+
+2018-07-05 10:52:18 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/InvalidLogin_OKbtn' is visible
+
+2018-07-05 10:52:18 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2018-07-05 10:52:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/InvalidLogin_OKbtn' is clicked on
+
+2018-07-05 10:52:18 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/InvalidLogin_OKbtn' is clicked on
+
+2018-07-05 10:52:18 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-05 10:52:19 - [MESSAGE][PASSED] - Browser is closed
+
+2018-07-05 10:52:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UserManagementTestCases/Login/Invalid_Login' successfully
+
+2018-07-05 10:52:19 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/UserManagementTestCases/Login/Invalid_Login' successfully
+
+2018-07-05 10:52:19 - [TEST_CASE][PASSED] - Test Cases/UserManagementTestCases/Login/Invalid_Login: Test Cases/UserManagementTestCases/Login/Invalid_Login
+
+2018-07-05 10:52:19 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-05 10:52:19 - [TEST_CASE][PASSED] - Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL: Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL
+
+2018-07-05 10:52:19 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-05 10:52:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-05 10:52:20 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-05 10:52:32 - [MESSAGE][PASSED] - Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-05 10:52:32 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-05 10:52:32 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-05 10:52:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-05 10:52:32 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Username_Textbox' is visible
+
+2018-07-05 10:52:32 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/Username_Textbox' is visible
+
+2018-07-05 10:52:32 - [TEST_STEP][PASSED] - sendKeys: Keys 'Lock' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-05 10:52:32 - [MESSAGE][PASSED] - Keys 'Lock' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-05 10:52:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-05 10:52:32 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-05 10:52:32 - [TEST_STEP][PASSED] - Statement - If (true): null
+
+2018-07-05 10:52:32 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-05 10:52:33 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-05 10:52:33 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2018-07-05 10:52:33 - [TEST_STEP][PASSED] - sendKeys: Keys 'Pwd' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-05 10:52:33 - [MESSAGE][PASSED] - Keys 'Pwd' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-05 10:52:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-05 10:52:33 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-05 10:52:33 - [TEST_STEP][PASSED] - Statement - AHeaderTxt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_Login_Page/InvalidLogin_HeaderTxt)): Text of object 'Object Repository/OMVA_Login_Page/InvalidLogin_HeaderTxt' is: 'Invalid Credentials'
+
+2018-07-05 10:52:33 - [MESSAGE][PASSED] - Text of object 'Object Repository/OMVA_Login_Page/InvalidLogin_HeaderTxt' is: 'Invalid Credentials'
+
+2018-07-05 10:52:33 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Invalid Credentials' and expected text 'Invalid Credentials' are matched  using regular expression
+
+2018-07-05 10:52:33 - [MESSAGE][PASSED] - Actual text 'Invalid Credentials' and expected text 'Invalid Credentials' are matched  using regular expression
+
+2018-07-05 10:52:33 - [TEST_STEP][PASSED] - Statement - AContentTxt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_Login_Page/InvalidLogin_ContentTxt)): Text of object 'Object Repository/OMVA_Login_Page/InvalidLogin_ContentTxt' is: 'The specified username / password is invalid. Please try again.'
+
+2018-07-05 10:52:34 - [MESSAGE][PASSED] - Text of object 'Object Repository/OMVA_Login_Page/InvalidLogin_ContentTxt' is: 'The specified username / password is invalid. Please try again.'
+
+2018-07-05 10:52:34 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'The specified username / password is invalid. Please try again.' and expected text 'The specified username / password is invalid. Please try again.' are matched  using regular expression
+
+2018-07-05 10:52:34 - [MESSAGE][PASSED] - Actual text 'The specified username / password is invalid. Please try again.' and expected text 'The specified username / password is invalid. Please try again.' are matched  using regular expression
+
+2018-07-05 10:52:34 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/InvalidLogin_OKbtn' is visible
+
+2018-07-05 10:52:34 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/InvalidLogin_OKbtn' is visible
+
+2018-07-05 10:52:34 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2018-07-05 10:52:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/InvalidLogin_OKbtn' is clicked on
+
+2018-07-05 10:52:34 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/InvalidLogin_OKbtn' is clicked on
+
+2018-07-05 10:52:34 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-05 10:52:34 - [MESSAGE][PASSED] - Browser is closed
+
+2018-07-05 10:52:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UserManagementTestCases/Login/Invalid_Login' successfully
+
+2018-07-05 10:52:34 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/UserManagementTestCases/Login/Invalid_Login' successfully
+
+2018-07-05 10:52:34 - [TEST_CASE][PASSED] - Test Cases/UserManagementTestCases/Login/Invalid_Login: Test Cases/UserManagementTestCases/Login/Invalid_Login
+
+2018-07-05 10:52:34 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-05 10:52:35 - [TEST_CASE][PASSED] - Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL: Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL
+
+2018-07-05 10:52:35 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-05 10:52:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-05 10:52:36 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-05 10:52:46 - [MESSAGE][PASSED] - Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-05 10:52:46 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-05 10:52:46 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-05 10:52:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-05 10:52:46 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Username_Textbox' is visible
+
+2018-07-05 10:52:46 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/Username_Textbox' is visible
+
+2018-07-05 10:52:46 - [TEST_STEP][PASSED] - sendKeys: Keys 'Lock' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-05 10:52:46 - [MESSAGE][PASSED] - Keys 'Lock' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-05 10:52:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-05 10:52:46 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-05 10:52:46 - [TEST_STEP][PASSED] - Statement - If (true): null
+
+2018-07-05 10:52:46 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-05 10:52:47 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-05 10:52:47 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2018-07-05 10:52:47 - [TEST_STEP][PASSED] - sendKeys: Keys 'Pwd' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-05 10:52:47 - [MESSAGE][PASSED] - Keys 'Pwd' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-05 10:52:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-05 10:52:47 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-05 10:52:47 - [TEST_STEP][PASSED] - Statement - AHeaderTxt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_Login_Page/InvalidLogin_HeaderTxt)): Text of object 'Object Repository/OMVA_Login_Page/InvalidLogin_HeaderTxt' is: 'Invalid Credentials'
+
+2018-07-05 10:52:48 - [MESSAGE][PASSED] - Text of object 'Object Repository/OMVA_Login_Page/InvalidLogin_HeaderTxt' is: 'Invalid Credentials'
+
+2018-07-05 10:52:48 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Invalid Credentials' and expected text 'Invalid Credentials' are matched  using regular expression
+
+2018-07-05 10:52:48 - [MESSAGE][PASSED] - Actual text 'Invalid Credentials' and expected text 'Invalid Credentials' are matched  using regular expression
+
+2018-07-05 10:52:48 - [TEST_STEP][PASSED] - Statement - AContentTxt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_Login_Page/InvalidLogin_ContentTxt)): Text of object 'Object Repository/OMVA_Login_Page/InvalidLogin_ContentTxt' is: 'The specified username / password is invalid. Please try again.'
+
+2018-07-05 10:52:48 - [MESSAGE][PASSED] - Text of object 'Object Repository/OMVA_Login_Page/InvalidLogin_ContentTxt' is: 'The specified username / password is invalid. Please try again.'
+
+2018-07-05 10:52:48 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'The specified username / password is invalid. Please try again.' and expected text 'The specified username / password is invalid. Please try again.' are matched  using regular expression
+
+2018-07-05 10:52:48 - [MESSAGE][PASSED] - Actual text 'The specified username / password is invalid. Please try again.' and expected text 'The specified username / password is invalid. Please try again.' are matched  using regular expression
+
+2018-07-05 10:52:48 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/InvalidLogin_OKbtn' is visible
+
+2018-07-05 10:52:48 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/InvalidLogin_OKbtn' is visible
+
+2018-07-05 10:52:48 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2018-07-05 10:52:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/InvalidLogin_OKbtn' is clicked on
+
+2018-07-05 10:52:48 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/InvalidLogin_OKbtn' is clicked on
+
+2018-07-05 10:52:48 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-05 10:52:48 - [MESSAGE][PASSED] - Browser is closed
+
+2018-07-05 10:52:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UserManagementTestCases/Login/Invalid_Login' successfully
+
+2018-07-05 10:52:49 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/UserManagementTestCases/Login/Invalid_Login' successfully
+
+2018-07-05 10:52:49 - [TEST_CASE][PASSED] - Test Cases/UserManagementTestCases/Login/Invalid_Login: Test Cases/UserManagementTestCases/Login/Invalid_Login
+
+2018-07-05 10:52:49 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-05 10:52:49 - [TEST_CASE][PASSED] - Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL: Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL
+
+2018-07-05 10:52:49 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-05 10:52:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-05 10:52:50 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-05 10:53:01 - [MESSAGE][PASSED] - Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-05 10:53:01 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-05 10:53:01 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-05 10:53:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-05 10:53:01 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Username_Textbox' is visible
+
+2018-07-05 10:53:01 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/Username_Textbox' is visible
+
+2018-07-05 10:53:01 - [TEST_STEP][PASSED] - sendKeys: Keys 'Lock' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-05 10:53:01 - [MESSAGE][PASSED] - Keys 'Lock' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-05 10:53:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-05 10:53:01 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-05 10:53:01 - [TEST_STEP][PASSED] - Statement - If (true): null
+
+2018-07-05 10:53:01 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-05 10:53:02 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-05 10:53:02 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2018-07-05 10:53:02 - [TEST_STEP][PASSED] - sendKeys: Keys 'Pwd' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-05 10:53:02 - [MESSAGE][PASSED] - Keys 'Pwd' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-05 10:53:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-05 10:53:02 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-05 10:53:02 - [TEST_STEP][PASSED] - Statement - AHeaderTxt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_Login_Page/InvalidLogin_HeaderTxt)): Text of object 'Object Repository/OMVA_Login_Page/InvalidLogin_HeaderTxt' is: 'Invalid Credentials'
+
+2018-07-05 10:53:03 - [MESSAGE][PASSED] - Text of object 'Object Repository/OMVA_Login_Page/InvalidLogin_HeaderTxt' is: 'Invalid Credentials'
+
+2018-07-05 10:53:03 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Invalid Credentials' and expected text 'Invalid Credentials' are matched  using regular expression
+
+2018-07-05 10:53:03 - [MESSAGE][PASSED] - Actual text 'Invalid Credentials' and expected text 'Invalid Credentials' are matched  using regular expression
+
+2018-07-05 10:53:03 - [TEST_STEP][PASSED] - Statement - AContentTxt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_Login_Page/InvalidLogin_ContentTxt)): Text of object 'Object Repository/OMVA_Login_Page/InvalidLogin_ContentTxt' is: 'The specified username / password is invalid. Please try again.'
+
+2018-07-05 10:53:03 - [MESSAGE][PASSED] - Text of object 'Object Repository/OMVA_Login_Page/InvalidLogin_ContentTxt' is: 'The specified username / password is invalid. Please try again.'
+
+2018-07-05 10:53:03 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'The specified username / password is invalid. Please try again.' and expected text 'The specified username / password is invalid. Please try again.' are matched  using regular expression
+
+2018-07-05 10:53:03 - [MESSAGE][PASSED] - Actual text 'The specified username / password is invalid. Please try again.' and expected text 'The specified username / password is invalid. Please try again.' are matched  using regular expression
+
+2018-07-05 10:53:03 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/InvalidLogin_OKbtn' is visible
+
+2018-07-05 10:53:03 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/InvalidLogin_OKbtn' is visible
+
+2018-07-05 10:53:03 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2018-07-05 10:53:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/InvalidLogin_OKbtn' is clicked on
+
+2018-07-05 10:53:03 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/InvalidLogin_OKbtn' is clicked on
+
+2018-07-05 10:53:03 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-05 10:53:03 - [MESSAGE][PASSED] - Browser is closed
+
+2018-07-05 10:53:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UserManagementTestCases/Login/Invalid_Login' successfully
+
+2018-07-05 10:53:03 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/UserManagementTestCases/Login/Invalid_Login' successfully
+
+2018-07-05 10:53:04 - [TEST_CASE][PASSED] - Test Cases/UserManagementTestCases/Login/Invalid_Login: Test Cases/UserManagementTestCases/Login/Invalid_Login
+
+2018-07-05 10:53:04 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-05 10:53:04 - [TEST_CASE][PASSED] - Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL: Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL
+
+2018-07-05 10:53:04 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-05 10:53:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-05 10:53:05 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-05 10:53:15 - [MESSAGE][PASSED] - Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-05 10:53:15 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-05 10:53:15 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-05 10:53:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-05 10:53:15 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Username_Textbox' is visible
+
+2018-07-05 10:53:15 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/Username_Textbox' is visible
+
+2018-07-05 10:53:15 - [TEST_STEP][PASSED] - sendKeys: Keys 'Lock' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-05 10:53:15 - [MESSAGE][PASSED] - Keys 'Lock' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-05 10:53:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-05 10:53:15 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-05 10:53:15 - [TEST_STEP][PASSED] - Statement - If (true): null
+
+2018-07-05 10:53:15 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-05 10:53:16 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-05 10:53:16 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2018-07-05 10:53:16 - [TEST_STEP][PASSED] - sendKeys: Keys 'Pwd' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-05 10:53:16 - [MESSAGE][PASSED] - Keys 'Pwd' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-05 10:53:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-05 10:53:16 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-05 10:53:16 - [TEST_STEP][PASSED] - Statement - AHeaderTxt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_Login_Page/InvalidLogin_HeaderTxt)): Text of object 'Object Repository/OMVA_Login_Page/InvalidLogin_HeaderTxt' is: 'Invalid Credentials'
+
+2018-07-05 10:53:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/OMVA_Login_Page/InvalidLogin_HeaderTxt' is: 'Invalid Credentials'
+
+2018-07-05 10:53:17 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Invalid Credentials' and expected text 'Invalid Credentials' are matched  using regular expression
+
+2018-07-05 10:53:17 - [MESSAGE][PASSED] - Actual text 'Invalid Credentials' and expected text 'Invalid Credentials' are matched  using regular expression
+
+2018-07-05 10:53:17 - [TEST_STEP][PASSED] - Statement - AContentTxt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_Login_Page/InvalidLogin_ContentTxt)): Text of object 'Object Repository/OMVA_Login_Page/InvalidLogin_ContentTxt' is: 'The specified username / password is invalid. Please try again.'
+
+2018-07-05 10:53:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/OMVA_Login_Page/InvalidLogin_ContentTxt' is: 'The specified username / password is invalid. Please try again.'
+
+2018-07-05 10:53:17 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'The specified username / password is invalid. Please try again.' and expected text 'The specified username / password is invalid. Please try again.' are matched  using regular expression
+
+2018-07-05 10:53:17 - [MESSAGE][PASSED] - Actual text 'The specified username / password is invalid. Please try again.' and expected text 'The specified username / password is invalid. Please try again.' are matched  using regular expression
+
+2018-07-05 10:53:17 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/InvalidLogin_OKbtn' is visible
+
+2018-07-05 10:53:17 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/InvalidLogin_OKbtn' is visible
+
+2018-07-05 10:53:17 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2018-07-05 10:53:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/InvalidLogin_OKbtn' is clicked on
+
+2018-07-05 10:53:17 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/InvalidLogin_OKbtn' is clicked on
+
+2018-07-05 10:53:17 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-05 10:53:17 - [MESSAGE][PASSED] - Browser is closed
+
+2018-07-05 10:53:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UserManagementTestCases/Login/Invalid_Login' successfully
+
+2018-07-05 10:53:17 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/UserManagementTestCases/Login/LockUser_Login' successfully
+
+2018-07-05 10:53:18 - [TEST_CASE][PASSED] - Test Cases/UserManagementTestCases/Login/LockUser_Login: Test Cases/UserManagementTestCases/Login/LockUser_Login
+
+2018-07-05 10:53:18 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-05 10:53:18 - [TEST_CASE][PASSED] - Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL: Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL
+
+2018-07-05 10:53:18 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-05 10:53:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-05 10:53:19 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-05 10:53:30 - [MESSAGE][PASSED] - Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-05 10:53:30 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-05 10:53:30 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-05 10:53:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-05 10:53:30 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Username_Textbox' is visible
+
+2018-07-05 10:53:30 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/Username_Textbox' is visible
+
+2018-07-05 10:53:30 - [TEST_STEP][PASSED] - sendKeys: Keys 'Lock' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-05 10:53:30 - [MESSAGE][PASSED] - Keys 'Lock' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-05 10:53:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-05 10:53:30 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-05 10:53:30 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-05 10:53:31 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-05 10:53:31 - [TEST_STEP][PASSED] - sendKeys: Keys 'Lock' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-05 10:53:31 - [MESSAGE][PASSED] - Keys 'Lock' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-05 10:53:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-05 10:53:31 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-05 10:53:31 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-07-05 10:53:35 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-07-05 10:53:35 - [TEST_STEP][PASSED] - Statement - AHeaderTxt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_Login_Page/LockedLogin_HeaderTxt)): Text of object 'Object Repository/OMVA_Login_Page/LockedLogin_HeaderTxt' is: 'Account Locked'
+
+2018-07-05 10:53:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/OMVA_Login_Page/LockedLogin_HeaderTxt' is: 'Account Locked'
+
+2018-07-05 10:53:35 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Account Locked' and expected text 'Account Locked' are matched  using regular expression
+
+2018-07-05 10:53:35 - [MESSAGE][PASSED] - Actual text 'Account Locked' and expected text 'Account Locked' are matched  using regular expression
+
+2018-07-05 10:53:35 - [TEST_STEP][PASSED] - Statement - AContentTxt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_Login_Page/LockedLogin_ContentTxt)): Text of object 'Object Repository/OMVA_Login_Page/LockedLogin_ContentTxt' is: 'This account is locked due to multiple failed attempts. Please contact support team to resolve the same'
+
+2018-07-05 10:53:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/OMVA_Login_Page/LockedLogin_ContentTxt' is: 'This account is locked due to multiple failed attempts. Please contact support team to resolve the same'
+
+2018-07-05 10:53:35 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'This account is locked due to multiple failed attempts. Please contact support team to resolve the same' and expected text 'This account is locked due to multiple failed attempts. Please contact support team to resolve the same' are matched  using regular expression
+
+2018-07-05 10:53:35 - [MESSAGE][PASSED] - Actual text 'This account is locked due to multiple failed attempts. Please contact support team to resolve the same' and expected text 'This account is locked due to multiple failed attempts. Please contact support team to resolve the same' are matched  using regular expression
+
+2018-07-05 10:53:35 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/InvalidLogin_OKbtn' is visible
+
+2018-07-05 10:53:35 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/InvalidLogin_OKbtn' is visible
+
+2018-07-05 10:53:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/InvalidLogin_OKbtn' is clicked on
+
+2018-07-05 10:53:35 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/InvalidLogin_OKbtn' is clicked on
+
+2018-07-05 10:53:35 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-05 10:53:36 - [MESSAGE][PASSED] - Browser is closed
+
+2018-07-05 10:53:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UserManagementTestCases/Login/LockUser_Login' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-05 10:47:54 - [TEST_SUITE][PASSED] - UserManagementTestSuite: Test Cases/UserManagementTestCases/UserActions/LockUser]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

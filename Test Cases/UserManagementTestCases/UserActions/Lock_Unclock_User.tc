@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Lock_Unclock_User</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4ec1cb11-7d4a-415d-b92e-e99408058a1c</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Credentials_IDPwd').getValue('LockID', 1)</defaultValue>
+      <description></description>
+      <id>4fd2303e-b616-4cc7-a8fc-c9e4c8665cb8</id>
+      <masked>false</masked>
+      <name>LockUserID</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Credentials_IDPwd').getValue('InvalidPassword', 1)</defaultValue>
+      <description></description>
+      <id>6a787a93-a207-49fc-89dc-89bb7b22f070</id>
+      <masked>false</masked>
+      <name>InvalidPassword</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>acf43278-7be4-4553-9252-b12ee1b6853e</id>
+      <masked>false</masked>
+      <name>AHeaderTxt</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>8b875513-bb06-47c2-86f6-b3f406984038</id>
+      <masked>false</masked>
+      <name>AContentTxt</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Credentials_IDPwd').getValue('SuperAdminPassword', 1)</defaultValue>
+      <description></description>
+      <id>41e24c7c-592a-4ab3-a930-56c547e68be9</id>
+      <masked>false</masked>
+      <name>ValidPwd</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Credentials_IDPwd').getValue('SuperAdminID', 1)</defaultValue>
+      <description></description>
+      <id>39cd8771-708d-41ef-af8d-fd49b55ce01b</id>
+      <masked>false</masked>
+      <name>ValidID</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>0723e5a6-b7fe-4403-a997-f74071fa29f1</id>
+      <masked>false</masked>
+      <name>UnlockToastMsg</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Credentials_IDPwd').getValue('LockPwd', 1)</defaultValue>
+      <description></description>
+      <id>bd349fb7-d195-4f6f-b218-7cd9bc81ebf3</id>
+      <masked>false</masked>
+      <name>LockUserPwd</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case is to test MAL login</description>
+   <name>Login_MAL</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b3133d5a-ca32-4294-8a4d-b48f5c084da2</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('credentialDetails/Credentials_IDPwd').getValue('MALID', 1)</defaultValue>
+      <description></description>
+      <id>e4c6e816-933d-47f5-b7a7-742f7e43a8b4</id>
+      <masked>false</masked>
+      <name>MALID</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('credentialDetails/Credentials_IDPwd').getValue('MALPassword', 1)</defaultValue>
+      <description></description>
+      <id>73f3fcb7-c7c6-4dec-bcb7-4e65026036b2</id>
+      <masked>false</masked>
+      <name>MALPwd</name>
+   </variable>
+</TestCaseEntity>

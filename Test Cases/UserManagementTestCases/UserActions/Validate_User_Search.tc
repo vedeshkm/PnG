@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Validate_User_Search</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e46eef62-bcb8-4e50-ba46-9b94f7113aac</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>eb3b8859-7295-4785-b9b7-e251b7227cb1</id>
+      <masked>false</masked>
+      <name>uname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>391a4c0b-59b2-424c-a085-9baaafadd7c2</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+</TestCaseEntity>

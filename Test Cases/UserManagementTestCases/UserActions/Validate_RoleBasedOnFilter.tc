@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Validate_RoleBasedOnFilter</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>72c49861-4e3f-4a5a-a3be-4ea49115b4a3</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f0fcdf46-8472-47b3-9519-4d8b43ae52a5</id>
+      <masked>false</masked>
+      <name>marketAdmin</name>
+   </variable>
+</TestCaseEntity>

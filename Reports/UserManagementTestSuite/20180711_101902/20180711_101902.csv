@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+UserManagementTestSuite,Chrome 67.0.3396.99,,2018-07-11 10:19:05,2018-07-11 10:20:56,1m - 51.327s,FAILED
+,,,,,,
+Test Cases/UserManagementTestCases/UserActions/Validate_Search_EmailID,Chrome 67.0.3396.99,Create User and validate,2018-07-11 10:19:06,2018-07-11 10:19:55,49.428s,FAILED
+callTestCase,Chrome 67.0.3396.99,,2018-07-11 10:19:06,2018-07-11 10:19:27,20.630s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-11 10:19:27,2018-07-11 10:19:27,0.214s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-11 10:19:27,2018-07-11 10:19:27,0.260s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-11 10:19:27,2018-07-11 10:19:27,0.113s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-11 10:19:27,2018-07-11 10:19:28,0.579s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-11 10:19:28,2018-07-11 10:19:28,0.229s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-11 10:19:28,2018-07-11 10:19:28,0.108s,PASSED
+waitForPageLoad,Chrome 67.0.3396.99,,2018-07-11 10:19:28,2018-07-11 10:19:28,0.087s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-11 10:19:28,2018-07-11 10:19:33,5.009s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-11 10:19:33,2018-07-11 10:19:33,0.143s,PASSED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-11 10:19:33,2018-07-11 10:19:39,5.245s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-11 10:19:39,2018-07-11 10:19:39,0.508s,PASSED
+Statement - Email = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_UserManagement_Page/Email_Verify)),Chrome 67.0.3396.99,,2018-07-11 10:19:39,2018-07-11 10:19:55,15.890s,FAILED
+,,,,,,
+Test Cases/UserManagementTestCases/UserActions/Validate_ModifyDataFromEdituser,Chrome 67.0.3396.99,,2018-07-11 10:19:55,2018-07-11 10:20:22,26.639s,FAILED
+waitForElementVisible,Chrome 67.0.3396.99,,2018-07-11 10:19:55,2018-07-11 10:20:06,10.352s,PASSED
+sendKeys,Chrome 67.0.3396.99,,2018-07-11 10:20:06,2018-07-11 10:20:22,15.921s,FAILED
+,,,,,,
+Test Cases/UserManagementTestCases/UserActions/LockUser,Chrome 67.0.3396.99,This scenarios locks a user account by trying to log in into a valid account with invalid password for 5 attempts,2018-07-11 10:20:22,2018-07-11 10:20:56,34.088s,FAILED
+callTestCase,Chrome 67.0.3396.99,,2018-07-11 10:20:22,2018-07-11 10:20:56,33.925s,FAILED

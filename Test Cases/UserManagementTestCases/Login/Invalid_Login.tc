@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Invalid_Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bcf52cd9-cb07-47e0-91c3-bbc133ad9bb2</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('credentialDetails/Credentials_IDPwd').getValue('InvalidID', 1)</defaultValue>
+      <description></description>
+      <id>ec1145e7-0f0d-47cc-bdee-3c2b5f65ebab</id>
+      <masked>false</masked>
+      <name>InvalidID</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('credentialDetails/Credentials_IDPwd').getValue('InvalidPassword', 1)</defaultValue>
+      <description></description>
+      <id>f678e941-3a15-4100-b0d2-25ef4370cd3b</id>
+      <masked>false</masked>
+      <name>InvalidPassword</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>37e6fcea-345a-49d4-9345-b9c946acca34</id>
+      <masked>false</masked>
+      <name>AHeaderTxt</name>
+   </variable>
+   <variable>
+      <defaultValue>'The specified username / password is invalid. Please try again.'</defaultValue>
+      <description></description>
+      <id>41b7ac21-fd23-4f43-b75b-031cf1030947</id>
+      <masked>false</masked>
+      <name>AContentTxt</name>
+   </variable>
+</TestCaseEntity>

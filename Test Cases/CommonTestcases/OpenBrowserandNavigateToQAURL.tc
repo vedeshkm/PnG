@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case will open a browser and navigates to URL</description>
+   <name>OpenBrowserandNavigateToQAURL</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3ceeb9b3-1223-48f1-8aa5-51744e4aa102</testCaseGuid>
+</TestCaseEntity>

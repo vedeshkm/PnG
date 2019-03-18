@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="UserManagementTestSuite" time="111" tests="0" failures="3" errors="0">
+   <testsuite name="UserManagementTestSuite" tests="0" failures="3" errors="0" time="111" timestamp="2018-07-11 10:19:05" hostname="vijay.n - EDT-168.estblr.com" id="Test Suites/UserManagementTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Automation_P&amp;G\\Automation-P&amp;G-Code-Base\\OMVA\\Reports\\UserManagementTestSuite\\20180711_101902"/>
+         <property name="logFiles" value="D:\\Automation_P&amp;G\\Automation-P&amp;G-Code-Base\\OMVA\\Reports\\UserManagementTestSuite\\20180711_101902\\execution0.log"/>
+         <property name="attachments" value="D:\\Automation_P&amp;G\\Automation-P&amp;G-Code-Base\\OMVA\\Reports\\UserManagementTestSuite\\20180711_101902\\1531284595150.png, D:\\Automation_P&amp;G\\Automation-P&amp;G-Code-Base\\OMVA\\Reports\\UserManagementTestSuite\\20180711_101902\\1531284621808.png, D:\\Automation_P&amp;G\\Automation-P&amp;G-Code-Base\\OMVA\\Reports\\UserManagementTestSuite\\20180711_101902\\1531284655638.png"/>
+         <property name="hostName" value="vijay.n - EDT-168.estblr.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="172.16.17.168"/>
+         <property name="sessionId" value="feaa8c9e605f41e72ee408396b5b3bbd"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/UserManagementTestCases/UserActions/Validate_Search_EmailID" classname="Test Cases/UserManagementTestCases/UserActions/Validate_Search_EmailID" status="FAILED">
+         <failure type="FAILED" message="Unable to get text of object 'Object Repository/OMVA_UserManagement_Page/Email_Verify' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_UserManagement_Page/Email_Verify' located by 'By.xpath: (//tr[@_ngcontent-c5=''])[5]' not found)"/>
+         <system-out><![CDATA[2018-07-11 10:19:06 - [TEST_CASE][FAILED] - Test Cases/UserManagementTestCases/UserActions/Validate_Search_EmailID: Test Cases/UserManagementTestCases/UserActions/Validate_Search_EmailID FAILED because (of) Unable to get text of object 'Object Repository/OMVA_UserManagement_Page/Email_Verify' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_UserManagement_Page/Email_Verify' located by 'By.xpath: (//tr[@_ngcontent-c5=''])[5]' not found)
+
+2018-07-11 10:19:06 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-11 10:19:06 - [TEST_CASE][PASSED] - Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL: Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL
+
+2018-07-11 10:19:06 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-11 10:19:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-11 10:19:14 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-11 10:19:26 - [MESSAGE][PASSED] - Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-11 10:19:26 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-11 10:19:27 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-11 10:19:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-11 10:19:27 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Username_Textbox' is visible
+
+2018-07-11 10:19:27 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/Username_Textbox' is visible
+
+2018-07-11 10:19:27 - [TEST_STEP][PASSED] - sendKeys: Keys 'SuperAdmin' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-11 10:19:27 - [MESSAGE][PASSED] - Keys 'SuperAdmin' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-11 10:19:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-11 10:19:27 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-11 10:19:27 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-11 10:19:28 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-11 10:19:28 - [TEST_STEP][PASSED] - sendKeys: Keys 'SuperAdmin' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-11 10:19:28 - [MESSAGE][PASSED] - Keys 'SuperAdmin' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-11 10:19:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-11 10:19:28 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-11 10:19:28 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-07-11 10:19:28 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-07-11 10:19:28 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-11 10:19:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-11 10:19:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_UserManagement_Page/Search_button' is clicked on
+
+2018-07-11 10:19:33 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_UserManagement_Page/Search_button' is clicked on
+
+2018-07-11 10:19:33 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_UserManagement_Page/Search_button' is not visible after 5 second(s)
+
+2018-07-11 10:19:39 - [MESSAGE][WARNING] - Object 'Object Repository/OMVA_UserManagement_Page/Search_button' is not visible after 5 second(s)
+
+2018-07-11 10:19:39 - [TEST_STEP][PASSED] - sendKeys: Keys 'phanindra.gadde@genpact.com' sent to object: 'Object Repository/OMVA_UserManagement_Page/Enter_Text_Search'
+
+2018-07-11 10:19:39 - [MESSAGE][PASSED] - Keys 'phanindra.gadde@genpact.com' sent to object: 'Object Repository/OMVA_UserManagement_Page/Enter_Text_Search'
+
+2018-07-11 10:19:39 - [TEST_STEP][FAILED] - Statement - Email = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_UserManagement_Page/Email_Verify)): Unable to get text of object 'Object Repository/OMVA_UserManagement_Page/Email_Verify' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_UserManagement_Page/Email_Verify' located by 'By.xpath: (//tr[@_ngcontent-c5=''])[5]' not found)
+
+2018-07-11 10:19:55 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/OMVA_UserManagement_Page/Email_Verify' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_UserManagement_Page/Email_Verify' located by 'By.xpath: (//tr[@_ngcontent-c5=''])[5]' not found)
+[[ATTACHMENT|D:\\Automation_P&G\\Automation-P&G-Code-Base\\OMVA\\Reports\\UserManagementTestSuite\\20180711_101902\\1531284595150.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-11 10:19:06 - [TEST_CASE][FAILED] - Test Cases/UserManagementTestCases/UserActions/Validate_Search_EmailID: Test Cases/UserManagementTestCases/UserActions/Validate_Search_EmailID FAILED because (of) Unable to get text of object 'Object Repository/OMVA_UserManagement_Page/Email_Verify' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_UserManagement_Page/Email_Verify' located by 'By.xpath: (//tr[@_ngcontent-c5=''])[5]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UserManagementTestCases/UserActions/Validate_ModifyDataFromEdituser" classname="Test Cases/UserManagementTestCases/UserActions/Validate_ModifyDataFromEdituser" status="FAILED">
+         <failure type="FAILED" message="Unable to send keys 'SuperAdmin' to object 'Object Repository/OMVA_Login_Page/Username_Textbox' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Login_Page/Username_Textbox' located by 'By.xpath: //input[@id = 'userName' and @name = 'userName' and @type = 'text']' not found)"/>
+         <system-out><![CDATA[2018-07-11 10:19:55 - [TEST_CASE][FAILED] - Test Cases/UserManagementTestCases/UserActions/Validate_ModifyDataFromEdituser: Test Cases/UserManagementTestCases/UserActions/Validate_ModifyDataFromEdituser FAILED because (of) Unable to send keys 'SuperAdmin' to object 'Object Repository/OMVA_Login_Page/Username_Textbox' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Login_Page/Username_Textbox' located by 'By.xpath: //input[@id = 'userName' and @name = 'userName' and @type = 'text']' not found)
+
+2018-07-11 10:19:55 - [TEST_STEP][PASSED] - waitForElementVisible: Web element with id: 'Object Repository/OMVA_Login_Page/Username_Textbox' located by 'By.xpath: //input[@id = 'userName' and @name = 'userName' and @type = 'text']' not found
+
+2018-07-11 10:20:06 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/OMVA_Login_Page/Username_Textbox' located by 'By.xpath: //input[@id = 'userName' and @name = 'userName' and @type = 'text']' not found
+
+2018-07-11 10:20:06 - [TEST_STEP][FAILED] - sendKeys: Unable to send keys 'SuperAdmin' to object 'Object Repository/OMVA_Login_Page/Username_Textbox' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Login_Page/Username_Textbox' located by 'By.xpath: //input[@id = 'userName' and @name = 'userName' and @type = 'text']' not found)
+
+2018-07-11 10:20:22 - [MESSAGE][FAILED] - Unable to send keys 'SuperAdmin' to object 'Object Repository/OMVA_Login_Page/Username_Textbox' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Login_Page/Username_Textbox' located by 'By.xpath: //input[@id = 'userName' and @name = 'userName' and @type = 'text']' not found)
+[[ATTACHMENT|D:\\Automation_P&G\\Automation-P&G-Code-Base\\OMVA\\Reports\\UserManagementTestSuite\\20180711_101902\\1531284621808.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-11 10:19:55 - [TEST_CASE][FAILED] - Test Cases/UserManagementTestCases/UserActions/Validate_ModifyDataFromEdituser: Test Cases/UserManagementTestCases/UserActions/Validate_ModifyDataFromEdituser FAILED because (of) Unable to send keys 'SuperAdmin' to object 'Object Repository/OMVA_Login_Page/Username_Textbox' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Login_Page/Username_Textbox' located by 'By.xpath: //input[@id = 'userName' and @name = 'userName' and @type = 'text']' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UserManagementTestCases/UserActions/LockUser" classname="Test Cases/UserManagementTestCases/UserActions/LockUser" status="FAILED">
+         <failure type="FAILED" message="Unable to get text of object 'Object Repository/OMVA_Login_Page/InvalidLogin_HeaderTxt' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Login_Page/InvalidLogin_HeaderTxt' located by 'By.xpath: //h4[text()='Invalid Credentials']' not found)"/>
+         <system-out><![CDATA[2018-07-11 10:20:22 - [TEST_CASE][FAILED] - Test Cases/UserManagementTestCases/UserActions/LockUser: Test Cases/UserManagementTestCases/UserActions/LockUser FAILED because (of) Unable to get text of object 'Object Repository/OMVA_Login_Page/InvalidLogin_HeaderTxt' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Login_Page/InvalidLogin_HeaderTxt' located by 'By.xpath: //h4[text()='Invalid Credentials']' not found)
+
+2018-07-11 10:20:22 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/UserManagementTestCases/Login/Invalid_Login' (Root cause: Call Test Case 'Test Cases/UserManagementTestCases/Login/Invalid_Login' failed)
+
+2018-07-11 10:20:22 - [TEST_CASE][FAILED] - Test Cases/UserManagementTestCases/Login/Invalid_Login: Test Cases/UserManagementTestCases/Login/Invalid_Login FAILED because (of) Unable to get text of object 'Object Repository/OMVA_Login_Page/InvalidLogin_HeaderTxt' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Login_Page/InvalidLogin_HeaderTxt' located by 'By.xpath: //h4[text()='Invalid Credentials']' not found)
+
+2018-07-11 10:20:22 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-11 10:20:22 - [TEST_CASE][PASSED] - Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL: Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL
+
+2018-07-11 10:20:22 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-11 10:20:22 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-07-11 10:20:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-11 10:20:27 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-11 10:20:38 - [MESSAGE][PASSED] - Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-11 10:20:38 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-11 10:20:38 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-11 10:20:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-11 10:20:38 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Username_Textbox' is visible
+
+2018-07-11 10:20:38 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/Username_Textbox' is visible
+
+2018-07-11 10:20:38 - [TEST_STEP][PASSED] - sendKeys: Keys 'Lock' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-11 10:20:39 - [MESSAGE][PASSED] - Keys 'Lock' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-11 10:20:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-11 10:20:39 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-11 10:20:39 - [TEST_STEP][PASSED] - Statement - If (true): null
+
+2018-07-11 10:20:39 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-11 10:20:39 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-11 10:20:39 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2018-07-11 10:20:39 - [TEST_STEP][PASSED] - sendKeys: Keys 'Pwd' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-11 10:20:39 - [MESSAGE][PASSED] - Keys 'Pwd' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-11 10:20:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-11 10:20:40 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-11 10:20:40 - [TEST_STEP][FAILED] - Statement - AHeaderTxt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_Login_Page/InvalidLogin_HeaderTxt)): Unable to get text of object 'Object Repository/OMVA_Login_Page/InvalidLogin_HeaderTxt' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Login_Page/InvalidLogin_HeaderTxt' located by 'By.xpath: //h4[text()='Invalid Credentials']' not found)
+
+2018-07-11 10:20:56 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/OMVA_Login_Page/InvalidLogin_HeaderTxt' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Login_Page/InvalidLogin_HeaderTxt' located by 'By.xpath: //h4[text()='Invalid Credentials']' not found)
+[[ATTACHMENT|D:\\Automation_P&G\\Automation-P&G-Code-Base\\OMVA\\Reports\\UserManagementTestSuite\\20180711_101902\\1531284655638.png]]
+
+2018-07-11 10:20:56 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/UserManagementTestCases/Login/Invalid_Login' (Root cause: Call Test Case 'Test Cases/UserManagementTestCases/Login/Invalid_Login' failed)]]></system-out>
+         <system-err><![CDATA[2018-07-11 10:20:22 - [TEST_CASE][FAILED] - Test Cases/UserManagementTestCases/UserActions/LockUser: Test Cases/UserManagementTestCases/UserActions/LockUser FAILED because (of) Unable to get text of object 'Object Repository/OMVA_Login_Page/InvalidLogin_HeaderTxt' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Login_Page/InvalidLogin_HeaderTxt' located by 'By.xpath: //h4[text()='Invalid Credentials']' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-11 10:19:05 - [TEST_SUITE][FAILED] - UserManagementTestSuite: Test Cases/UserManagementTestCases/UserActions/Validate_Search_EmailID FAILED because (of) Unable to get text of object 'Object Repository/OMVA_UserManagement_Page/Email_Verify' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_UserManagement_Page/Email_Verify' located by 'By.xpath: (//tr[@_ngcontent-c5=''])[5]' not found)]]></system-out>
+      <system-err><![CDATA[2018-07-11 10:19:05 - [TEST_SUITE][FAILED] - UserManagementTestSuite: Test Cases/UserManagementTestCases/UserActions/Validate_Search_EmailID FAILED because (of) Unable to get text of object 'Object Repository/OMVA_UserManagement_Page/Email_Verify' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_UserManagement_Page/Email_Verify' located by 'By.xpath: (//tr[@_ngcontent-c5=''])[5]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

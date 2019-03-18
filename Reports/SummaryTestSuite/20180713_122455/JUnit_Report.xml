@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SummaryTestSuite" time="459" tests="0" failures="6" errors="0">
+   <testsuite name="SummaryTestSuite" tests="0" failures="6" errors="0" time="459" timestamp="2018-07-13 12:24:58" hostname="703177791 - 703177791GDL.IND.CORP.AD" id="Test Suites/SummaryTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\P&amp;G New\\Automation-P&amp;G-Code-Base\\OMVA\\Reports\\SummaryTestSuite\\20180713_122455"/>
+         <property name="logFiles" value="D:\\P&amp;G New\\Automation-P&amp;G-Code-Base\\OMVA\\Reports\\SummaryTestSuite\\20180713_122455\\execution0.log"/>
+         <property name="attachments" value="D:\\P&amp;G New\\Automation-P&amp;G-Code-Base\\OMVA\\Reports\\SummaryTestSuite\\20180713_122455\\1531464976056.png, D:\\P&amp;G New\\Automation-P&amp;G-Code-Base\\OMVA\\Reports\\SummaryTestSuite\\20180713_122455\\1531465055093.png, D:\\P&amp;G New\\Automation-P&amp;G-Code-Base\\OMVA\\Reports\\SummaryTestSuite\\20180713_122455\\1531465133591.png, D:\\P&amp;G New\\Automation-P&amp;G-Code-Base\\OMVA\\Reports\\SummaryTestSuite\\20180713_122455\\1531465201208.png, D:\\P&amp;G New\\Automation-P&amp;G-Code-Base\\OMVA\\Reports\\SummaryTestSuite\\20180713_122455\\1531465274607.png, D:\\P&amp;G New\\Automation-P&amp;G-Code-Base\\OMVA\\Reports\\SummaryTestSuite\\20180713_122455\\1531465356327.png"/>
+         <property name="hostName" value="703177791 - 703177791GDL.IND.CORP.AD"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.62"/>
+         <property name="hostAddress" value="172.16.21.232"/>
+         <property name="sessionId" value="12c5d00849b70785c3f6e77ce11a428d"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/SummaryTestCases/AlocSpoc_Comment" classname="Test Cases/SummaryTestCases/AlocSpoc_Comment" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/OMVA_Summary_Page/AddComment_Icon' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Summary_Page/AddComment_Icon' located by 'By.xpath: (//span[@class='addChat'])[1]' not found)"/>
+         <system-out><![CDATA[2018-07-13 12:24:59 - [TEST_CASE][FAILED] - Test Cases/SummaryTestCases/AlocSpoc_Comment: Test Cases/SummaryTestCases/AlocSpoc_Comment FAILED because (of) Unable to click on object 'Object Repository/OMVA_Summary_Page/AddComment_Icon' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Summary_Page/AddComment_Icon' located by 'By.xpath: (//span[@class='addChat'])[1]' not found)
+
+2018-07-13 12:24:59 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/UserManagementTestCases/Login/Login_AllocSPOC' successfully
+
+2018-07-13 12:25:01 - [TEST_CASE][PASSED] - Test Cases/UserManagementTestCases/Login/Login_AllocSPOC: Test Cases/UserManagementTestCases/Login/Login_AllocSPOC
+
+2018-07-13 12:25:01 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-13 12:25:01 - [TEST_CASE][PASSED] - Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL: Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL
+
+2018-07-13 12:25:02 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-13 12:25:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-13 12:25:06 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-13 12:25:23 - [MESSAGE][PASSED] - Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-13 12:25:23 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-13 12:25:24 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-13 12:25:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-13 12:25:24 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is not visible after 10 second(s)
+
+2018-07-13 12:25:35 - [MESSAGE][WARNING] - Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is not visible after 10 second(s)
+
+2018-07-13 12:25:35 - [TEST_STEP][PASSED] - sendKeys: Keys 'romeo' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-13 12:25:35 - [MESSAGE][PASSED] - Keys 'romeo' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-13 12:25:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-13 12:25:35 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-13 12:25:35 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-13 12:25:35 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-13 12:25:35 - [TEST_STEP][PASSED] - sendKeys: Keys 'romeo' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-13 12:25:36 - [MESSAGE][PASSED] - Keys 'romeo' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-13 12:25:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-13 12:25:36 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-13 12:25:36 - [TEST_STEP][PASSED] - waitForAngularLoad: This page doesn't use Angular.
+
+2018-07-13 12:25:36 - [MESSAGE][WARNING] - This page doesn't use Angular.
+
+2018-07-13 12:25:36 - [TEST_STEP][PASSED] - Statement - greetingtext = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_Landing_Page/Greeting_Label)): Text of object 'Object Repository/OMVA_Landing_Page/Greeting_Label' is: 'Good Afternoon, romeo'
+
+2018-07-13 12:25:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/OMVA_Landing_Page/Greeting_Label' is: 'Good Afternoon, romeo'
+
+2018-07-13 12:25:37 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Good Afternoon, romeo' and expected text '\D*romeo' are matched  using regular expression
+
+2018-07-13 12:25:37 - [MESSAGE][PASSED] - Actual text 'Good Afternoon, romeo' and expected text '\D*romeo' are matched  using regular expression
+
+2018-07-13 12:25:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UserManagementTestCases/Login/Login_AllocSPOC' successfully
+
+2018-07-13 12:25:37 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/OMVA_Summary_Page/AddComment_Icon' is not present after 5 second(s)
+
+2018-07-13 12:25:43 - [MESSAGE][WARNING] - Object 'Object Repository/OMVA_Summary_Page/AddComment_Icon' is not present after 5 second(s)
+
+2018-07-13 12:25:43 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/OMVA_Summary_Page/AddComment_Icon' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Summary_Page/AddComment_Icon' located by 'By.xpath: (//span[@class='addChat'])[1]' not found)
+
+2018-07-13 12:26:16 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/OMVA_Summary_Page/AddComment_Icon' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Summary_Page/AddComment_Icon' located by 'By.xpath: (//span[@class='addChat'])[1]' not found)
+[[ATTACHMENT|D:\\P&G New\\Automation-P&G-Code-Base\\OMVA\\Reports\\SummaryTestSuite\\20180713_122455\\1531464976056.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-13 12:24:59 - [TEST_CASE][FAILED] - Test Cases/SummaryTestCases/AlocSpoc_Comment: Test Cases/SummaryTestCases/AlocSpoc_Comment FAILED because (of) Unable to click on object 'Object Repository/OMVA_Summary_Page/AddComment_Icon' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Summary_Page/AddComment_Icon' located by 'By.xpath: (//span[@class='addChat'])[1]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SummaryTestCases/MAL_Comment" classname="Test Cases/SummaryTestCases/MAL_Comment" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/OMVA_Summary_Page/AddComment_Icon' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Summary_Page/AddComment_Icon' located by 'By.xpath: (//span[@class='addChat'])[1]' not found)"/>
+         <system-out><![CDATA[2018-07-13 12:26:16 - [TEST_CASE][FAILED] - Test Cases/SummaryTestCases/MAL_Comment: Test Cases/SummaryTestCases/MAL_Comment FAILED because (of) Unable to click on object 'Object Repository/OMVA_Summary_Page/AddComment_Icon' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Summary_Page/AddComment_Icon' located by 'By.xpath: (//span[@class='addChat'])[1]' not found)
+
+2018-07-13 12:26:16 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/UserManagementTestCases/Login/Login_MAL' successfully
+
+2018-07-13 12:26:17 - [TEST_CASE][PASSED] - Test Cases/UserManagementTestCases/Login/Login_MAL: Test Cases/UserManagementTestCases/Login/Login_MAL
+
+2018-07-13 12:26:17 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-13 12:26:17 - [TEST_CASE][PASSED] - Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL: Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL
+
+2018-07-13 12:26:17 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-13 12:26:17 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-07-13 12:26:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-13 12:26:20 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-13 12:26:34 - [MESSAGE][PASSED] - Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-13 12:26:34 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-13 12:26:35 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-13 12:26:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-13 12:26:35 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is not visible after 10 second(s)
+
+2018-07-13 12:26:46 - [MESSAGE][WARNING] - Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is not visible after 10 second(s)
+
+2018-07-13 12:26:46 - [TEST_STEP][PASSED] - sendKeys: Keys 'angelica' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-13 12:26:46 - [MESSAGE][PASSED] - Keys 'angelica' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-13 12:26:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-13 12:26:46 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-13 12:26:46 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-13 12:26:47 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-13 12:26:47 - [TEST_STEP][PASSED] - sendKeys: Keys 'angelica' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-13 12:26:47 - [MESSAGE][PASSED] - Keys 'angelica' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-13 12:26:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-13 12:26:48 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-13 12:26:48 - [TEST_STEP][PASSED] - waitForAngularLoad: This page doesn't use Angular.
+
+2018-07-13 12:26:48 - [MESSAGE][WARNING] - This page doesn't use Angular.
+
+2018-07-13 12:26:48 - [TEST_STEP][PASSED] - Statement - greetingtext = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_Landing_Page/Greeting_Label)): Text of object 'Object Repository/OMVA_Landing_Page/Greeting_Label' is: 'Good Afternoon, angelica'
+
+2018-07-13 12:26:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/OMVA_Landing_Page/Greeting_Label' is: 'Good Afternoon, angelica'
+
+2018-07-13 12:26:51 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Good Afternoon, angelica' and expected text '\D*angelica' are matched  using regular expression
+
+2018-07-13 12:26:51 - [MESSAGE][PASSED] - Actual text 'Good Afternoon, angelica' and expected text '\D*angelica' are matched  using regular expression
+
+2018-07-13 12:26:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UserManagementTestCases/Login/Login_MAL' successfully
+
+2018-07-13 12:26:51 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-13 12:26:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-13 12:26:56 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/OMVA_Landing_Page/Summary_Logo' is present
+
+2018-07-13 12:26:56 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Landing_Page/Summary_Logo' is present
+
+2018-07-13 12:26:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Landing_Page/Summary_Logo' is clicked on
+
+2018-07-13 12:26:56 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Landing_Page/Summary_Logo' is clicked on
+
+2018-07-13 12:26:56 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/OMVA_Summary_Page/AddComment_Icon' is not present after 5 second(s)
+
+2018-07-13 12:27:02 - [MESSAGE][WARNING] - Object 'Object Repository/OMVA_Summary_Page/AddComment_Icon' is not present after 5 second(s)
+
+2018-07-13 12:27:02 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/OMVA_Summary_Page/AddComment_Icon' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Summary_Page/AddComment_Icon' located by 'By.xpath: (//span[@class='addChat'])[1]' not found)
+
+2018-07-13 12:27:35 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/OMVA_Summary_Page/AddComment_Icon' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Summary_Page/AddComment_Icon' located by 'By.xpath: (//span[@class='addChat'])[1]' not found)
+[[ATTACHMENT|D:\\P&G New\\Automation-P&G-Code-Base\\OMVA\\Reports\\SummaryTestSuite\\20180713_122455\\1531465055093.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-13 12:26:16 - [TEST_CASE][FAILED] - Test Cases/SummaryTestCases/MAL_Comment: Test Cases/SummaryTestCases/MAL_Comment FAILED because (of) Unable to click on object 'Object Repository/OMVA_Summary_Page/AddComment_Icon' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Summary_Page/AddComment_Icon' located by 'By.xpath: (//span[@class='addChat'])[1]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SummaryTestCases/MSP_Comment" classname="Test Cases/SummaryTestCases/MSP_Comment" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/OMVA_Summary_Page/AddComment_Icon' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Summary_Page/AddComment_Icon' located by 'By.xpath: (//span[@class='addChat'])[1]' not found)"/>
+         <system-out><![CDATA[2018-07-13 12:27:35 - [TEST_CASE][FAILED] - Test Cases/SummaryTestCases/MSP_Comment: Test Cases/SummaryTestCases/MSP_Comment FAILED because (of) Unable to click on object 'Object Repository/OMVA_Summary_Page/AddComment_Icon' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Summary_Page/AddComment_Icon' located by 'By.xpath: (//span[@class='addChat'])[1]' not found)
+
+2018-07-13 12:27:35 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/UserManagementTestCases/Login/Login_ChannelMSP' successfully
+
+2018-07-13 12:27:36 - [TEST_CASE][PASSED] - Test Cases/UserManagementTestCases/Login/Login_ChannelMSP: Test Cases/UserManagementTestCases/Login/Login_ChannelMSP
+
+2018-07-13 12:27:36 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-13 12:27:36 - [TEST_CASE][PASSED] - Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL: Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL
+
+2018-07-13 12:27:36 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-13 12:27:36 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-07-13 12:27:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-13 12:27:40 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-13 12:27:53 - [MESSAGE][PASSED] - Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-13 12:27:53 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-13 12:27:54 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-13 12:27:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-13 12:27:54 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is not visible after 10 second(s)
+
+2018-07-13 12:28:05 - [MESSAGE][WARNING] - Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is not visible after 10 second(s)
+
+2018-07-13 12:28:05 - [TEST_STEP][PASSED] - sendKeys: Keys 'nicole' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-13 12:28:05 - [MESSAGE][PASSED] - Keys 'nicole' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-13 12:28:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-13 12:28:05 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-13 12:28:05 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-13 12:28:05 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-13 12:28:05 - [TEST_STEP][PASSED] - sendKeys: Keys 'nicole' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-13 12:28:06 - [MESSAGE][PASSED] - Keys 'nicole' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-13 12:28:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-13 12:28:06 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-13 12:28:06 - [TEST_STEP][PASSED] - waitForAngularLoad: This page doesn't use Angular.
+
+2018-07-13 12:28:06 - [MESSAGE][WARNING] - This page doesn't use Angular.
+
+2018-07-13 12:28:06 - [TEST_STEP][PASSED] - Statement - greetingtext = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_Landing_Page/Greeting_Label)): Text of object 'Object Repository/OMVA_Landing_Page/Greeting_Label' is: 'Good Afternoon, nicole'
+
+2018-07-13 12:28:07 - [MESSAGE][PASSED] - Text of object 'Object Repository/OMVA_Landing_Page/Greeting_Label' is: 'Good Afternoon, nicole'
+
+2018-07-13 12:28:07 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Good Afternoon, nicole' and expected text '\D*nicole' are matched  using regular expression
+
+2018-07-13 12:28:07 - [MESSAGE][PASSED] - Actual text 'Good Afternoon, nicole' and expected text '\D*nicole' are matched  using regular expression
+
+2018-07-13 12:28:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UserManagementTestCases/Login/Login_ChannelMSP' successfully
+
+2018-07-13 12:28:07 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-13 12:28:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-13 12:28:10 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/OMVA_Landing_Page/Summary_Logo' is present
+
+2018-07-13 12:28:11 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Landing_Page/Summary_Logo' is present
+
+2018-07-13 12:28:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Landing_Page/Summary_Logo' is clicked on
+
+2018-07-13 12:28:11 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Landing_Page/Summary_Logo' is clicked on
+
+2018-07-13 12:28:11 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-13 12:28:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-13 12:28:14 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/OMVA_Summary_Page/AddComment_Icon' is not present after 5 second(s)
+
+2018-07-13 12:28:20 - [MESSAGE][WARNING] - Object 'Object Repository/OMVA_Summary_Page/AddComment_Icon' is not present after 5 second(s)
+
+2018-07-13 12:28:20 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/OMVA_Summary_Page/AddComment_Icon' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Summary_Page/AddComment_Icon' located by 'By.xpath: (//span[@class='addChat'])[1]' not found)
+
+2018-07-13 12:28:54 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/OMVA_Summary_Page/AddComment_Icon' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Summary_Page/AddComment_Icon' located by 'By.xpath: (//span[@class='addChat'])[1]' not found)
+[[ATTACHMENT|D:\\P&G New\\Automation-P&G-Code-Base\\OMVA\\Reports\\SummaryTestSuite\\20180713_122455\\1531465133591.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-13 12:27:35 - [TEST_CASE][FAILED] - Test Cases/SummaryTestCases/MSP_Comment: Test Cases/SummaryTestCases/MSP_Comment FAILED because (of) Unable to click on object 'Object Repository/OMVA_Summary_Page/AddComment_Icon' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Summary_Page/AddComment_Icon' located by 'By.xpath: (//span[@class='addChat'])[1]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SummaryTestCases/SKU_Count" classname="Test Cases/SummaryTestCases/SKU_Count" status="FAILED">
+         <failure type="FAILED" message="Unable to get text of object 'Object Repository/OMVA_Landing_Page/Greeting_Label' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Landing_Page/Greeting_Label' located by 'By.xpath: id(&quot;mainDiv&quot;)/headercomponents[1]/header[@class=&quot;navbar navbar-default navbar-fixed-top top_header&quot;]/div[@class=&quot;col-md-5 hidden-xs&quot;]/p[@class=&quot;greeting&quot;]' not found)"/>
+         <system-out><![CDATA[2018-07-13 12:28:54 - [TEST_CASE][FAILED] - Test Cases/SummaryTestCases/SKU_Count: Test Cases/SummaryTestCases/SKU_Count FAILED because (of) Unable to get text of object 'Object Repository/OMVA_Landing_Page/Greeting_Label' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Landing_Page/Greeting_Label' located by 'By.xpath: id("mainDiv")/headercomponents[1]/header[@class="navbar navbar-default navbar-fixed-top top_header"]/div[@class="col-md-5 hidden-xs"]/p[@class="greeting"]' not found)
+
+2018-07-13 12:28:54 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/UserManagementTestCases/Login/Login_MAL' (Root cause: Call Test Case 'Test Cases/UserManagementTestCases/Login/Login_MAL' failed)
+
+2018-07-13 12:28:54 - [TEST_CASE][FAILED] - Test Cases/UserManagementTestCases/Login/Login_MAL: Test Cases/UserManagementTestCases/Login/Login_MAL FAILED because (of) Unable to get text of object 'Object Repository/OMVA_Landing_Page/Greeting_Label' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Landing_Page/Greeting_Label' located by 'By.xpath: id("mainDiv")/headercomponents[1]/header[@class="navbar navbar-default navbar-fixed-top top_header"]/div[@class="col-md-5 hidden-xs"]/p[@class="greeting"]' not found)
+
+2018-07-13 12:28:54 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-13 12:28:54 - [TEST_CASE][PASSED] - Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL: Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL
+
+2018-07-13 12:28:54 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-13 12:28:54 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-07-13 12:28:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-13 12:28:58 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-13 12:29:13 - [MESSAGE][PASSED] - Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-13 12:29:13 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-13 12:29:14 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-13 12:29:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-13 12:29:14 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is not visible after 10 second(s)
+
+2018-07-13 12:29:25 - [MESSAGE][WARNING] - Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is not visible after 10 second(s)
+
+2018-07-13 12:29:25 - [TEST_STEP][PASSED] - sendKeys: Keys 'MALSG' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-13 12:29:25 - [MESSAGE][PASSED] - Keys 'MALSG' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-13 12:29:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-13 12:29:25 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-13 12:29:25 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-13 12:29:26 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-13 12:29:26 - [TEST_STEP][PASSED] - sendKeys: Keys 'MALSG' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-13 12:29:26 - [MESSAGE][PASSED] - Keys 'MALSG' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-13 12:29:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-13 12:29:27 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-13 12:29:27 - [TEST_STEP][PASSED] - waitForAngularLoad: This page doesn't use Angular.
+
+2018-07-13 12:29:27 - [MESSAGE][WARNING] - This page doesn't use Angular.
+
+2018-07-13 12:29:27 - [TEST_STEP][FAILED] - Statement - greetingtext = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_Landing_Page/Greeting_Label)): Unable to get text of object 'Object Repository/OMVA_Landing_Page/Greeting_Label' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Landing_Page/Greeting_Label' located by 'By.xpath: id("mainDiv")/headercomponents[1]/header[@class="navbar navbar-default navbar-fixed-top top_header"]/div[@class="col-md-5 hidden-xs"]/p[@class="greeting"]' not found)
+
+2018-07-13 12:30:02 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/OMVA_Landing_Page/Greeting_Label' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Landing_Page/Greeting_Label' located by 'By.xpath: id("mainDiv")/headercomponents[1]/header[@class="navbar navbar-default navbar-fixed-top top_header"]/div[@class="col-md-5 hidden-xs"]/p[@class="greeting"]' not found)
+[[ATTACHMENT|D:\\P&G New\\Automation-P&G-Code-Base\\OMVA\\Reports\\SummaryTestSuite\\20180713_122455\\1531465201208.png]]
+
+2018-07-13 12:30:02 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/UserManagementTestCases/Login/Login_MAL' (Root cause: Call Test Case 'Test Cases/UserManagementTestCases/Login/Login_MAL' failed)]]></system-out>
+         <system-err><![CDATA[2018-07-13 12:28:54 - [TEST_CASE][FAILED] - Test Cases/SummaryTestCases/SKU_Count: Test Cases/SummaryTestCases/SKU_Count FAILED because (of) Unable to get text of object 'Object Repository/OMVA_Landing_Page/Greeting_Label' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Landing_Page/Greeting_Label' located by 'By.xpath: id("mainDiv")/headercomponents[1]/header[@class="navbar navbar-default navbar-fixed-top top_header"]/div[@class="col-md-5 hidden-xs"]/p[@class="greeting"]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SummaryTestCases/Status_Completed" classname="Test Cases/SummaryTestCases/Status_Completed" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/OMVA_Summary_Page/Select_puregold' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Summary_Page/Select_puregold' located by 'By.xpath: //div[@class='dropdown-menu filter-select']/ul/li[1]/label[@for='0_catchecked']' not found)"/>
+         <system-out><![CDATA[2018-07-13 12:30:02 - [TEST_CASE][FAILED] - Test Cases/SummaryTestCases/Status_Completed: Test Cases/SummaryTestCases/Status_Completed FAILED because (of) Unable to click on object 'Object Repository/OMVA_Summary_Page/Select_puregold' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Summary_Page/Select_puregold' located by 'By.xpath: //div[@class='dropdown-menu filter-select']/ul/li[1]/label[@for='0_catchecked']' not found)
+
+2018-07-13 12:30:03 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/UserManagementTestCases/Login/Login_MAL' successfully
+
+2018-07-13 12:30:03 - [TEST_CASE][PASSED] - Test Cases/UserManagementTestCases/Login/Login_MAL: Test Cases/UserManagementTestCases/Login/Login_MAL
+
+2018-07-13 12:30:03 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-13 12:30:03 - [TEST_CASE][PASSED] - Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL: Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL
+
+2018-07-13 12:30:03 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-13 12:30:03 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-07-13 12:30:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-13 12:30:06 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-13 12:30:18 - [MESSAGE][PASSED] - Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-13 12:30:18 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-13 12:30:19 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-13 12:30:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-13 12:30:19 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is not visible after 10 second(s)
+
+2018-07-13 12:30:29 - [MESSAGE][WARNING] - Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is not visible after 10 second(s)
+
+2018-07-13 12:30:29 - [TEST_STEP][PASSED] - sendKeys: Keys 'angelica' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-13 12:30:30 - [MESSAGE][PASSED] - Keys 'angelica' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-13 12:30:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-13 12:30:30 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-13 12:30:30 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-13 12:30:30 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-13 12:30:30 - [TEST_STEP][PASSED] - sendKeys: Keys 'angelica' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-13 12:30:30 - [MESSAGE][PASSED] - Keys 'angelica' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-13 12:30:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-13 12:30:31 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-13 12:30:31 - [TEST_STEP][PASSED] - waitForAngularLoad: This page doesn't use Angular.
+
+2018-07-13 12:30:31 - [MESSAGE][WARNING] - This page doesn't use Angular.
+
+2018-07-13 12:30:31 - [TEST_STEP][PASSED] - Statement - greetingtext = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_Landing_Page/Greeting_Label)): Text of object 'Object Repository/OMVA_Landing_Page/Greeting_Label' is: 'Good Afternoon, angelica'
+
+2018-07-13 12:30:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/OMVA_Landing_Page/Greeting_Label' is: 'Good Afternoon, angelica'
+
+2018-07-13 12:30:31 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Good Afternoon, angelica' and expected text '\D*angelica' are matched  using regular expression
+
+2018-07-13 12:30:31 - [MESSAGE][PASSED] - Actual text 'Good Afternoon, angelica' and expected text '\D*angelica' are matched  using regular expression
+
+2018-07-13 12:30:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UserManagementTestCases/Login/Login_MAL' successfully
+
+2018-07-13 12:30:31 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/OMVA_Landing_Page/Summary_Logo' is present
+
+2018-07-13 12:30:31 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Landing_Page/Summary_Logo' is present
+
+2018-07-13 12:30:31 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-13 12:30:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-13 12:30:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Landing_Page/Summary_Logo' is clicked on
+
+2018-07-13 12:30:35 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Landing_Page/Summary_Logo' is clicked on
+
+2018-07-13 12:30:35 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-13 12:30:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-13 12:30:40 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/OMVA_Summary_Page/Customer_dropdown' is present
+
+2018-07-13 12:30:40 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Summary_Page/Customer_dropdown' is present
+
+2018-07-13 12:30:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Summary_Page/Customer_dropdown' is clicked on
+
+2018-07-13 12:30:40 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Summary_Page/Customer_dropdown' is clicked on
+
+2018-07-13 12:30:40 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/OMVA_Summary_Page/Customer_dropdown' is present
+
+2018-07-13 12:30:40 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Summary_Page/Customer_dropdown' is present
+
+2018-07-13 12:30:40 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/OMVA_Summary_Page/Select_puregold' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Summary_Page/Select_puregold' located by 'By.xpath: //div[@class='dropdown-menu filter-select']/ul/li[1]/label[@for='0_catchecked']' not found)
+
+2018-07-13 12:31:15 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/OMVA_Summary_Page/Select_puregold' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Summary_Page/Select_puregold' located by 'By.xpath: //div[@class='dropdown-menu filter-select']/ul/li[1]/label[@for='0_catchecked']' not found)
+[[ATTACHMENT|D:\\P&G New\\Automation-P&G-Code-Base\\OMVA\\Reports\\SummaryTestSuite\\20180713_122455\\1531465274607.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-13 12:30:02 - [TEST_CASE][FAILED] - Test Cases/SummaryTestCases/Status_Completed: Test Cases/SummaryTestCases/Status_Completed FAILED because (of) Unable to click on object 'Object Repository/OMVA_Summary_Page/Select_puregold' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Summary_Page/Select_puregold' located by 'By.xpath: //div[@class='dropdown-menu filter-select']/ul/li[1]/label[@for='0_catchecked']' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SummaryTestCases/Status_OkToRefresh" classname="Test Cases/SummaryTestCases/Status_OkToRefresh" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/OMVA_Summary_Page/Select_puregold' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Summary_Page/Select_puregold' located by 'By.xpath: //div[@class='dropdown-menu filter-select']/ul/li[1]/label[@for='0_catchecked']' not found)"/>
+         <system-out><![CDATA[2018-07-13 12:31:15 - [TEST_CASE][FAILED] - Test Cases/SummaryTestCases/Status_OkToRefresh: Test Cases/SummaryTestCases/Status_OkToRefresh FAILED because (of) Unable to click on object 'Object Repository/OMVA_Summary_Page/Select_puregold' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Summary_Page/Select_puregold' located by 'By.xpath: //div[@class='dropdown-menu filter-select']/ul/li[1]/label[@for='0_catchecked']' not found)
+
+2018-07-13 12:31:15 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/UserManagementTestCases/Login/Login_AllocSPOC' successfully
+
+2018-07-13 12:31:15 - [TEST_CASE][PASSED] - Test Cases/UserManagementTestCases/Login/Login_AllocSPOC: Test Cases/UserManagementTestCases/Login/Login_AllocSPOC
+
+2018-07-13 12:31:15 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-13 12:31:15 - [TEST_CASE][PASSED] - Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL: Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL
+
+2018-07-13 12:31:15 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-13 12:31:15 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-07-13 12:31:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-13 12:31:19 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-13 12:31:31 - [MESSAGE][PASSED] - Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-13 12:31:31 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-13 12:31:33 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-13 12:31:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-13 12:31:33 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is not visible after 10 second(s)
+
+2018-07-13 12:31:43 - [MESSAGE][WARNING] - Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is not visible after 10 second(s)
+
+2018-07-13 12:31:43 - [TEST_STEP][PASSED] - sendKeys: Keys 'romeo' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-13 12:31:43 - [MESSAGE][PASSED] - Keys 'romeo' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-13 12:31:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-13 12:31:43 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-13 12:31:43 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-13 12:31:44 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-13 12:31:44 - [TEST_STEP][PASSED] - sendKeys: Keys 'romeo' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-13 12:31:45 - [MESSAGE][PASSED] - Keys 'romeo' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-13 12:31:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-13 12:31:45 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-13 12:31:45 - [TEST_STEP][PASSED] - waitForAngularLoad: This page doesn't use Angular.
+
+2018-07-13 12:31:45 - [MESSAGE][WARNING] - This page doesn't use Angular.
+
+2018-07-13 12:31:45 - [TEST_STEP][PASSED] - Statement - greetingtext = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_Landing_Page/Greeting_Label)): Text of object 'Object Repository/OMVA_Landing_Page/Greeting_Label' is: 'Good Afternoon, romeo'
+
+2018-07-13 12:31:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/OMVA_Landing_Page/Greeting_Label' is: 'Good Afternoon, romeo'
+
+2018-07-13 12:31:45 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Good Afternoon, romeo' and expected text '\D*romeo' are matched  using regular expression
+
+2018-07-13 12:31:45 - [MESSAGE][PASSED] - Actual text 'Good Afternoon, romeo' and expected text '\D*romeo' are matched  using regular expression
+
+2018-07-13 12:31:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UserManagementTestCases/Login/Login_AllocSPOC' successfully
+
+2018-07-13 12:31:45 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-13 12:31:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-13 12:31:50 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/OMVA_Summary_Page/Customer_dropdown' is present
+
+2018-07-13 12:31:51 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Summary_Page/Customer_dropdown' is present
+
+2018-07-13 12:31:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Summary_Page/Customer_dropdown' is clicked on
+
+2018-07-13 12:31:51 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Summary_Page/Customer_dropdown' is clicked on
+
+2018-07-13 12:31:51 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/OMVA_Summary_Page/Select_puregold' is not present after 10 second(s)
+
+2018-07-13 12:32:02 - [MESSAGE][WARNING] - Object 'Object Repository/OMVA_Summary_Page/Select_puregold' is not present after 10 second(s)
+
+2018-07-13 12:32:02 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/OMVA_Summary_Page/Select_puregold' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Summary_Page/Select_puregold' located by 'By.xpath: //div[@class='dropdown-menu filter-select']/ul/li[1]/label[@for='0_catchecked']' not found)
+
+2018-07-13 12:32:36 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/OMVA_Summary_Page/Select_puregold' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Summary_Page/Select_puregold' located by 'By.xpath: //div[@class='dropdown-menu filter-select']/ul/li[1]/label[@for='0_catchecked']' not found)
+[[ATTACHMENT|D:\\P&G New\\Automation-P&G-Code-Base\\OMVA\\Reports\\SummaryTestSuite\\20180713_122455\\1531465356327.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-13 12:31:15 - [TEST_CASE][FAILED] - Test Cases/SummaryTestCases/Status_OkToRefresh: Test Cases/SummaryTestCases/Status_OkToRefresh FAILED because (of) Unable to click on object 'Object Repository/OMVA_Summary_Page/Select_puregold' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Summary_Page/Select_puregold' located by 'By.xpath: //div[@class='dropdown-menu filter-select']/ul/li[1]/label[@for='0_catchecked']' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-13 12:24:58 - [TEST_SUITE][FAILED] - SummaryTestSuite: Test Cases/SummaryTestCases/AlocSpoc_Comment FAILED because (of) Unable to click on object 'Object Repository/OMVA_Summary_Page/AddComment_Icon' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Summary_Page/AddComment_Icon' located by 'By.xpath: (//span[@class='addChat'])[1]' not found)]]></system-out>
+      <system-err><![CDATA[2018-07-13 12:24:58 - [TEST_SUITE][FAILED] - SummaryTestSuite: Test Cases/SummaryTestCases/AlocSpoc_Comment FAILED because (of) Unable to click on object 'Object Repository/OMVA_Summary_Page/AddComment_Icon' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OMVA_Summary_Page/AddComment_Icon' located by 'By.xpath: (//span[@class='addChat'])[1]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

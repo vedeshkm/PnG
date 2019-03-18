@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify save &amp; Exit button after entering the values into the text field</description>
+   <name>Verify_SaveExit_Btn</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>98d0e203-f6c7-4925-bcca-85704ac827b0</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>f9e2ef70-ff0b-40ba-9ce5-6b7f185e56a4</id>
+      <masked>false</masked>
+      <name>greetingtext</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2d9c0d25-7136-4ab5-b7b2-f1a12d60af87</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bc401760-261d-497d-9650-99dc1560fb21</id>
+      <masked>false</masked>
+      <name>emailidprefix</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7e210aff-cd54-4e46-b9b3-000c701e6336</id>
+      <masked>false</masked>
+      <name>firstname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>88ea2b44-028b-4416-8864-7d9b0e7e4a79</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>01ea5b77-d8f0-44de-a036-e92f977a3fc9</id>
+      <masked>false</masked>
+      <name>ticketnum</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('credentialDetails/Credentials_IDPwd').getValue('SuperAdminID', 1)</defaultValue>
+      <description></description>
+      <id>6d5eb85b-eda7-4d70-805a-04f587dce7f4</id>
+      <masked>false</masked>
+      <name>superadminID</name>
+   </variable>
+</TestCaseEntity>

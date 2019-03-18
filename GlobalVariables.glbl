@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <tag></tag>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Credentials_URL').getValue('URL', 1)</initValue>
+      <name>QAURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Credentials_IDPwd').getValue('ID', 1)</initValue>
+      <name>SuperAdminID</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

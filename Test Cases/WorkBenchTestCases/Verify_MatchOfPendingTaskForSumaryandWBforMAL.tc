@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify the count listed under workbench should match with the count in summary</description>
+   <name>Verify_MatchOfPendingTaskForSumaryandWBforMAL</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c52acabf-b3b7-4301-b9ea-b7a068b3201f</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>4f69334e-ae79-407d-9420-46da216594b6</id>
+      <masked>false</masked>
+      <name>MAL_WB_Count</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>0b04d74d-8a22-46a2-9210-9c458af7acd4</id>
+      <masked>false</masked>
+      <name>MAL_S_Count</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case is to test MAL login</description>
+   <name>Login_CategoryMSP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fbdcd894-30b8-4eb5-bc4d-4999b805041a</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Credentials_IDPwd').getValue('CategoryMSPID', 1)</defaultValue>
+      <description></description>
+      <id>75a25c70-7f68-4f36-990b-1055bb18f552</id>
+      <masked>false</masked>
+      <name>CategorylMSPID</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Credentials_IDPwd').getValue('CategoryMSPPassword', 1)</defaultValue>
+      <description></description>
+      <id>dc6a629e-a4e8-493d-84c9-1755fbdfaf42</id>
+      <masked>false</masked>
+      <name>CategoryMSPPwd</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+UserHistoryTestSuite,Chrome 67.0.3396.62,,2018-07-16 16:50:34,2018-07-16 16:51:32,58.409s,FAILED
+,,,,,,
+Test Cases/UserHIstoryTestCases/Verify_display_of_HistoryPage,Chrome 67.0.3396.62,,2018-07-16 16:50:34,2018-07-16 16:51:32,57.219s,FAILED
+callTestCase,Chrome 67.0.3396.62,,2018-07-16 16:50:35,2018-07-16 16:51:02,27.028s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-16 16:51:02,2018-07-16 16:51:05,3.013s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-16 16:51:05,2018-07-16 16:51:10,5.006s,PASSED
+waitForElementPresent,Chrome 67.0.3396.62,,2018-07-16 16:51:10,2018-07-16 16:51:10,0.104s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-16 16:51:10,2018-07-16 16:51:10,0.384s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-16 16:51:10,2018-07-16 16:51:15,5.004s,PASSED
+waitForElementPresent,Chrome 67.0.3396.62,,2018-07-16 16:51:15,2018-07-16 16:51:15,0.089s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-16 16:51:15,2018-07-16 16:51:16,0.287s,PASSED
+waitForElementPresent,Chrome 67.0.3396.62,,2018-07-16 16:51:16,2018-07-16 16:51:16,0.070s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-16 16:51:16,2018-07-16 16:51:16,0.146s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-16 16:51:16,2018-07-16 16:51:21,5.005s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-16 16:51:21,2018-07-16 16:51:21,0.357s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-16 16:51:21,2018-07-16 16:51:31,10.004s,PASSED
+Statement - rescue = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_History_Page/History_RescueStrategy)),Chrome 67.0.3396.62,,2018-07-16 16:51:31,2018-07-16 16:51:31,0.160s,PASSED
+scrollToElement,Chrome 67.0.3396.62,,2018-07-16 16:51:31,2018-07-16 16:51:31,0.111s,PASSED
+verifyMatch,Chrome 67.0.3396.62,,2018-07-16 16:51:31,2018-07-16 16:51:32,0.080s,FAILED

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This Scenario logs into the superadmin and finds the inactive user which is to be activated and activates it.Also validates the popup and toast messages</description>
+   <name>Activate_User</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>39a791ea-a011-491f-8154-81b223c49480</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('credentialDetails/Credentials_IDPwd').getValue('SuperAdminID', 1)</defaultValue>
+      <description></description>
+      <id>40494071-2405-4a9e-93fd-a603de87468f</id>
+      <masked>false</masked>
+      <name>superadminID</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('credentialDetails/Credentials_IDPwd').getValue('SuperAdminPassword', 1)</defaultValue>
+      <description></description>
+      <id>0854ca44-1d3c-4aa0-a250-23ed77cd11c2</id>
+      <masked>false</masked>
+      <name>superadminPwd</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>a411139b-c599-4c92-8f10-d3a72fa50730</id>
+      <masked>false</masked>
+      <name>AHeaderTxt</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>75cf68fd-9593-46ed-ba20-b597d448e9af</id>
+      <masked>false</masked>
+      <name>AContentTxt</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>339e2054-d55e-426c-a8e3-4f5880afe29c</id>
+      <masked>false</masked>
+      <name>AActivateToastMsg</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f2c92531-3fc9-4b6b-9618-1e824d412619</id>
+      <masked>false</masked>
+      <name>createduser</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>245be288-2204-4413-880f-bd531ff8fa68</id>
+      <masked>false</masked>
+      <name>createdNewuser</name>
+   </variable>
+</TestCaseEntity>

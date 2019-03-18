@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>WorkBenchTestSuite</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-07-26T18:39:05</lastRun>
+   <mailRecipient>vijay.n@genpact.com;</mailRecipient>
+   <numberOfRerun>2</numberOfRerun>
+   <pageLoadTimeout>15</pageLoadTimeout>
+   <pageLoadTimeoutDefault>false</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>true</rerunFailedTestCasesOnly>
+   <testSuiteGuid>19555b0c-5fef-4d8f-87e6-473250f0313f</testSuiteGuid>
+   <testCaseLink>
+      <guid>feec85a8-5194-4321-bd61-fc949f931fc6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/WorkBenchTestCases/Validate_ChannelMSPOutsideChannelQtyUpdateNotAllowed</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2e28efb4-037d-440c-a112-61468cf89d32</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/WorkBenchTestCases/Verify_MatchOfPendingTaskForSumaryandWBforChanMSP</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>dbb1c59e-49f1-4f13-bbaa-39d944df4b8f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b1c22a27-2968-475a-ac89-a50b5ca19e7a</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>23352edd-1f46-4b1d-ad10-cb43dbd9bc4a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/WorkBenchTestCases/Verify_MatchOfPendingTaskForSumaryandWBforMAL</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4f69334e-ae79-407d-9420-46da216594b6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0b04d74d-8a22-46a2-9210-9c458af7acd4</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c7921342-b8ea-4fea-84de-45ca3b46dfef</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/WorkBenchTestCases/Verify_DisplayOfHomePageForAllocSPOC</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8ddaa16b-11ac-4ba0-b17a-24b4e548efd0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/WorkBenchTestCases/Verify_MALSKU_MovesToHistory</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f8d050a2-617a-4fa7-9343-1cc75d2cf30e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0ec9f397-e437-4191-9eff-accb6b9dce37</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8e6e3286-d215-4d9f-ab98-caebdaad9741</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/WorkBenchTestCases/Validate_CategoryMSPIncreaseAllocationQtyNotEditable</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>dd2c8f4e-b8ff-40db-b65c-77e2e1c6f0e6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/WorkBenchTestCases/Validate_ChannelMSPAuthorisedIncreaseAllocation</testCaseId>
+   </testCaseLink>
+</TestSuiteEntity>

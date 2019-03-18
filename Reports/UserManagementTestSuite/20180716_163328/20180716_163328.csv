@@ -1,0 +1,92 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+UserManagementTestSuite,Chrome 67.0.3396.62,,2018-07-16 16:43:01,2018-07-16 16:46:13,3m - 11.982s,FAILED
+,,,,,,
+Test Cases/UserManagementTestCases/UserActions/Validate_User_Search,Chrome 67.0.3396.62,,2018-07-16 16:43:02,2018-07-16 16:43:49,47.465s,FAILED
+callTestCase,Chrome 67.0.3396.62,,2018-07-16 16:43:02,2018-07-16 16:43:20,17.318s,PASSED
+waitForElementVisible,Chrome 67.0.3396.62,,2018-07-16 16:43:20,2018-07-16 16:43:20,0.135s,PASSED
+sendKeys,Chrome 67.0.3396.62,,2018-07-16 16:43:20,2018-07-16 16:43:20,0.385s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-16 16:43:20,2018-07-16 16:43:20,0.186s,PASSED
+waitForElementVisible,Chrome 67.0.3396.62,,2018-07-16 16:43:20,2018-07-16 16:43:20,0.080s,PASSED
+sendKeys,Chrome 67.0.3396.62,,2018-07-16 16:43:20,2018-07-16 16:43:21,0.350s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-16 16:43:21,2018-07-16 16:43:21,0.149s,PASSED
+waitForPageLoad,Chrome 67.0.3396.62,,2018-07-16 16:43:21,2018-07-16 16:43:21,0.060s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-16 16:43:21,2018-07-16 16:43:26,5.011s,PASSED
+waitForElementPresent,Chrome 67.0.3396.62,,2018-07-16 16:43:26,2018-07-16 16:43:26,0.101s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-16 16:43:26,2018-07-16 16:43:27,0.567s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-16 16:43:27,2018-07-16 16:43:30,3.006s,PASSED
+waitForElementPresent,Chrome 67.0.3396.62,,2018-07-16 16:43:30,2018-07-16 16:43:30,0.099s,PASSED
+Statement - If (true),Chrome 67.0.3396.62,,2018-07-16 16:43:30,2018-07-16 16:43:30,0.001s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-16 16:43:30,2018-07-16 16:43:30,0.188s,PASSED
+Statement - assert true,Chrome 67.0.3396.62,,2018-07-16 16:43:30,2018-07-16 16:43:30,0.003s,PASSED
+scrollToElement,Chrome 67.0.3396.62,,2018-07-16 16:43:30,2018-07-16 16:43:30,0.095s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-16 16:43:30,2018-07-16 16:43:30,0.143s,PASSED
+"Statement - username = CustomKeywords.commonLibrary.commonFunctions.randomStringFunction(""abcdefghijklmnopqrstuvwxyz"", 6)",Chrome 67.0.3396.62,,2018-07-16 16:43:30,2018-07-16 16:43:30,0.032s,PASSED
+Statement - uname = username.toString(),Chrome 67.0.3396.62,,2018-07-16 16:43:30,2018-07-16 16:43:30,0.002s,PASSED
+sendKeys,Chrome 67.0.3396.62,,2018-07-16 16:43:30,2018-07-16 16:43:30,0.220s,PASSED
+"Statement - emailidprefix = CustomKeywords.commonLibrary.commonFunctions.randomStringFunction(""abcdefghijklmnopqrstuvwxyz"", 9)",Chrome 67.0.3396.62,,2018-07-16 16:43:30,2018-07-16 16:43:30,0.001s,PASSED
+sendKeys,Chrome 67.0.3396.62,,2018-07-16 16:43:30,2018-07-16 16:43:31,0.533s,PASSED
+"Statement - firstname = CustomKeywords.commonLibrary.commonFunctions.randomStringFunction(""abcdefghijklmnopqrstuvwxyz"", 7)",Chrome 67.0.3396.62,,2018-07-16 16:43:31,2018-07-16 16:43:31,0.002s,PASSED
+sendKeys,Chrome 67.0.3396.62,,2018-07-16 16:43:31,2018-07-16 16:43:31,0.227s,PASSED
+"Statement - lastname = CustomKeywords.commonLibrary.commonFunctions.randomStringFunction(""abcdefghijklmnopqrstuvwxyz"", 7)",Chrome 67.0.3396.62,,2018-07-16 16:43:31,2018-07-16 16:43:31,0.002s,PASSED
+sendKeys,Chrome 67.0.3396.62,,2018-07-16 16:43:31,2018-07-16 16:43:31,0.227s,PASSED
+"Statement - ticketnum = CustomKeywords.commonLibrary.commonFunctions.randomStringFunction(""123456789"", 7)",Chrome 67.0.3396.62,,2018-07-16 16:43:31,2018-07-16 16:43:31,0.001s,PASSED
+sendKeys,Chrome 67.0.3396.62,,2018-07-16 16:43:31,2018-07-16 16:43:32,0.238s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-16 16:43:32,2018-07-16 16:43:32,0.147s,PASSED
+applicationLibrary.checkboxMultiselection.multiselectCheckbox,Chrome 67.0.3396.62,,2018-07-16 16:43:32,2018-07-16 16:43:34,2.363s,PASSED
+scrollToElement,Chrome 67.0.3396.62,,2018-07-16 16:43:34,2018-07-16 16:43:34,0.066s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-16 16:43:34,2018-07-16 16:43:34,0.201s,PASSED
+applicationLibrary.checkboxMultiselection.multiselectCheckbox,Chrome 67.0.3396.62,,2018-07-16 16:43:34,2018-07-16 16:43:37,2.533s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-16 16:43:37,2018-07-16 16:43:37,0.279s,PASSED
+waitForElementPresent,Chrome 67.0.3396.62,,2018-07-16 16:43:37,2018-07-16 16:43:38,0.601s,PASSED
+verifyElementText,Chrome 67.0.3396.62,,2018-07-16 16:43:38,2018-07-16 16:43:38,0.157s,PASSED
+verifyElementText,Chrome 67.0.3396.62,,2018-07-16 16:43:38,2018-07-16 16:43:38,0.073s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-16 16:43:38,2018-07-16 16:43:43,5.004s,PASSED
+waitForElementVisible,Chrome 67.0.3396.62,,2018-07-16 16:43:43,2018-07-16 16:43:49,5.630s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-16 16:43:49,2018-07-16 16:43:49,0.568s,FAILED
+,,,,,,
+Test Cases/UserManagementTestCases/UserActions/Validate_Cancel_Of_CreateUsers,Chrome 67.0.3396.62,Create User and validate,2018-07-16 16:43:49,2018-07-16 16:44:25,35.799s,PASSED
+callTestCase,Chrome 67.0.3396.62,,2018-07-16 16:43:50,2018-07-16 16:44:04,14.156s,PASSED
+waitForElementVisible,Chrome 67.0.3396.62,,2018-07-16 16:44:04,2018-07-16 16:44:04,0.110s,PASSED
+sendKeys,Chrome 67.0.3396.62,,2018-07-16 16:44:04,2018-07-16 16:44:04,0.365s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-16 16:44:04,2018-07-16 16:44:04,0.157s,PASSED
+waitForElementVisible,Chrome 67.0.3396.62,,2018-07-16 16:44:04,2018-07-16 16:44:05,0.096s,PASSED
+sendKeys,Chrome 67.0.3396.62,,2018-07-16 16:44:05,2018-07-16 16:44:05,0.310s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-16 16:44:05,2018-07-16 16:44:05,0.143s,PASSED
+waitForPageLoad,Chrome 67.0.3396.62,,2018-07-16 16:44:05,2018-07-16 16:44:05,0.022s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-16 16:44:05,2018-07-16 16:44:10,5.001s,PASSED
+waitForElementPresent,Chrome 67.0.3396.62,,2018-07-16 16:44:10,2018-07-16 16:44:10,0.097s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-16 16:44:10,2018-07-16 16:44:11,0.596s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-16 16:44:11,2018-07-16 16:44:14,3.004s,PASSED
+waitForElementPresent,Chrome 67.0.3396.62,,2018-07-16 16:44:14,2018-07-16 16:44:14,0.079s,PASSED
+Statement - If (true),Chrome 67.0.3396.62,,2018-07-16 16:44:14,2018-07-16 16:44:14,0.001s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-16 16:44:14,2018-07-16 16:44:14,0.205s,PASSED
+Statement - assert true,Chrome 67.0.3396.62,,2018-07-16 16:44:14,2018-07-16 16:44:14,0.001s,PASSED
+scrollToElement,Chrome 67.0.3396.62,,2018-07-16 16:44:14,2018-07-16 16:44:14,0.079s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-16 16:44:14,2018-07-16 16:44:14,0.124s,PASSED
+"Statement - username = CustomKeywords.commonLibrary.commonFunctions.randomStringFunction(""abcdefghijklmnopqrstuvwxyz"", 6)",Chrome 67.0.3396.62,,2018-07-16 16:44:14,2018-07-16 16:44:14,0.001s,PASSED
+Statement - uname = username.toString(),Chrome 67.0.3396.62,,2018-07-16 16:44:14,2018-07-16 16:44:14,0.001s,PASSED
+sendKeys,Chrome 67.0.3396.62,,2018-07-16 16:44:14,2018-07-16 16:44:15,0.221s,PASSED
+"Statement - emailidprefix = CustomKeywords.commonLibrary.commonFunctions.randomStringFunction(""abcdefghijklmnopqrstuvwxyz"", 9)",Chrome 67.0.3396.62,,2018-07-16 16:44:15,2018-07-16 16:44:15,0.001s,PASSED
+sendKeys,Chrome 67.0.3396.62,,2018-07-16 16:44:15,2018-07-16 16:44:15,0.517s,PASSED
+"Statement - firstname = CustomKeywords.commonLibrary.commonFunctions.randomStringFunction(""abcdefghijklmnopqrstuvwxyz"", 7)",Chrome 67.0.3396.62,,2018-07-16 16:44:15,2018-07-16 16:44:15,0.001s,PASSED
+sendKeys,Chrome 67.0.3396.62,,2018-07-16 16:44:15,2018-07-16 16:44:15,0.328s,PASSED
+"Statement - lastname = CustomKeywords.commonLibrary.commonFunctions.randomStringFunction(""abcdefghijklmnopqrstuvwxyz"", 7)",Chrome 67.0.3396.62,,2018-07-16 16:44:15,2018-07-16 16:44:15,0.001s,PASSED
+sendKeys,Chrome 67.0.3396.62,,2018-07-16 16:44:15,2018-07-16 16:44:16,0.255s,PASSED
+"Statement - ticketnum = CustomKeywords.commonLibrary.commonFunctions.randomStringFunction(""123456789"", 7)",Chrome 67.0.3396.62,,2018-07-16 16:44:16,2018-07-16 16:44:16,0.001s,PASSED
+sendKeys,Chrome 67.0.3396.62,,2018-07-16 16:44:16,2018-07-16 16:44:16,0.248s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-16 16:44:16,2018-07-16 16:44:16,0.154s,PASSED
+applicationLibrary.checkboxMultiselection.multiselectCheckbox,Chrome 67.0.3396.62,,2018-07-16 16:44:16,2018-07-16 16:44:18,2.364s,PASSED
+scrollToElement,Chrome 67.0.3396.62,,2018-07-16 16:44:18,2018-07-16 16:44:18,0.061s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-16 16:44:18,2018-07-16 16:44:19,0.203s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-16 16:44:19,2018-07-16 16:44:19,0.281s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-16 16:44:19,2018-07-16 16:44:24,5.002s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-16 16:44:24,2018-07-16 16:44:24,0.385s,PASSED
+closeBrowser,Chrome 67.0.3396.62,,2018-07-16 16:44:24,2018-07-16 16:44:25,0.799s,PASSED
+,,,,,,
+Test Cases/UserManagementTestCases/UserActions/LockUser,Chrome 67.0.3396.62,This scenarios locks a user account by trying to log in into a valid account with invalid password for 5 attempts,2018-07-16 16:44:25,2018-07-16 16:46:13,1m - 48.269s,PASSED
+callTestCase,Chrome 67.0.3396.62,,2018-07-16 16:44:25,2018-07-16 16:44:46,20.659s,PASSED
+callTestCase,Chrome 67.0.3396.62,,2018-07-16 16:44:46,2018-07-16 16:45:00,14.362s,PASSED
+callTestCase,Chrome 67.0.3396.62,,2018-07-16 16:45:00,2018-07-16 16:45:17,17.023s,PASSED
+callTestCase,Chrome 67.0.3396.62,,2018-07-16 16:45:17,2018-07-16 16:45:33,15.369s,PASSED
+callTestCase,Chrome 67.0.3396.62,,2018-07-16 16:45:33,2018-07-16 16:45:53,20.359s,PASSED
+callTestCase,Chrome 67.0.3396.62,,2018-07-16 16:45:53,2018-07-16 16:46:13,20.222s,PASSED

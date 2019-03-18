@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Status_OkToRefresh</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>464e90a6-249a-4ea4-b125-c09b26da9471</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6915be22-9018-49a3-8e23-77a335ec1b2c</id>
+      <masked>false</masked>
+      <name>SKUID_Inprogress</name>
+   </variable>
+</TestCaseEntity>

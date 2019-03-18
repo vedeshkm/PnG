@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This Scenario logs in the Super Admin and deactivates a particular user</description>
+   <name>DeActivate_User</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4ad08a8f-5f6f-49bc-b50f-d813d5fba8e7</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>a1fc8dc7-f5c0-4954-a381-45882bdece96</id>
+      <masked>false</masked>
+      <name>AHeaderTxt</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>fc88058b-2fc0-4ef6-b375-50a0d2bcf248</id>
+      <masked>false</masked>
+      <name>AContentTxt</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>e32298b0-5ad9-4cc7-8c53-1c55da7f8f19</id>
+      <masked>false</masked>
+      <name>ADeactivatedToastMsg</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>31fb059f-aef1-40bb-9017-4cf5838aa258</id>
+      <masked>false</masked>
+      <name>emailidprefix</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bbe0730f-144d-4fc1-8f70-4b72272ead24</id>
+      <masked>false</masked>
+      <name>createdNewuser</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1d655a27-6889-45e5-b2df-0f688bdb8bee</id>
+      <masked>false</masked>
+      <name>createduser</name>
+   </variable>
+</TestCaseEntity>

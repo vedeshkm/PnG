@@ -1,0 +1,121 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+WorkBenchTestSuite,Chrome 67.0.3396.62,,2018-07-18 12:48:04,2018-07-18 12:53:30,5m - 26.114s,FAILED
+,,,,,,
+Test Cases/CommonTestcases/ResetTestData,Chrome 67.0.3396.62,,2018-07-18 12:48:05,2018-07-18 12:48:13,8.289s,PASSED
+dataBaseConnection.dataBase.connectDB,Chrome 67.0.3396.62,,2018-07-18 12:48:05,2018-07-18 12:48:10,5.155s,PASSED
+dataBaseConnection.dataBase.ResetTestData,Chrome 67.0.3396.62,,2018-07-18 12:48:10,2018-07-18 12:48:13,2.794s,PASSED
+dataBaseConnection.dataBase.closeDatabaseConnection,Chrome 67.0.3396.62,,2018-07-18 12:48:13,2018-07-18 12:48:13,0.011s,PASSED
+,,,,,,
+Test Cases/WorkBenchTestCases/Validate_CategoryMSPIncreaseAllocationQtyNotEditable,Chrome 67.0.3396.62,,2018-07-18 12:48:13,2018-07-18 12:49:05,52.145s,FAILED
+callTestCase,Chrome 67.0.3396.62,,2018-07-18 12:48:13,2018-07-18 12:48:43,29.641s,PASSED
+waitForElementVisible,Chrome 67.0.3396.62,,2018-07-18 12:48:43,2018-07-18 12:48:48,5.481s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-18 12:48:48,2018-07-18 12:49:05,16.776s,FAILED
+,,,,,,
+Test Cases/WorkBenchTestCases/Validate_ChannelMSPOutsideChannelQtyUpdateNotAllowed,Chrome 67.0.3396.62,,2018-07-18 12:49:05,2018-07-18 12:49:46,41.342s,PASSED
+callTestCase,Chrome 67.0.3396.62,,2018-07-18 12:49:05,2018-07-18 12:49:30,24.293s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-18 12:49:30,2018-07-18 12:49:34,4.013s,PASSED
+waitForElementPresent,Chrome 67.0.3396.62,,2018-07-18 12:49:34,2018-07-18 12:49:34,0.080s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-18 12:49:34,2018-07-18 12:49:34,0.140s,PASSED
+waitForElementVisible,Chrome 67.0.3396.62,,2018-07-18 12:49:34,2018-07-18 12:49:34,0.088s,PASSED
+sendKeys,Chrome 67.0.3396.62,,2018-07-18 12:49:34,2018-07-18 12:49:34,0.440s,PASSED
+waitForElementVisible,Chrome 67.0.3396.62,,2018-07-18 12:49:34,2018-07-18 12:49:34,0.079s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-18 12:49:34,2018-07-18 12:49:35,0.166s,PASSED
+waitForElementVisible,Chrome 67.0.3396.62,,2018-07-18 12:49:35,2018-07-18 12:49:35,0.083s,PASSED
+scrollToElement,Chrome 67.0.3396.62,,2018-07-18 12:49:35,2018-07-18 12:49:35,0.110s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-18 12:49:35,2018-07-18 12:49:40,5.005s,PASSED
+waitForElementVisible,Chrome 67.0.3396.62,,2018-07-18 12:49:40,2018-07-18 12:49:40,0.079s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-18 12:49:40,2018-07-18 12:49:40,0.141s,PASSED
+waitForElementNotVisible,Chrome 67.0.3396.62,,2018-07-18 12:49:40,2018-07-18 12:49:46,5.489s,PASSED
+closeBrowser,Chrome 67.0.3396.62,,2018-07-18 12:49:46,2018-07-18 12:49:46,0.779s,PASSED
+,,,,,,
+Test Cases/WorkBenchTestCases/Verify_MatchOfPendingTaskForSumaryandWBforChanMSP,Chrome 67.0.3396.62,Verify if Category MS&P is authorised to do Increase allocation \n Increase allocation should only be readable for Category MS&P,2018-07-18 12:49:46,2018-07-18 12:50:29,43.115s,FAILED
+callTestCase,Chrome 67.0.3396.62,,2018-07-18 12:49:47,2018-07-18 12:50:14,27.083s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-18 12:50:14,2018-07-18 12:50:19,5.003s,PASSED
+Statement - ChanMSP_WB_Count = CustomKeywords.applicationLibrary.GetsPendingTaskCount_WBScreen.Get_PendingTask_Count_WBscreen(),Chrome 67.0.3396.62,,2018-07-18 12:50:19,2018-07-18 12:50:19,0.095s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-18 12:50:19,2018-07-18 12:50:19,0.175s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-18 12:50:19,2018-07-18 12:50:24,5.003s,PASSED
+waitForElementPresent,Chrome 67.0.3396.62,,2018-07-18 12:50:24,2018-07-18 12:50:24,0.045s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-18 12:50:24,2018-07-18 12:50:24,0.114s,PASSED
+waitForElementPresent,Chrome 67.0.3396.62,,2018-07-18 12:50:24,2018-07-18 12:50:24,0.044s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-18 12:50:24,2018-07-18 12:50:24,0.112s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-18 12:50:24,2018-07-18 12:50:29,5.002s,PASSED
+Statement - ChanMSP_S_Count = CustomKeywords.applicationLibrary.GetsPendingTaskCount_ChanMSP_SummaryScreen.Get_ChanMSPPendingTask_Count_Summaryscreen(),Chrome 67.0.3396.62,,2018-07-18 12:50:29,2018-07-18 12:50:29,0.070s,PASSED
+verifyEqual,Chrome 67.0.3396.62,,2018-07-18 12:50:29,2018-07-18 12:50:29,0.012s,FAILED
+,,,,,,
+Test Cases/WorkBenchTestCases/Verify_MatchOfPendingTaskForSumaryandWBforMAL,Chrome 67.0.3396.62,To verify the count listed under workbench should match with the count in summary,2018-07-18 12:50:29,2018-07-18 12:51:13,43.417s,PASSED
+callTestCase,Chrome 67.0.3396.62,,2018-07-18 12:50:30,2018-07-18 12:50:55,25.494s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-18 12:50:55,2018-07-18 12:51:00,5.002s,PASSED
+Statement - MAL_WB_Count = CustomKeywords.applicationLibrary.GetsPendingTaskCount_WBScreen.Get_PendingTask_Count_WBscreen(),Chrome 67.0.3396.62,,2018-07-18 12:51:00,2018-07-18 12:51:00,0.051s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-18 12:51:00,2018-07-18 12:51:00,0.208s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-18 12:51:00,2018-07-18 12:51:05,5.002s,PASSED
+waitForElementPresent,Chrome 67.0.3396.62,,2018-07-18 12:51:05,2018-07-18 12:51:06,0.067s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-18 12:51:06,2018-07-18 12:51:06,0.112s,PASSED
+waitForElementPresent,Chrome 67.0.3396.62,,2018-07-18 12:51:06,2018-07-18 12:51:06,0.037s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-18 12:51:06,2018-07-18 12:51:06,0.130s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-18 12:51:06,2018-07-18 12:51:11,5.003s,PASSED
+Statement - MAL_S_Count = CustomKeywords.applicationLibrary.GetsPendingTaskCount_MALSummaryScreen.Get_MALPendingTask_Count_Summaryscreen(),Chrome 67.0.3396.62,,2018-07-18 12:51:11,2018-07-18 12:51:11,0.045s,PASSED
+verifyEqual,Chrome 67.0.3396.62,,2018-07-18 12:51:11,2018-07-18 12:51:11,0.001s,PASSED
+callTestCase,Chrome 67.0.3396.62,,2018-07-18 12:51:11,2018-07-18 12:51:13,1.953s,PASSED
+,,,,,,
+Test Cases/WorkBenchTestCases/Verify_DisplayOfHomePageForAllocSPOC,Chrome 67.0.3396.62,Testcase to verifyAlloc SPOC home page contains only summary and History and not workbench,2018-07-18 12:51:13,2018-07-18 12:51:51,37.889s,PASSED
+callTestCase,Chrome 67.0.3396.62,,2018-07-18 12:51:13,2018-07-18 12:51:44,30.820s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-18 12:51:44,2018-07-18 12:51:49,5.003s,PASSED
+verifyElementPresent,Chrome 67.0.3396.62,,2018-07-18 12:51:49,2018-07-18 12:51:49,0.075s,PASSED
+verifyElementPresent,Chrome 67.0.3396.62,,2018-07-18 12:51:49,2018-07-18 12:51:49,0.034s,PASSED
+verifyElementNotPresent,Chrome 67.0.3396.62,,2018-07-18 12:51:49,2018-07-18 12:51:49,0.055s,PASSED
+callTestCase,Chrome 67.0.3396.62,,2018-07-18 12:51:49,2018-07-18 12:51:51,1.644s,PASSED
+,,,,,,
+Test Cases/WorkBenchTestCases/Verify_MALSKU_MovesToHistory,Chrome 67.0.3396.62,"To check if SKU's moves from \""Workbench\"" to \""History\"" on successful rescue",2018-07-18 12:51:51,2018-07-18 12:52:56,1m - 5.094s,PASSED
+callTestCase,Chrome 67.0.3396.62,,2018-07-18 12:51:51,2018-07-18 12:52:15,24.077s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-18 12:52:15,2018-07-18 12:52:18,3.004s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-18 12:52:18,2018-07-18 12:52:18,0.214s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-18 12:52:18,2018-07-18 12:52:18,0.157s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-18 12:52:18,2018-07-18 12:52:24,5.003s,PASSED
+waitForElementPresent,Chrome 67.0.3396.62,,2018-07-18 12:52:24,2018-07-18 12:52:24,0.067s,PASSED
+Statement - SKUID = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_Workbench_Page/1st_SKUMaterial)),Chrome 67.0.3396.62,,2018-07-18 12:52:24,2018-07-18 12:52:24,0.057s,PASSED
+waitForElementPresent,Chrome 67.0.3396.62,,2018-07-18 12:52:24,2018-07-18 12:52:24,0.033s,PASSED
+scrollToElement,Chrome 67.0.3396.62,,2018-07-18 12:52:24,2018-07-18 12:52:24,0.039s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-18 12:52:24,2018-07-18 12:52:24,0.182s,PASSED
+applicationLibrary.ClicksOn1stBatchof_SKUID_andgetsBatchNo.ClickOnSKUInprogressBatch,Chrome 67.0.3396.62,,2018-07-18 12:52:24,2018-07-18 12:52:29,5.426s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-18 12:52:29,2018-07-18 12:52:32,3.003s,PASSED
+waitForElementPresent,Chrome 67.0.3396.62,,2018-07-18 12:52:32,2018-07-18 12:52:32,0.063s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-18 12:52:32,2018-07-18 12:52:33,0.137s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-18 12:52:33,2018-07-18 12:52:38,5.002s,PASSED
+waitForElementPresent,Chrome 67.0.3396.62,,2018-07-18 12:52:38,2018-07-18 12:52:38,0.029s,PASSED
+Statement - ActionTakenHTxt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_Workbench_Page/ActionTaken_HeaderTxt)),Chrome 67.0.3396.62,,2018-07-18 12:52:38,2018-07-18 12:52:38,0.054s,PASSED
+Statement - ActionTakenCTxt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_Workbench_Page/ActionTaken_ContenetTxt)),Chrome 67.0.3396.62,,2018-07-18 12:52:38,2018-07-18 12:52:38,0.066s,PASSED
+verifyMatch,Chrome 67.0.3396.62,,2018-07-18 12:52:38,2018-07-18 12:52:38,0.035s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-18 12:52:38,2018-07-18 12:52:38,0.131s,PASSED
+verifyMatch,Chrome 67.0.3396.62,,2018-07-18 12:52:38,2018-07-18 12:52:38,0.045s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-18 12:52:38,2018-07-18 12:52:43,5.002s,PASSED
+waitForElementPresent,Chrome 67.0.3396.62,,2018-07-18 12:52:43,2018-07-18 12:52:43,0.074s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-18 12:52:43,2018-07-18 12:52:43,0.235s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-18 12:52:43,2018-07-18 12:52:48,5.003s,PASSED
+waitForElementPresent,Chrome 67.0.3396.62,,2018-07-18 12:52:48,2018-07-18 12:52:48,0.058s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-18 12:52:48,2018-07-18 12:52:48,0.144s,PASSED
+waitForElementPresent,Chrome 67.0.3396.62,,2018-07-18 12:52:48,2018-07-18 12:52:48,0.033s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-18 12:52:48,2018-07-18 12:52:49,0.114s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-18 12:52:49,2018-07-18 12:52:52,3.003s,PASSED
+verifyElementPresent,Chrome 67.0.3396.62,,2018-07-18 12:52:52,2018-07-18 12:52:52,0.073s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-18 12:52:52,2018-07-18 12:52:52,0.116s,PASSED
+waitForElementPresent,Chrome 67.0.3396.62,,2018-07-18 12:52:52,2018-07-18 12:52:52,0.038s,PASSED
+sendKeys,Chrome 67.0.3396.62,,2018-07-18 12:52:52,2018-07-18 12:52:52,0.237s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-18 12:52:52,2018-07-18 12:52:55,3.002s,PASSED
+Statement - searchedsku = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_Workbench_Page/1st_SKUMaterial)),Chrome 67.0.3396.62,,2018-07-18 12:52:55,2018-07-18 12:52:55,0.085s,PASSED
+applicationLibrary.Checks_SelectedBatchIsDisplayedInHistory.ChecksBatchIsDisplayedInHistory,Chrome 67.0.3396.62,,2018-07-18 12:52:55,2018-07-18 12:52:55,0.001s,NOT_RUN
+verifyMatch,Chrome 67.0.3396.62,,2018-07-18 12:52:55,2018-07-18 12:52:55,0.001s,PASSED
+closeBrowser,Chrome 67.0.3396.62,,2018-07-18 12:52:55,2018-07-18 12:52:56,0.742s,PASSED
+,,,,,,
+Test Cases/WorkBenchTestCases/Validate_ChannelMSPAuthorisedIncreaseAllocation,Chrome 67.0.3396.62,,2018-07-18 12:52:56,2018-07-18 12:53:30,34.311s,PASSED
+callTestCase,Chrome 67.0.3396.62,,2018-07-18 12:52:56,2018-07-18 12:53:23,27.138s,PASSED
+waitForElementPresent,Chrome 67.0.3396.62,,2018-07-18 12:53:23,2018-07-18 12:53:23,0.041s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-18 12:53:23,2018-07-18 12:53:23,0.156s,PASSED
+waitForElementVisible,Chrome 67.0.3396.62,,2018-07-18 12:53:23,2018-07-18 12:53:24,0.196s,PASSED
+sendKeys,Chrome 67.0.3396.62,,2018-07-18 12:53:24,2018-07-18 12:53:24,0.526s,PASSED
+waitForElementVisible,Chrome 67.0.3396.62,,2018-07-18 12:53:24,2018-07-18 12:53:24,0.076s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-18 12:53:24,2018-07-18 12:53:24,0.162s,PASSED
+waitForElementVisible,Chrome 67.0.3396.62,,2018-07-18 12:53:24,2018-07-18 12:53:24,0.086s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-18 12:53:24,2018-07-18 12:53:28,4.002s,PASSED
+scrollToElement,Chrome 67.0.3396.62,,2018-07-18 12:53:28,2018-07-18 12:53:28,0.075s,PASSED
+waitForElementNotPresent,Chrome 67.0.3396.62,,2018-07-18 12:53:28,2018-07-18 12:53:29,0.044s,PASSED
+callTestCase,Chrome 67.0.3396.62,,2018-07-18 12:53:29,2018-07-18 12:53:30,1.634s,PASSED

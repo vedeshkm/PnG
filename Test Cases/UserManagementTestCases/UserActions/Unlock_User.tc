@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This Scenario logs into the Super admin and unlocks a particular user which is locked and verifies popup message and also toast message.</description>
+   <name>Unlock_User</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d2d0ba1e-c026-49f6-9adb-191c17500a62</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('credentialDetails/Credentials_IDPwd').getValue('SuperAdminID', 1)</defaultValue>
+      <description></description>
+      <id>32f9b483-b522-4d42-97a3-84ed181105be</id>
+      <masked>false</masked>
+      <name>superadminID</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('credentialDetails/Credentials_IDPwd').getValue('SuperAdminPassword', 1)</defaultValue>
+      <description></description>
+      <id>0edd17f4-d7b8-40c2-b815-980e7ccedab3</id>
+      <masked>false</masked>
+      <name>superadminPwd</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>c7aafbe3-2735-4992-8db5-3dd7b4bdac83</id>
+      <masked>false</masked>
+      <name>AHeaderTxt</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>1b56953f-a193-4721-84e6-229ba2ca9795</id>
+      <masked>false</masked>
+      <name>AContentTxt</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>50a45d17-4e08-4b5c-84ed-c10e60dac4bf</id>
+      <masked>false</masked>
+      <name>UnlockToastMsg</name>
+   </variable>
+</TestCaseEntity>

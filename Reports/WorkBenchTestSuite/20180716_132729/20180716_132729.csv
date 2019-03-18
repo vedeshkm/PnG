@@ -1,0 +1,46 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+WorkBenchTestSuite,Chrome 67.0.3396.62,,2018-07-16 13:35:16,2018-07-16 13:38:09,2m - 53.123s,FAILED
+,,,,,,
+Test Cases/WorkBenchTestCases/Validate_CategoryMSPIncreaseAllocationQtyNotEditable,Chrome 67.0.3396.62,,2018-07-16 13:35:17,2018-07-16 13:35:54,37.334s,PASSED
+callTestCase,Chrome 67.0.3396.62,,2018-07-16 13:35:17,2018-07-16 13:35:47,29.759s,PASSED
+waitForElementVisible,Chrome 67.0.3396.62,,2018-07-16 13:35:47,2018-07-16 13:35:47,0.202s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-16 13:35:47,2018-07-16 13:35:48,0.632s,PASSED
+waitForElementVisible,Chrome 67.0.3396.62,,2018-07-16 13:35:48,2018-07-16 13:35:48,0.091s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-16 13:35:48,2018-07-16 13:35:52,4.010s,PASSED
+scrollToElement,Chrome 67.0.3396.62,,2018-07-16 13:35:52,2018-07-16 13:35:52,0.077s,PASSED
+waitForElementNotPresent,Chrome 67.0.3396.62,,2018-07-16 13:35:52,2018-07-16 13:35:52,0.113s,PASSED
+callTestCase,Chrome 67.0.3396.62,,2018-07-16 13:35:52,2018-07-16 13:35:54,2.094s,PASSED
+,,,,,,
+Test Cases/WorkBenchTestCases/Validate_ChannelMSPAuthorisedIncreaseAllocation,Chrome 67.0.3396.62,,2018-07-16 13:35:54,2018-07-16 13:36:41,47.120s,FAILED
+callTestCase,Chrome 67.0.3396.62,,2018-07-16 13:35:54,2018-07-16 13:36:18,23.969s,PASSED
+waitForElementPresent,Chrome 67.0.3396.62,,2018-07-16 13:36:18,2018-07-16 13:36:18,0.044s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-16 13:36:18,2018-07-16 13:36:19,0.537s,PASSED
+waitForElementVisible,Chrome 67.0.3396.62,,2018-07-16 13:36:19,2018-07-16 13:36:19,0.604s,PASSED
+sendKeys,Chrome 67.0.3396.62,,2018-07-16 13:36:19,2018-07-16 13:36:20,0.393s,PASSED
+waitForElementVisible,Chrome 67.0.3396.62,,2018-07-16 13:36:20,2018-07-16 13:36:25,5.225s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-16 13:36:25,2018-07-16 13:36:41,16.083s,FAILED
+,,,,,,
+Test Cases/WorkBenchTestCases/Verify_MatchOfPendingTaskForSumaryandWBforChanMSP,Chrome 67.0.3396.62,Verify if Category MS&P is authorised to do Increase allocation \n Increase allocation should only be readable for Category MS&P,2018-07-16 13:36:41,2018-07-16 13:37:22,40.366s,PASSED
+callTestCase,Chrome 67.0.3396.62,,2018-07-16 13:36:41,2018-07-16 13:37:04,22.666s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-16 13:37:04,2018-07-16 13:37:09,5.001s,PASSED
+Statement - ChanMSP_WB_Count = CustomKeywords.applicationLibrary.GetsPendingTaskCount_WBScreen.Get_PendingTask_Count_WBscreen(),Chrome 67.0.3396.62,,2018-07-16 13:37:09,2018-07-16 13:37:09,0.052s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-16 13:37:09,2018-07-16 13:37:09,0.183s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-16 13:37:09,2018-07-16 13:37:14,5.002s,PASSED
+waitForElementPresent,Chrome 67.0.3396.62,,2018-07-16 13:37:14,2018-07-16 13:37:14,0.041s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-16 13:37:14,2018-07-16 13:37:15,0.136s,PASSED
+waitForElementPresent,Chrome 67.0.3396.62,,2018-07-16 13:37:15,2018-07-16 13:37:15,0.039s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-16 13:37:15,2018-07-16 13:37:15,0.285s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-16 13:37:15,2018-07-16 13:37:20,5.001s,PASSED
+Statement - ChanMSP_S_Count = CustomKeywords.applicationLibrary.GetsPendingTaskCount_ChanMSP_SummaryScreen.Get_ChanMSPPendingTask_Count_Summaryscreen(),Chrome 67.0.3396.62,,2018-07-16 13:37:20,2018-07-16 13:37:20,0.035s,PASSED
+verifyEqual,Chrome 67.0.3396.62,,2018-07-16 13:37:20,2018-07-16 13:37:20,0.009s,PASSED
+callTestCase,Chrome 67.0.3396.62,,2018-07-16 13:37:20,2018-07-16 13:37:22,1.638s,PASSED
+,,,,,,
+Test Cases/WorkBenchTestCases/Validate_ChannelMSPOutsideChannelQtyUpdateNotAllowed,Chrome 67.0.3396.62,,2018-07-16 13:37:22,2018-07-16 13:38:09,47.051s,FAILED
+callTestCase,Chrome 67.0.3396.62,,2018-07-16 13:37:22,2018-07-16 13:37:43,21.127s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-16 13:37:43,2018-07-16 13:37:47,4.000s,PASSED
+waitForElementPresent,Chrome 67.0.3396.62,,2018-07-16 13:37:47,2018-07-16 13:37:47,0.043s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-16 13:37:47,2018-07-16 13:37:47,0.138s,PASSED
+waitForElementVisible,Chrome 67.0.3396.62,,2018-07-16 13:37:47,2018-07-16 13:37:47,0.091s,PASSED
+sendKeys,Chrome 67.0.3396.62,,2018-07-16 13:37:47,2018-07-16 13:37:48,0.364s,PASSED
+waitForElementVisible,Chrome 67.0.3396.62,,2018-07-16 13:37:48,2018-07-16 13:37:53,5.215s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-16 13:37:53,2018-07-16 13:38:09,15.874s,FAILED

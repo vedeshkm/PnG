@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify error message if Username field is blank</description>
+   <name>Verify_Username_Mfield</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2c6a1909-ee32-419a-9e7c-72c25284da7c</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('CreateUser').getValue('UserName', 3)</defaultValue>
+      <description></description>
+      <id>a2c1db96-7173-4f71-8d01-6ee15e71300a</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CreateUser').getValue('EmailID', 3)</defaultValue>
+      <description></description>
+      <id>0fbe68b4-7e86-4a7f-952a-8ec2f10b84cd</id>
+      <masked>false</masked>
+      <name>emailID</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>ec957a84-65b4-49bc-96e9-ae57e920a7fc</id>
+      <masked>false</masked>
+      <name>ActualUsernameErrormsg</name>
+   </variable>
+</TestCaseEntity>

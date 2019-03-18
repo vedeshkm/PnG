@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="UserManagementTestSuite" time="31" tests="0" failures="1" errors="0">
+   <testsuite name="UserManagementTestSuite" tests="0" failures="1" errors="0" time="31" timestamp="2018-07-05 10:38:48" hostname="vijay.n - EDT-168.estblr.com" id="Test Suites/UserManagementTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Automation_P&amp;G\\Automation-P&amp;G-Code-Base\\OMVA\\Reports\\UserManagementTestSuite\\20180705_103847"/>
+         <property name="logFiles" value="D:\\Automation_P&amp;G\\Automation-P&amp;G-Code-Base\\OMVA\\Reports\\UserManagementTestSuite\\20180705_103847\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="vijay.n - EDT-168.estblr.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="172.16.17.168"/>
+         <property name="sessionId" value="793c97dabe020b461253553380ca5fe5"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/UserManagementTestCases/UserActions/DeActivate_User" classname="Test Cases/UserManagementTestCases/UserActions/DeActivate_User" status="FAILED">
+         <failure type="FAILED" message="Unable to verify match between actual text '' and expected text 'Confirm Deactivation' using regular expression (Root cause: Actual text '' and expected text 'Confirm Deactivation' are not matched using regular expression)"/>
+         <system-out><![CDATA[2018-07-05 10:38:49 - [TEST_CASE][FAILED] - Test Cases/UserManagementTestCases/UserActions/DeActivate_User: Test Cases/UserManagementTestCases/UserActions/DeActivate_User FAILED because (of) Unable to verify match between actual text '' and expected text 'Confirm Deactivation' using regular expression (Root cause: Actual text '' and expected text 'Confirm Deactivation' are not matched using regular expression)
+
+2018-07-05 10:38:50 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-05 10:38:50 - [TEST_CASE][PASSED] - Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL: Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL
+
+2018-07-05 10:38:50 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-05 10:38:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-05 10:38:53 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-05 10:39:03 - [MESSAGE][PASSED] - Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-05 10:39:03 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-05 10:39:03 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-05 10:39:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-05 10:39:03 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Username_Textbox' is visible
+
+2018-07-05 10:39:03 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/Username_Textbox' is visible
+
+2018-07-05 10:39:03 - [TEST_STEP][PASSED] - sendKeys: Keys 'SuperAdmin' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-05 10:39:04 - [MESSAGE][PASSED] - Keys 'SuperAdmin' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-05 10:39:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-05 10:39:04 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-05 10:39:04 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-05 10:39:04 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-05 10:39:04 - [TEST_STEP][PASSED] - sendKeys: Keys 'SuperAdmin' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-05 10:39:04 - [MESSAGE][PASSED] - Keys 'SuperAdmin' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-05 10:39:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-05 10:39:05 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-05 10:39:05 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-05 10:39:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-05 10:39:10 - [TEST_STEP][NOT_RUN] - scrollToElement: NOT_RUN: scrollToElement
+
+2018-07-05 10:39:10 - [MESSAGE][NOT_RUN] - NOT_RUN: scrollToElement
+
+2018-07-05 10:39:10 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Landing_Page/ActiveUserEdit_Icon' is visible
+
+2018-07-05 10:39:10 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Landing_Page/ActiveUserEdit_Icon' is visible
+
+2018-07-05 10:39:10 - [TEST_STEP][NOT_RUN] - scrollToElement: NOT_RUN: scrollToElement
+
+2018-07-05 10:39:10 - [MESSAGE][NOT_RUN] - NOT_RUN: scrollToElement
+
+2018-07-05 10:39:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Landing_Page/ActiveUserEdit_Icon' is clicked on
+
+2018-07-05 10:39:10 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Landing_Page/ActiveUserEdit_Icon' is clicked on
+
+2018-07-05 10:39:10 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2018-07-05 10:39:10 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_UserManagement_Page/EmailID_Textbox' is visible
+
+2018-07-05 10:39:10 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_UserManagement_Page/EmailID_Textbox' is visible
+
+2018-07-05 10:39:10 - [TEST_STEP][PASSED] - Statement - emailidprefix = CustomKeywords.commonLibrary.commonFunctions.randomStringFunction("abcdefghijklmnopqrstuvwxyz", 9): commonLibrary.commonFunctions.randomStringFunction is PASSED
+
+2018-07-05 10:39:10 - [MESSAGE][PASSED] - commonLibrary.commonFunctions.randomStringFunction is PASSED
+
+2018-07-05 10:39:10 - [TEST_STEP][PASSED] - sendKeys: Keys 'sppchfvux@autotestpg.com' sent to object: 'Object Repository/OMVA_UserManagement_Page/EmailID_Textbox'
+
+2018-07-05 10:39:10 - [MESSAGE][PASSED] - Keys 'sppchfvux@autotestpg.com' sent to object: 'Object Repository/OMVA_UserManagement_Page/EmailID_Textbox'
+
+2018-07-05 10:39:10 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Landing_Page/Act_DeAct_Radio_Btn' is visible
+
+2018-07-05 10:39:10 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Landing_Page/Act_DeAct_Radio_Btn' is visible
+
+2018-07-05 10:39:10 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-05 10:39:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-05 10:39:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Landing_Page/Act_DeAct_Radio_Btn' is clicked on
+
+2018-07-05 10:39:14 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Landing_Page/Act_DeAct_Radio_Btn' is clicked on
+
+2018-07-05 10:39:14 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_EditUser_Page/SaveExit_Btn' is visible
+
+2018-07-05 10:39:14 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_EditUser_Page/SaveExit_Btn' is visible
+
+2018-07-05 10:39:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_EditUser_Page/SaveExit_Btn' is clicked on
+
+2018-07-05 10:39:14 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_EditUser_Page/SaveExit_Btn' is clicked on
+
+2018-07-05 10:39:14 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_EditUser_Page/DeactivateUser_HeaderTxt' is not visible after 5 second(s)
+
+2018-07-05 10:39:19 - [MESSAGE][WARNING] - Object 'Object Repository/OMVA_EditUser_Page/DeactivateUser_HeaderTxt' is not visible after 5 second(s)
+
+2018-07-05 10:39:19 - [TEST_STEP][PASSED] - Statement - AHeaderTxt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_EditUser_Page/DeactivateUser_HeaderTxt)): Text of object 'Object Repository/OMVA_EditUser_Page/DeactivateUser_HeaderTxt' is: ''
+
+2018-07-05 10:39:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/OMVA_EditUser_Page/DeactivateUser_HeaderTxt' is: ''
+
+2018-07-05 10:39:19 - [TEST_STEP][FAILED] - verifyMatch: Unable to verify match between actual text '' and expected text 'Confirm Deactivation' using regular expression (Root cause: Actual text '' and expected text 'Confirm Deactivation' are not matched using regular expression)
+
+2018-07-05 10:39:19 - [MESSAGE][FAILED] - Unable to verify match between actual text '' and expected text 'Confirm Deactivation' using regular expression (Root cause: Actual text '' and expected text 'Confirm Deactivation' are not matched using regular expression)]]></system-out>
+         <system-err><![CDATA[2018-07-05 10:38:49 - [TEST_CASE][FAILED] - Test Cases/UserManagementTestCases/UserActions/DeActivate_User: Test Cases/UserManagementTestCases/UserActions/DeActivate_User FAILED because (of) Unable to verify match between actual text '' and expected text 'Confirm Deactivation' using regular expression (Root cause: Actual text '' and expected text 'Confirm Deactivation' are not matched using regular expression)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-05 10:38:48 - [TEST_SUITE][FAILED] - UserManagementTestSuite: Test Cases/UserManagementTestCases/UserActions/DeActivate_User FAILED because (of) Unable to verify match between actual text '' and expected text 'Confirm Deactivation' using regular expression (Root cause: Actual text '' and expected text 'Confirm Deactivation' are not matched using regular expression)]]></system-out>
+      <system-err><![CDATA[2018-07-05 10:38:48 - [TEST_SUITE][FAILED] - UserManagementTestSuite: Test Cases/UserManagementTestCases/UserActions/DeActivate_User FAILED because (of) Unable to verify match between actual text '' and expected text 'Confirm Deactivation' using regular expression (Root cause: Actual text '' and expected text 'Confirm Deactivation' are not matched using regular expression)]]></system-err>
+   </testsuite>
+</testsuites>

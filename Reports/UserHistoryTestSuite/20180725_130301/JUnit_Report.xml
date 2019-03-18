@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="UserHistoryTestSuite" time="128" tests="0" failures="2" errors="0">
+   <testsuite name="UserHistoryTestSuite" tests="0" failures="2" errors="0" time="128" timestamp="2018-07-25 13:03:04" hostname="703177791GDL$ - 703177791GDL.IND.CORP.AD" id="Test Suites/UserHistoryTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\P&amp;G Updated\\Automation-P&amp;G-Code-Base\\OMVA\\Reports\\UserHistoryTestSuite\\20180725_130301"/>
+         <property name="logFiles" value="D:\\P&amp;G Updated\\Automation-P&amp;G-Code-Base\\OMVA\\Reports\\UserHistoryTestSuite\\20180725_130301\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="703177791GDL$ - 703177791GDL.IND.CORP.AD"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.62"/>
+         <property name="hostAddress" value="192.168.34.78"/>
+         <property name="sessionId" value="d867418361f2d398385a520d5194bda9"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/UserHIstoryTestCases/Verify_display_of_HistoryPage" classname="Test Cases/UserHIstoryTestCases/Verify_display_of_HistoryPage" status="FAILED">
+         <failure type="FAILED" message="Unable to verify match between actual text '' and expected text 'Rescue Strategy' (Root cause: Actual text '' and expected text 'Rescue Strategy' are not matched)"/>
+         <system-out><![CDATA[2018-07-25 13:03:09 - [TEST_CASE][FAILED] - Test Cases/UserHIstoryTestCases/Verify_display_of_HistoryPage: Test Cases/UserHIstoryTestCases/Verify_display_of_HistoryPage FAILED because (of) Unable to verify match between actual text '' and expected text 'Rescue Strategy' (Root cause: Actual text '' and expected text 'Rescue Strategy' are not matched)
+
+2018-07-25 13:03:09 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/UserManagementTestCases/Login/Login_ChannelMSP' successfully
+
+2018-07-25 13:03:10 - [TEST_CASE][PASSED] - Test Cases/UserManagementTestCases/Login/Login_ChannelMSP: Test Cases/UserManagementTestCases/Login/Login_ChannelMSP
+
+2018-07-25 13:03:11 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-25 13:03:11 - [TEST_CASE][PASSED] - Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL: Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL
+
+2018-07-25 13:03:11 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-25 13:03:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-25 13:03:15 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-25 13:03:25 - [MESSAGE][PASSED] - Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-25 13:03:25 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-25 13:03:26 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-25 13:03:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-25 13:03:26 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is not visible after 10 second(s)
+
+2018-07-25 13:03:36 - [MESSAGE][WARNING] - Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is not visible after 10 second(s)
+
+2018-07-25 13:03:36 - [TEST_STEP][PASSED] - sendKeys: Keys 'nicole' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-25 13:03:36 - [MESSAGE][PASSED] - Keys 'nicole' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-25 13:03:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-25 13:03:37 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-25 13:03:37 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-25 13:03:44 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-25 13:03:44 - [TEST_STEP][PASSED] - sendKeys: Keys 'nicole' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-25 13:03:44 - [MESSAGE][PASSED] - Keys 'nicole' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-25 13:03:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-25 13:03:44 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-25 13:03:44 - [TEST_STEP][PASSED] - waitForAngularLoad: This page doesn't use Angular.
+
+2018-07-25 13:03:44 - [MESSAGE][WARNING] - This page doesn't use Angular.
+
+2018-07-25 13:03:44 - [TEST_STEP][PASSED] - Statement - greetingtext = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_Landing_Page/Greeting_Label)): Text of object 'Object Repository/OMVA_Landing_Page/Greeting_Label' is: 'Good Afternoon, nicole'
+
+2018-07-25 13:03:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/OMVA_Landing_Page/Greeting_Label' is: 'Good Afternoon, nicole'
+
+2018-07-25 13:03:58 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Good Afternoon, nicole' and expected text '\D*nicole' are matched  using regular expression
+
+2018-07-25 13:03:58 - [MESSAGE][PASSED] - Actual text 'Good Afternoon, nicole' and expected text '\D*nicole' are matched  using regular expression
+
+2018-07-25 13:03:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UserManagementTestCases/Login/Login_ChannelMSP' successfully
+
+2018-07-25 13:03:58 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-25 13:04:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-25 13:04:01 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-25 13:04:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-25 13:04:06 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/OMVA_Landing_Page/History_Logo' is present
+
+2018-07-25 13:04:06 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Landing_Page/History_Logo' is present
+
+2018-07-25 13:04:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Landing_Page/History_Logo' is clicked on
+
+2018-07-25 13:04:06 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Landing_Page/History_Logo' is clicked on
+
+2018-07-25 13:04:06 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-25 13:04:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-25 13:04:11 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/OMVA_Summary_Page/Customer_dropdown' is present
+
+2018-07-25 13:04:11 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Summary_Page/Customer_dropdown' is present
+
+2018-07-25 13:04:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Summary_Page/Customer_dropdown' is clicked on
+
+2018-07-25 13:04:11 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Summary_Page/Customer_dropdown' is clicked on
+
+2018-07-25 13:04:11 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/OMVA_Summary_Page/Select_puregold' is present
+
+2018-07-25 13:04:11 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Summary_Page/Select_puregold' is present
+
+2018-07-25 13:04:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Summary_Page/Select_puregold' is clicked on
+
+2018-07-25 13:04:12 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Summary_Page/Select_puregold' is clicked on
+
+2018-07-25 13:04:12 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-25 13:04:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-25 13:04:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_History_Page/1stSKU_History' is clicked on
+
+2018-07-25 13:04:17 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_History_Page/1stSKU_History' is clicked on
+
+2018-07-25 13:04:17 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-07-25 13:04:27 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-07-25 13:04:27 - [TEST_STEP][PASSED] - Statement - rescue = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_History_Page/History_RescueStrategy)): Text of object 'Object Repository/OMVA_History_Page/History_RescueStrategy' is: ''
+
+2018-07-25 13:04:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/OMVA_History_Page/History_RescueStrategy' is: ''
+
+2018-07-25 13:04:27 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/OMVA_History_Page/History_OMVARecomendation' successfully
+
+2018-07-25 13:04:27 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/OMVA_History_Page/History_OMVARecomendation' successfully
+
+2018-07-25 13:04:27 - [TEST_STEP][FAILED] - verifyMatch: Unable to verify match between actual text '' and expected text 'Rescue Strategy' (Root cause: Actual text '' and expected text 'Rescue Strategy' are not matched)
+
+2018-07-25 13:04:27 - [MESSAGE][FAILED] - Unable to verify match between actual text '' and expected text 'Rescue Strategy' (Root cause: Actual text '' and expected text 'Rescue Strategy' are not matched)]]></system-out>
+         <system-err><![CDATA[2018-07-25 13:03:09 - [TEST_CASE][FAILED] - Test Cases/UserHIstoryTestCases/Verify_display_of_HistoryPage: Test Cases/UserHIstoryTestCases/Verify_display_of_HistoryPage FAILED because (of) Unable to verify match between actual text '' and expected text 'Rescue Strategy' (Root cause: Actual text '' and expected text 'Rescue Strategy' are not matched)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UserHIstoryTestCases/Verify_MALSKU_MovesToHistory" classname="Test Cases/UserHIstoryTestCases/Verify_MALSKU_MovesToHistory" status="FAILED">
+         <failure type="FAILED" message="Unable to verify match between actual text '' and expected text 'Action Taken' using regular expression (Root cause: Actual text '' and expected text 'Action Taken' are not matched using regular expression)"/>
+         <system-out><![CDATA[2018-07-25 13:04:27 - [TEST_CASE][FAILED] - Test Cases/UserHIstoryTestCases/Verify_MALSKU_MovesToHistory: Test Cases/UserHIstoryTestCases/Verify_MALSKU_MovesToHistory FAILED because (of) Unable to verify match between actual text '' and expected text 'Action Taken' using regular expression (Root cause: Actual text '' and expected text 'Action Taken' are not matched using regular expression)
+
+2018-07-25 13:04:27 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/UserManagementTestCases/Login/Login_ChannelMSP' successfully
+
+2018-07-25 13:04:28 - [TEST_CASE][PASSED] - Test Cases/UserManagementTestCases/Login/Login_ChannelMSP: Test Cases/UserManagementTestCases/Login/Login_ChannelMSP
+
+2018-07-25 13:04:28 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-25 13:04:28 - [TEST_CASE][PASSED] - Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL: Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL
+
+2018-07-25 13:04:28 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-25 13:04:28 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-07-25 13:04:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-25 13:04:31 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-25 13:04:36 - [MESSAGE][PASSED] - Navigate to 'https://coa-demo-env.azurewebsites.net/da/index.html#/login' successfully
+
+2018-07-25 13:04:36 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-25 13:04:37 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-25 13:04:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CommonTestcases/OpenBrowserandNavigateToQAURL' successfully
+
+2018-07-25 13:04:37 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is not visible after 10 second(s)
+
+2018-07-25 13:04:47 - [MESSAGE][WARNING] - Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is not visible after 10 second(s)
+
+2018-07-25 13:04:47 - [TEST_STEP][PASSED] - sendKeys: Keys 'nicole' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-25 13:04:47 - [MESSAGE][PASSED] - Keys 'nicole' sent to object: 'Object Repository/OMVA_Login_Page/Username_Textbox'
+
+2018-07-25 13:04:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-25 13:04:47 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Next_Button' is clicked on
+
+2018-07-25 13:04:47 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-25 13:04:48 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Login_Page/Password_Textbox' is visible
+
+2018-07-25 13:04:48 - [TEST_STEP][PASSED] - sendKeys: Keys 'nicole' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-25 13:04:48 - [MESSAGE][PASSED] - Keys 'nicole' sent to object: 'Object Repository/OMVA_Login_Page/Password_Textbox'
+
+2018-07-25 13:04:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-25 13:04:48 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Login_Page/Signin_Button' is clicked on
+
+2018-07-25 13:04:48 - [TEST_STEP][PASSED] - waitForAngularLoad: This page doesn't use Angular.
+
+2018-07-25 13:04:48 - [MESSAGE][WARNING] - This page doesn't use Angular.
+
+2018-07-25 13:04:48 - [TEST_STEP][PASSED] - Statement - greetingtext = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_Landing_Page/Greeting_Label)): Text of object 'Object Repository/OMVA_Landing_Page/Greeting_Label' is: 'Good Afternoon, nicole'
+
+2018-07-25 13:04:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/OMVA_Landing_Page/Greeting_Label' is: 'Good Afternoon, nicole'
+
+2018-07-25 13:04:49 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Good Afternoon, nicole' and expected text '\D*nicole' are matched  using regular expression
+
+2018-07-25 13:04:49 - [MESSAGE][PASSED] - Actual text 'Good Afternoon, nicole' and expected text '\D*nicole' are matched  using regular expression
+
+2018-07-25 13:04:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UserManagementTestCases/Login/Login_ChannelMSP' successfully
+
+2018-07-25 13:04:49 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-25 13:04:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-25 13:04:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Summary_Page/Customer_dropdown' is clicked on
+
+2018-07-25 13:04:53 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Summary_Page/Customer_dropdown' is clicked on
+
+2018-07-25 13:04:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Summary_Page/Select_puregold' is clicked on
+
+2018-07-25 13:04:53 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Summary_Page/Select_puregold' is clicked on
+
+2018-07-25 13:04:53 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-25 13:04:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-25 13:04:58 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/OMVA_Workbench_Page/1st_SKUMaterial' is present
+
+2018-07-25 13:04:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2018-07-25 13:04:58 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Workbench_Page/1st_SKUMaterial' is present
+
+2018-07-25 13:04:58 - [TEST_STEP][PASSED] - Statement - SKUID = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_Workbench_Page/1st_SKUMaterial)): Text of object 'Object Repository/OMVA_Workbench_Page/1st_SKUMaterial' is: '82276850'
+
+2018-07-25 13:04:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/OMVA_Workbench_Page/1st_SKUMaterial' is: '82276850'
+
+2018-07-25 13:04:58 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/OMVA_Workbench_Page/DONE_Btn' is present
+
+2018-07-25 13:04:58 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Workbench_Page/DONE_Btn' is present
+
+2018-07-25 13:04:58 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/OMVA_Workbench_Page/DONE_Btn' successfully
+
+2018-07-25 13:04:58 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/OMVA_Workbench_Page/DONE_Btn' successfully
+
+2018-07-25 13:04:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Workbench_Page/DONE_Btn' is clicked on
+
+2018-07-25 13:04:58 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Workbench_Page/DONE_Btn' is clicked on
+
+2018-07-25 13:04:58 - [TEST_STEP][PASSED] - applicationLibrary.ClicksOn1stBatchof_SKUID_andgetsBatchNo.ClickOnSKUInprogressBatch: applicationLibrary.ClicksOn1stBatchof_SKUID_andgetsBatchNo.ClickOnSKUInprogressBatch is PASSED
+
+2018-07-25 13:05:04 - [MESSAGE][PASSED] - applicationLibrary.ClicksOn1stBatchof_SKUID_andgetsBatchNo.ClickOnSKUInprogressBatch is PASSED
+
+2018-07-25 13:05:04 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-25 13:05:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-25 13:05:07 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/OMVA_Workbench_Page/Notify_Btn' is present
+
+2018-07-25 13:05:07 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Workbench_Page/Notify_Btn' is present
+
+2018-07-25 13:05:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OMVA_Workbench_Page/Notify_Btn' is clicked on
+
+2018-07-25 13:05:07 - [MESSAGE][PASSED] - Object: 'Object Repository/OMVA_Workbench_Page/Notify_Btn' is clicked on
+
+2018-07-25 13:05:07 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-25 13:05:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-25 13:05:12 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/OMVA_Workbench_Page/ActionTaken_HeaderTxt' is present
+
+2018-07-25 13:05:12 - [MESSAGE][PASSED] - Object 'Object Repository/OMVA_Workbench_Page/ActionTaken_HeaderTxt' is present
+
+2018-07-25 13:05:12 - [TEST_STEP][PASSED] - Statement - ActionTakenHTxt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_Workbench_Page/ActionTaken_HeaderTxt)): Text of object 'Object Repository/OMVA_Workbench_Page/ActionTaken_HeaderTxt' is: ''
+
+2018-07-25 13:05:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/OMVA_Workbench_Page/ActionTaken_HeaderTxt' is: ''
+
+2018-07-25 13:05:12 - [TEST_STEP][PASSED] - Statement - ActionTakenCTxt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_Workbench_Page/ActionTaken_ContenetTxt)): Text of object 'Object Repository/OMVA_Workbench_Page/ActionTaken_ContenetTxt' is: ''
+
+2018-07-25 13:05:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/OMVA_Workbench_Page/ActionTaken_ContenetTxt' is: ''
+
+2018-07-25 13:05:12 - [TEST_STEP][FAILED] - verifyMatch: Unable to verify match between actual text '' and expected text 'Action Taken' using regular expression (Root cause: Actual text '' and expected text 'Action Taken' are not matched using regular expression)
+
+2018-07-25 13:05:12 - [MESSAGE][FAILED] - Unable to verify match between actual text '' and expected text 'Action Taken' using regular expression (Root cause: Actual text '' and expected text 'Action Taken' are not matched using regular expression)]]></system-out>
+         <system-err><![CDATA[2018-07-25 13:04:27 - [TEST_CASE][FAILED] - Test Cases/UserHIstoryTestCases/Verify_MALSKU_MovesToHistory: Test Cases/UserHIstoryTestCases/Verify_MALSKU_MovesToHistory FAILED because (of) Unable to verify match between actual text '' and expected text 'Action Taken' using regular expression (Root cause: Actual text '' and expected text 'Action Taken' are not matched using regular expression)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-25 13:03:04 - [TEST_SUITE][FAILED] - UserHistoryTestSuite: Test Cases/UserHIstoryTestCases/Verify_display_of_HistoryPage FAILED because (of) Unable to verify match between actual text '' and expected text 'Rescue Strategy' (Root cause: Actual text '' and expected text 'Rescue Strategy' are not matched)]]></system-out>
+      <system-err><![CDATA[2018-07-25 13:03:04 - [TEST_SUITE][FAILED] - UserHistoryTestSuite: Test Cases/UserHIstoryTestCases/Verify_display_of_HistoryPage FAILED because (of) Unable to verify match between actual text '' and expected text 'Rescue Strategy' (Root cause: Actual text '' and expected text 'Rescue Strategy' are not matched)]]></system-err>
+   </testsuite>
+</testsuites>

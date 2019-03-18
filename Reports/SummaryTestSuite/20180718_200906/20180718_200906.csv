@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+SummaryTestSuite,Chrome 67.0.3396.62,,2018-07-18 20:11:30,2018-07-18 20:12:19,48.785s,PASSED
+,,,,,,
+Test Cases/SummaryTestCases/AlocSpoc_Comment,Chrome 67.0.3396.62,,2018-07-18 20:11:34,2018-07-18 20:12:16,41.121s,PASSED
+callTestCase,Chrome 67.0.3396.62,,2018-07-18 20:11:35,2018-07-18 20:12:05,30.638s,PASSED
+waitForElementPresent,Chrome 67.0.3396.62,,2018-07-18 20:12:05,2018-07-18 20:12:06,0.615s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-18 20:12:06,2018-07-18 20:12:06,0.395s,PASSED
+waitForElementPresent,Chrome 67.0.3396.62,,2018-07-18 20:12:06,2018-07-18 20:12:06,0.047s,PASSED
+verifyElementPresent,Chrome 67.0.3396.62,,2018-07-18 20:12:06,2018-07-18 20:12:06,0.070s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-18 20:12:06,2018-07-18 20:12:13,7.013s,PASSED
+waitForElementPresent,Chrome 67.0.3396.62,,2018-07-18 20:12:13,2018-07-18 20:12:13,0.077s,PASSED
+sendKeys,Chrome 67.0.3396.62,,2018-07-18 20:12:13,2018-07-18 20:12:14,0.310s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-18 20:12:14,2018-07-18 20:12:14,0.241s,PASSED
+waitForElementPresent,Chrome 67.0.3396.62,,2018-07-18 20:12:14,2018-07-18 20:12:15,0.645s,PASSED
+Statement - AddCommentToast = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OMVA_Summary_Page/Comment_ToastHeader)),Chrome 67.0.3396.62,,2018-07-18 20:12:15,2018-07-18 20:12:15,0.088s,PASSED
+closeBrowser,Chrome 67.0.3396.62,,2018-07-18 20:12:15,2018-07-18 20:12:16,0.758s,PASSED

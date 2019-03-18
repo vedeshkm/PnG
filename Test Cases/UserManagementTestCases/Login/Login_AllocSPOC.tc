@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case is to test MAL login</description>
+   <name>Login_AllocSPOC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0aa3bd53-07af-48df-a27e-68901ed9ede5</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('credentialDetails/Credentials_IDPwd').getValue('AllocationSPOCID', 1)</defaultValue>
+      <description></description>
+      <id>3583a060-d172-4cf6-b5f7-c5ee4301bd06</id>
+      <masked>false</masked>
+      <name>AllocSPOCID</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('credentialDetails/Credentials_IDPwd').getValue('AllocationSPOCPassword', 1)</defaultValue>
+      <description></description>
+      <id>b06bb6d1-58a7-42e5-b41d-4c72c3f26f93</id>
+      <masked>false</masked>
+      <name>AllocSPOCPwd</name>
+   </variable>
+</TestCaseEntity>

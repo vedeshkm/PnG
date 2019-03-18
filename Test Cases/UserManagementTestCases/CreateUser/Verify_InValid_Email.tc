@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if email id domain was not entered</description>
+   <name>Verify_InValid_Email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5f66f13c-34d4-42b2-aceb-41d463d0f5d2</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('credentialDetails/CreateUser').getValue('UserName', 4)</defaultValue>
+      <description></description>
+      <id>64287bb8-5f16-4041-a66d-fb6059a86b22</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('credentialDetails/CreateUser').getValue('EmailID', 4)</defaultValue>
+      <description></description>
+      <id>2fe5201f-c4f5-4b27-a798-1248c499170e</id>
+      <masked>false</masked>
+      <name>emailID</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('credentialDetails/CreateUser').getValue('FirstName', 4)</defaultValue>
+      <description></description>
+      <id>1eb0dd3b-165e-45ca-ac46-6ef60ea63454</id>
+      <masked>false</masked>
+      <name>firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>e5a233b6-ba28-4b9b-9320-d9056171b179</id>
+      <masked>false</masked>
+      <name>ActualInvalidMsg</name>
+   </variable>
+</TestCaseEntity>

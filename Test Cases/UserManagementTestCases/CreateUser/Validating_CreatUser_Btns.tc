@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Validating Cancel/Save and Exit/Next button in create user screen and tapping on cancel button</description>
+   <name>Validating_CreatUser_Btns</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b0c5f81f-0d91-42ac-85cc-18d761e971ff</testCaseGuid>
+   <variable>
+      <defaultValue>'Discard changes?'</defaultValue>
+      <description></description>
+      <id>b4c67566-7427-44ca-ac8e-d40cc2279811</id>
+      <masked>false</masked>
+      <name>ExpHeaderTxt</name>
+   </variable>
+   <variable>
+      <defaultValue>'You will lose any unsaved data on closing this section. Are you sure you want to discard the changes?'</defaultValue>
+      <description></description>
+      <id>258fbd5a-77a4-42b2-88bf-0cea7b73dda3</id>
+      <masked>false</masked>
+      <name>ExpContentTxt</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>c629090a-a733-44f1-9379-19ec8dfe1929</id>
+      <masked>false</masked>
+      <name>ActHeaderTxt</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>0ec2a7c2-0d2c-420a-9e7f-edfe7258864c</id>
+      <masked>false</masked>
+      <name>ActContentTxt</name>
+   </variable>
+</TestCaseEntity>

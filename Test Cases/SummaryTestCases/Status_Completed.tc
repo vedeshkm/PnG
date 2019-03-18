@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Status_Completed</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fcf89218-9e0b-427a-a017-203c999c62ba</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>445d4d9d-0026-471a-9fe0-61ae92385fbb</id>
+      <masked>false</masked>
+      <name>ActionTakenHTxt</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>a6265249-9a70-43ab-8aee-ee3b407693cf</id>
+      <masked>false</masked>
+      <name>ActionTakenCTxt</name>
+   </variable>
+   <variable>
+      <defaultValue>[:]</defaultValue>
+      <description></description>
+      <id>f65cbf61-1c4d-4fcc-93dd-9ef64282e0b8</id>
+      <masked>false</masked>
+      <name>SKUID_Inprogress</name>
+   </variable>
+</TestCaseEntity>

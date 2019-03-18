@@ -1,0 +1,67 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+WorkBenchTestSuite,Chrome 67.0.3396.62,,2018-07-17 12:09:48,2018-07-17 12:16:29,6m - 41.344s,FAILED
+,,,,,,
+Test Cases/CommonTestcases/ResetTestData,Chrome 67.0.3396.62,,2018-07-17 12:09:48,2018-07-17 12:09:55,6.760s,PASSED
+dataBaseConnection.dataBase.connectDB,Chrome 67.0.3396.62,,2018-07-17 12:09:49,2018-07-17 12:09:53,3.775s,PASSED
+dataBaseConnection.dataBase.ResetTestData,Chrome 67.0.3396.62,,2018-07-17 12:09:53,2018-07-17 12:09:55,2.631s,PASSED
+dataBaseConnection.dataBase.closeDatabaseConnection,Chrome 67.0.3396.62,,2018-07-17 12:09:55,2018-07-17 12:09:55,0.016s,PASSED
+,,,,,,
+Test Cases/WorkBenchTestCases/Validate_CategoryMSPIncreaseAllocationQtyNotEditable,Chrome 67.0.3396.62,,2018-07-17 12:09:55,2018-07-17 12:11:01,1m - 5.698s,FAILED
+callTestCase,Chrome 67.0.3396.62,,2018-07-17 12:09:55,2018-07-17 12:10:39,43.339s,PASSED
+waitForElementVisible,Chrome 67.0.3396.62,,2018-07-17 12:10:39,2018-07-17 12:10:44,5.412s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-17 12:10:44,2018-07-17 12:11:01,16.693s,FAILED
+,,,,,,
+Test Cases/WorkBenchTestCases/Validate_ChannelMSPOutsideChannelQtyUpdateNotAllowed,Chrome 67.0.3396.62,,2018-07-17 12:11:01,2018-07-17 12:11:57,56.422s,FAILED
+callTestCase,Chrome 67.0.3396.62,,2018-07-17 12:11:01,2018-07-17 12:11:30,28.996s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-17 12:11:30,2018-07-17 12:11:34,4.010s,PASSED
+waitForElementPresent,Chrome 67.0.3396.62,,2018-07-17 12:11:34,2018-07-17 12:11:34,0.137s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-17 12:11:34,2018-07-17 12:11:34,0.232s,PASSED
+waitForElementVisible,Chrome 67.0.3396.62,,2018-07-17 12:11:34,2018-07-17 12:11:35,0.091s,PASSED
+sendKeys,Chrome 67.0.3396.62,,2018-07-17 12:11:35,2018-07-17 12:11:35,0.442s,PASSED
+waitForElementVisible,Chrome 67.0.3396.62,,2018-07-17 12:11:35,2018-07-17 12:11:40,5.467s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-17 12:11:40,2018-07-17 12:11:57,16.822s,FAILED
+,,,,,,
+Test Cases/WorkBenchTestCases/Verify_MatchOfPendingTaskForSumaryandWBforChanMSP,Chrome 67.0.3396.62,Verify if Category MS&P is authorised to do Increase allocation \n Increase allocation should only be readable for Category MS&P,2018-07-17 12:11:57,2018-07-17 12:13:00,1m - 3.143s,FAILED
+callTestCase,Chrome 67.0.3396.62,,2018-07-17 12:11:58,2018-07-17 12:12:22,24.542s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-17 12:12:22,2018-07-17 12:12:27,5.006s,PASSED
+Statement - ChanMSP_WB_Count = CustomKeywords.applicationLibrary.GetsPendingTaskCount_WBScreen.Get_PendingTask_Count_WBscreen(),Chrome 67.0.3396.62,,2018-07-17 12:12:27,2018-07-17 12:12:27,0.112s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-17 12:12:27,2018-07-17 12:12:27,0.259s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-17 12:12:27,2018-07-17 12:12:32,5.003s,PASSED
+waitForElementPresent,Chrome 67.0.3396.62,,2018-07-17 12:12:32,2018-07-17 12:12:33,0.094s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-17 12:12:33,2018-07-17 12:12:33,0.263s,PASSED
+waitForElementPresent,Chrome 67.0.3396.62,,2018-07-17 12:12:33,2018-07-17 12:12:44,10.898s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-17 12:12:44,2018-07-17 12:13:00,16.718s,FAILED
+,,,,,,
+Test Cases/WorkBenchTestCases/Verify_MatchOfPendingTaskForSumaryandWBforMAL,Chrome 67.0.3396.62,To verify the count listed under workbench should match with the count in summary,2018-07-17 12:13:00,2018-07-17 12:14:08,1m - 7.369s,FAILED
+callTestCase,Chrome 67.0.3396.62,,2018-07-17 12:13:01,2018-07-17 12:13:30,28.912s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-17 12:13:30,2018-07-17 12:13:35,5.003s,PASSED
+Statement - MAL_WB_Count = CustomKeywords.applicationLibrary.GetsPendingTaskCount_WBScreen.Get_PendingTask_Count_WBscreen(),Chrome 67.0.3396.62,,2018-07-17 12:13:35,2018-07-17 12:13:35,0.078s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-17 12:13:35,2018-07-17 12:13:35,0.237s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-17 12:13:35,2018-07-17 12:13:40,5.003s,PASSED
+waitForElementPresent,Chrome 67.0.3396.62,,2018-07-17 12:13:40,2018-07-17 12:13:40,0.115s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-17 12:13:40,2018-07-17 12:13:40,0.219s,PASSED
+waitForElementPresent,Chrome 67.0.3396.62,,2018-07-17 12:13:40,2018-07-17 12:13:51,10.863s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-17 12:13:51,2018-07-17 12:14:08,16.659s,FAILED
+,,,,,,
+Test Cases/WorkBenchTestCases/Verify_DisplayOfHomePageForAllocSPOC,Chrome 67.0.3396.62,Testcase to verifyAlloc SPOC home page contains only summary and History and not workbench,2018-07-17 12:14:08,2018-07-17 12:14:44,36.257s,PASSED
+callTestCase,Chrome 67.0.3396.62,,2018-07-17 12:14:08,2018-07-17 12:14:37,28.618s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-17 12:14:37,2018-07-17 12:14:42,5.001s,PASSED
+verifyElementPresent,Chrome 67.0.3396.62,,2018-07-17 12:14:42,2018-07-17 12:14:42,0.128s,PASSED
+verifyElementPresent,Chrome 67.0.3396.62,,2018-07-17 12:14:42,2018-07-17 12:14:42,0.078s,PASSED
+verifyElementNotPresent,Chrome 67.0.3396.62,,2018-07-17 12:14:42,2018-07-17 12:14:42,0.118s,PASSED
+callTestCase,Chrome 67.0.3396.62,,2018-07-17 12:14:42,2018-07-17 12:14:44,2.182s,PASSED
+,,,,,,
+Test Cases/WorkBenchTestCases/Verify_MALSKU_MovesToHistory,Chrome 67.0.3396.62,"To check if SKU's moves from \""Workbench\"" to \""History\"" on successful rescue",2018-07-17 12:14:44,2018-07-17 12:15:34,49.916s,FAILED
+callTestCase,Chrome 67.0.3396.62,,2018-07-17 12:14:44,2018-07-17 12:15:14,29.813s,PASSED
+delay,Chrome 67.0.3396.62,,2018-07-17 12:15:14,2018-07-17 12:15:17,3.001s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-17 12:15:17,2018-07-17 12:15:17,0.210s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-17 12:15:17,2018-07-17 12:15:34,16.624s,FAILED
+,,,,,,
+Test Cases/WorkBenchTestCases/Validate_ChannelMSPAuthorisedIncreaseAllocation,Chrome 67.0.3396.62,,2018-07-17 12:15:34,2018-07-17 12:16:28,54.430s,FAILED
+callTestCase,Chrome 67.0.3396.62,,2018-07-17 12:15:34,2018-07-17 12:16:06,31.521s,PASSED
+waitForElementPresent,Chrome 67.0.3396.62,,2018-07-17 12:16:06,2018-07-17 12:16:06,0.045s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-17 12:16:06,2018-07-17 12:16:06,0.195s,PASSED
+waitForElementVisible,Chrome 67.0.3396.62,,2018-07-17 12:16:06,2018-07-17 12:16:06,0.074s,PASSED
+sendKeys,Chrome 67.0.3396.62,,2018-07-17 12:16:06,2018-07-17 12:16:06,0.295s,PASSED
+waitForElementVisible,Chrome 67.0.3396.62,,2018-07-17 12:16:06,2018-07-17 12:16:12,5.434s,PASSED
+click,Chrome 67.0.3396.62,,2018-07-17 12:16:12,2018-07-17 12:16:28,16.748s,FAILED
